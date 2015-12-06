@@ -1,3 +1,9 @@
+title=Vanillekipferl
+date=2015-12-06
+type=page
+status=published
+~~~~~~
+
 Vanillekipferl are a German / Bavarian traditional cookie that we all love ;)
 
 This receipe is from Katja, and her Kipferl are the world best ones.
