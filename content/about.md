@@ -5,6 +5,9 @@ status=published
 pic=till.jpg
 ~~~~~~
 
+Change it!
+
+
 This is the website of Till Gartner. I'm a simple, guy with simple hobbies:
 - My family and kids
 - My business (I'm a manager of IT companies)
