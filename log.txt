@@ -4371,3 +4371,111 @@ JBake v2.4.0 (2015-05-30 19:08:27PM) [http://jbake.org]
 16:24:05.117 INFO  c.o.orient.core.Orient - Shutting down storage: cache...
 16:24:05.119 INFO  c.o.orient.core.Orient - Orient Engine shutdown complete
 
+JBake v2.4.0 (2015-05-30 19:08:27PM) [http://jbake.org]
+
+11:34:44.004 INFO  org.jbake.app.Oven - Baking has started...
+11:34:44.253 INFO  org.jbake.app.Crawler - Processing [./content/about.md]...  : new 
+11:34:44.271 INFO  org.jbake.app.Crawler - Processing [./content/blog/blogging_from_textmate.md]...  : new 
+11:34:44.286 INFO  org.jbake.app.Crawler - Processing [./content/blog/how_i_moved_to_github_and_jbake.md]...  : new 
+11:34:44.299 INFO  org.jbake.app.Crawler - Processing [./content/blog/indien/indien-tag-1.md]...  : new 
+11:34:44.319 INFO  org.jbake.app.Crawler - Processing [./content/blog/indien/indien-tag-2.md]...  : new 
+11:34:44.324 INFO  org.jbake.app.Crawler - Processing [./content/blog/ipad-hologram.md]...  : new 
+11:34:44.330 INFO  org.jbake.app.Crawler - Processing [./content/blog/playing_with_javascript.md]...  : new 
+11:34:44.347 INFO  org.jbake.app.Crawler - Processing [./content/blog/welche-ist-die-schonste-bibliothek-munchens.md]...  : new 
+11:34:44.403 INFO  org.jbake.app.Crawler - Processing [./content/bookmarks.md]...  : new 
+11:34:44.416 INFO  org.jbake.app.Crawler - Processing [./content/log.md]...  : new 
+11:34:44.422 INFO  org.jbake.app.Crawler - Processing [./content/recipes/vanillekipferl.md]...  : new 
+11:34:44.437 INFO  org.jbake.app.Crawler - Processing [./content/todo.md]...  : new 
+11:34:44.437 INFO  org.jbake.app.Oven - Content detected:
+11:34:44.437 INFO  org.jbake.app.Oven - Parsed 5 files of type: page
+11:34:44.439 INFO  org.jbake.app.Oven - Parsed 6 files of type: post
+11:34:44.439 INFO  org.jbake.app.Oven - Parsed 1 files of type: pagenew
+11:34:44.629 INFO  org.jbake.app.Renderer - Rendering [./output/about.html]... done!
+11:34:44.631 INFO  org.jbake.app.Renderer - Rendering [./output/bookmarks.html]... done!
+11:34:44.632 INFO  org.jbake.app.Renderer - Rendering [./output/log.html]... done!
+11:34:44.633 INFO  org.jbake.app.Renderer - Rendering [./output/recipes/vanillekipferl.html]... done!
+11:34:44.635 INFO  org.jbake.app.Renderer - Rendering [./output/todo.html]... done!
+11:34:44.639 INFO  org.jbake.app.Renderer - Rendering [./output/blog/blogging_from_textmate.html]... done!
+11:34:44.640 INFO  org.jbake.app.Renderer - Rendering [./output/blog/how_i_moved_to_github_and_jbake.html]... done!
+11:34:44.642 INFO  org.jbake.app.Renderer - Rendering [./output/blog/indien/indien-tag-1.html]... done!
+11:34:44.643 INFO  org.jbake.app.Renderer - Rendering [./output/blog/indien/indien-tag-2.html]... done!
+11:34:44.644 INFO  org.jbake.app.Renderer - Rendering [./output/blog/ipad-hologram.html]... done!
+11:34:44.645 INFO  org.jbake.app.Renderer - Rendering [./output/blog/playing_with_javascript-draft.html]... done!
+11:34:44.649 INFO  org.jbake.app.Renderer - Rendering [./output/blog/welche-ist-die-schonste-bibliothek-munchens.html]... done!
+11:34:44.693 INFO  org.jbake.app.Renderer - Rendering index [./output/index.html]...done!
+11:34:44.698 INFO  org.jbake.app.Renderer - Rendering feed [./output/feed.xml]... done!
+11:34:44.702 INFO  org.jbake.app.Renderer - Rendering sitemap [./output/sitemap.xml]... done!
+11:34:44.707 INFO  org.jbake.app.Renderer - Rendering archive [./output/archive.html]... done!
+11:34:44.744 INFO  org.jbake.app.Asset - Copying [./assets/css/asciidoctor.css]...done!
+11:34:44.745 INFO  org.jbake.app.Asset - Copying [./assets/css/base.css]...done!
+11:34:44.748 INFO  org.jbake.app.Asset - Copying [./assets/css/bootstrap.min.css]...done!
+11:34:44.748 INFO  org.jbake.app.Asset - Copying [./assets/css/prettify.css]...done!
+11:34:44.749 INFO  org.jbake.app.Asset - Copying [./assets/css/style.css]...done!
+11:34:44.752 INFO  org.jbake.app.Asset - Copying [./assets/favicon.ico]...done!
+11:34:44.760 INFO  org.jbake.app.Asset - Copying [./assets/fonts/glyphicons-halflings-regular.eot]...done!
+11:34:44.763 INFO  org.jbake.app.Asset - Copying [./assets/fonts/glyphicons-halflings-regular.svg]...done!
+11:34:44.764 INFO  org.jbake.app.Asset - Copying [./assets/fonts/glyphicons-halflings-regular.ttf]...done!
+11:34:44.766 INFO  org.jbake.app.Asset - Copying [./assets/fonts/glyphicons-halflings-regular.woff]...done!
+11:34:44.767 INFO  org.jbake.app.Asset - Copying [./assets/img/bib.jpg]...done!
+11:34:44.770 INFO  org.jbake.app.Asset - Copying [./assets/img/blogging_from_mate1.png]...done!
+11:34:44.771 INFO  org.jbake.app.Asset - Copying [./assets/img/bookmarks/bookmarks.png]...done!
+11:34:44.772 INFO  org.jbake.app.Asset - Copying [./assets/img/bookmarks/capsule.png]...done!
+11:34:44.773 INFO  org.jbake.app.Asset - Copying [./assets/img/bookmarks/confluence.ico]...done!
+11:34:44.775 INFO  org.jbake.app.Asset - Copying [./assets/img/bookmarks/google_translate.png]...done!
+11:34:44.776 INFO  org.jbake.app.Asset - Copying [./assets/img/bookmarks/hvb.ico]...done!
+11:34:44.777 INFO  org.jbake.app.Asset - Copying [./assets/img/bookmarks/hybris.png]...done!
+11:34:44.777 INFO  org.jbake.app.Asset - Copying [./assets/img/bookmarks/jira.ico]...done!
+11:34:44.778 INFO  org.jbake.app.Asset - Copying [./assets/img/bookmarks/leo.ico]...done!
+11:34:44.779 INFO  org.jbake.app.Asset - Copying [./assets/img/bookmarks/outlook.ico]...done!
+11:34:44.780 INFO  org.jbake.app.Asset - Copying [./assets/img/bookmarks/recruiterbox.png]...done!
+11:34:44.780 INFO  org.jbake.app.Asset - Copying [./assets/img/bookmarks/smartsheet.ico]...done!
+11:34:44.781 INFO  org.jbake.app.Asset - Copying [./assets/img/favicon.ico]...done!
+11:34:44.783 INFO  org.jbake.app.Asset - Copying [./assets/img/indien/IMG_0859.jpg]...done!
+11:34:44.785 INFO  org.jbake.app.Asset - Copying [./assets/img/indien/IMG_0860.jpg]...done!
+11:34:44.787 INFO  org.jbake.app.Asset - Copying [./assets/img/indien/IMG_0865.jpg]...done!
+11:34:44.791 INFO  org.jbake.app.Asset - Copying [./assets/img/indien/IMG_0884.jpg]...done!
+11:34:44.797 INFO  org.jbake.app.Asset - Copying [./assets/img/indien/IMG_0895.jpg]...done!
+11:34:44.799 INFO  org.jbake.app.Asset - Copying [./assets/img/indien/IMG_0897.jpg]...done!
+11:34:44.802 INFO  org.jbake.app.Asset - Copying [./assets/img/indien/IMG_0910.jpg]...done!
+11:34:44.804 INFO  org.jbake.app.Asset - Copying [./assets/img/indien/IMG_0916.jpg]...done!
+11:34:44.806 INFO  org.jbake.app.Asset - Copying [./assets/img/indien/IMG_0936.jpg]...done!
+11:34:44.808 INFO  org.jbake.app.Asset - Copying [./assets/img/indien/IMG_0939.jpg]...done!
+11:34:44.810 INFO  org.jbake.app.Asset - Copying [./assets/img/indien/IMG_0945.jpg]...done!
+11:34:44.812 INFO  org.jbake.app.Asset - Copying [./assets/img/indien/IMG_0955.jpg]...done!
+11:34:44.814 INFO  org.jbake.app.Asset - Copying [./assets/img/indien/IMG_0960.jpg]...done!
+11:34:44.816 INFO  org.jbake.app.Asset - Copying [./assets/img/indien/IMG_0964.jpg]...done!
+11:34:44.818 INFO  org.jbake.app.Asset - Copying [./assets/img/indien/IMG_0966.jpg]...done!
+11:34:44.821 INFO  org.jbake.app.Asset - Copying [./assets/img/indien/IMG_0970.jpg]...done!
+11:34:44.826 INFO  org.jbake.app.Asset - Copying [./assets/img/indien/IMG_0972.jpg]...done!
+11:34:44.828 INFO  org.jbake.app.Asset - Copying [./assets/img/indien/IMG_0978.jpg]...done!
+11:34:44.830 INFO  org.jbake.app.Asset - Copying [./assets/img/indien/IMG_0979.jpg]...done!
+11:34:44.833 INFO  org.jbake.app.Asset - Copying [./assets/img/indien/IMG_0995.jpg]...done!
+11:34:44.835 INFO  org.jbake.app.Asset - Copying [./assets/img/indien/IMG_0996.jpg]...done!
+11:34:44.838 INFO  org.jbake.app.Asset - Copying [./assets/img/indien/IMG_1009.jpg]...done!
+11:34:44.841 INFO  org.jbake.app.Asset - Copying [./assets/img/indien/IMG_1016.jpg]...done!
+11:34:44.842 INFO  org.jbake.app.Asset - Copying [./assets/img/indien/IMG_1021.jpg]...done!
+11:34:44.844 INFO  org.jbake.app.Asset - Copying [./assets/img/indien/IMG_1031.jpg]...done!
+11:34:44.846 INFO  org.jbake.app.Asset - Copying [./assets/img/indien/IMG_1033.jpg]...done!
+11:34:44.848 INFO  org.jbake.app.Asset - Copying [./assets/img/indien/IMG_1034.jpg]...done!
+11:34:44.850 INFO  org.jbake.app.Asset - Copying [./assets/img/indien/IMG_1038.jpg]...done!
+11:34:44.852 INFO  org.jbake.app.Asset - Copying [./assets/img/indien/IMG_1042.jpg]...done!
+11:34:44.854 INFO  org.jbake.app.Asset - Copying [./assets/img/indien/IMG_1043.jpg]...done!
+11:34:44.860 INFO  org.jbake.app.Asset - Copying [./assets/img/indien/IMG_1046.jpg]...done!
+11:34:44.862 INFO  org.jbake.app.Asset - Copying [./assets/img/indien/IMG_1053.jpg]...done!
+11:34:44.864 INFO  org.jbake.app.Asset - Copying [./assets/img/indien/IMG_1066.jpg]...done!
+11:34:44.866 INFO  org.jbake.app.Asset - Copying [./assets/img/indien/IMG_1069.jpg]...done!
+11:34:44.868 INFO  org.jbake.app.Asset - Copying [./assets/img/indien/IMG_1077.jpg]...done!
+11:34:44.870 INFO  org.jbake.app.Asset - Copying [./assets/img/indien/IMG_1085.jpg]...done!
+11:34:44.872 INFO  org.jbake.app.Asset - Copying [./assets/img/indien/IMG_1092.jpg]...done!
+11:34:44.884 INFO  org.jbake.app.Asset - Copying [./assets/img/receipes/vanillekipferl-rezept.jpg]...done!
+11:34:44.898 INFO  org.jbake.app.Asset - Copying [./assets/img/receipes/vanillekipferl.jpg]...done!
+11:34:44.901 INFO  org.jbake.app.Asset - Copying [./assets/js/bootstrap.min.js]...done!
+11:34:44.902 INFO  org.jbake.app.Asset - Copying [./assets/js/html5shiv.min.js]...done!
+11:34:44.904 INFO  org.jbake.app.Asset - Copying [./assets/js/jquery-1.11.1.min.js]...done!
+11:34:44.905 INFO  org.jbake.app.Asset - Copying [./assets/js/prettify.js]...done!
+11:34:44.908 INFO  org.jbake.app.Asset - Copying [./assets/till.jpg]...done!
+11:34:44.908 INFO  org.jbake.app.Oven - Baking finished!
+11:34:44.908 INFO  org.jbake.app.Oven - Baked 12 items in 906ms
+11:34:44.911 INFO  c.o.orient.core.Orient - Shutting down storage: cache...
+11:34:44.915 INFO  c.o.orient.core.Orient - Orient Engine shutdown complete
+

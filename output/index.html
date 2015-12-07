@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8"/>
+    <title>tillgartner.com</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="keywords" content="">
+    <meta name="generator" content="JBake">
+
+    <!-- Le styles -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/asciidoctor.css" rel="stylesheet">
+    <link href="css/base.css" rel="stylesheet">
+    <link href="css/prettify.css" rel="stylesheet">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <!--<link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">-->
+    <link rel="shortcut icon" href="/img/favicon.ico">
+  </head>
+  <body onload="prettyPrint()">
+    <div id="wrap">
+	
+	<!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="http://tillgartner.com">tillgartner.com</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="/about.html">About</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+    <div class="container">
+	<div class="page-header">
+		<h1>Blog</h1>
+	</div>
+  			<a href="blog/how_i_moved_to_github_and_jbake.html"><h1>How I moved to GitHub &amp; JBake</h1></a>
+  			<p>30 November 2015</p>
+  			<p><p>***** This page is under construction *****</p><p>First: It's not my invention! Many did it before, there are lots of description out there. It still took me some time ;)</p><p><a href="http://alexcican.com/post/guide-hosting-website-dropbox-github/">This</a> and <a href="http://alexcican.com/post/blog-dropbox-scriptogram">this</a> was the most inspiring source and easiest explanation (that gives confidence ;) ).</p><h1>Setup</h1><p>So this is the overall setup I have:</p>
+<ul>
+  <li>A directory on my Mac that holds the content. I use the basic structure that <a href="http://jbake.org">Jbake</a> uses.</li>
+  <li>A git-cloned directory on my Mac with the output of the jBake-process</li>
+  <li>A little script that I run every time I modified something. The script does the baking and the git-publishing</li>
+  <li>And of course the settings in the DNS to point my Domain name to the Github IPs</li>
+</ul><h2>JBake</h2><p>Why do I use JBake? I like the principle and I feel more comfortable in Java than in other programming languages. I haven't touched the JBake internal code, but I feel confident that I could.<br/>The principle way that JBake operates is similar to the famous <a href="https://jekyllrb.com/">Jekyll</a>: It parses content files and creates (static) HTML files out of it. The content files can contain Markdown or some other formats; I just use Markdown.</p><p>My directory structure looks like this:</p>
+<pre><code>.
+|-- assets
+|   |-- favicon.gif
+|   |-- robots.txt
+|   |-- img
+|   |   |-- logo.png
+|   |-- js
+|   |   |-- custom.js
+|   |-- css
+|       |-- style.css
+|
+|-- content
+|   |-- about.html
+|   |-- 2013
+|       |-- 01
+|       |   |-- hello-world.html
+|       |-- 02 
+|           |-- weekly-links-1.ad
+|           |-- weekly-links-2.md
+|
+|-- templates
+|   |-- index.ftl
+|   |-- page.ftl
+|   |-- post.ftl
+|   |-- feed.ftl
+|
+|-- jbake.properties
+</code></pre><p>By default JBake produces the output directory into this tree. In my case I bake my stuff into a directory that is git-synced.</p><h2>The GitHub setup</h2><h2>The DNS settings</h2><h2>My workflow</h2><h1>Next up</h1><p>There are a couple of things I plan to change. My work list moved <a href="/todo">here</a>.</p></p>
+  			<a href="blog/blogging_from_textmate.html"><h1>Blogging from Textmate</h1></a>
+  			<p>31 October 2012</p>
+  			<p><p>All you senior Textmate users forgive me for my childish enthusiasm, BUT: It’s just great!</p><p>TextMate, the workhorse editor on Mac has a blogging bundle I just discovered. If you are curioud, [this movie] explains it in a really decent way. Although it’s 6 years old (!!) it’s still valid and very handy.</p><p><img src="/img/blogging_from_mate1.png" alt="alt text" title="Blogging from Textmate""/></p><p>Only the markdown translation seems somehow broken…</p><p>Ahoj,<br/>- Till.</p></p>
+  			<a href="blog/indien/indien-tag-2.html"><h1>Indien Tag 2</h1></a>
+  			<p>11 April 2012</p>
+  			<p><p>Heute war unser 2. Tag in Indien – schon wieder seeehr spannend!</p><p>Hier wieder die Fotostrecke:</p><p>Nachdem wir schön ausgeschlafen hatten, und der hiesige Rhythmus sich schon verdaut anfühlte (will heißen Jetlag OK), ging es mit der Metro nach Old Delhi. Wie der Name andeutet ist das der alte Teil von Delhi…</p><p><img src="/img/indien/IMG_0964.jpg" alt="Alt Text""/></p><p>Old Delhi fühlt sich schon viel mehr so an, wie mir Indien von vielen Leuten vor meiner Abreise beschrieben wurde: Anderes Zeitalter..</p><p><img src="/img/indien/IMG_0966.jpg" alt="Alt Text""/></p><p><img src="/img/indien/IMG_0970.jpg" alt="Alt Text""/></p><p>Was auf den Fotos nicht ersichtlich ist, sind 2 Dinge, die die Eindrücke sehr stark prägen:</p>
+<ol>
+  <li><p>Der Lärm: Alle Rikschas, Autos, Laster, sogar die Fahrräder hupen und klingeln permanent und extrem laut. Da die Strassen in Old Delhi keine Einteilung von Fahrbahn und Bürgersteig haben, springt man die ganze Zeit auf die Seite um nicht überrollt oder angerempelt zu werden.</p></li>
+  <li><p>Die Gerüche: Alles riecht – meistens nicht gut…</p></li>
+</ol><p><img src="/img/indien/IMG_0972.jpg" alt="Alt Text""/></p><p>Wie man sieht, ist die IT-Industrie in Indien omnipräsent: Hier prägt sie auch sehr stark das Strassenbild ;-)</p><p><img src="/img/indien/IMG_0978.jpg" alt="Alt Text""/></p><p>Viele Leute waschen sich hier auf der Strasse – vielleicht weil Sonntag ist?</p><p><img src="/img/indien/IMG_0979.jpg" alt="Alt Text""/></p><p>…und geschlafen wird auch im Auto – oder so…</p><p><img src="/img/indien/IMG_0995.jpg" alt="Alt Text""/></p><p>Auch Tiere sieht man überall auf der Strasse</p><p><img src="/img/indien/IMG_0996.jpg" alt="Alt Text""/></p><p>Und mittendrin – ein Tempel… Diesmal eine Moschee.</p><p><img src="/img/indien/IMG_1009.jpg" alt="Alt Text""/></p><p>In der Moschee hat man den Einruck, ganze Familien würden hier wohnen:</p><p><img src="/img/indien/IMG_1016.jpg" alt="Alt Text""/></p><p>Und so sieht die Moschee aus dem Eingangsbereich, über den großen Platz hinweg aus:</p><p><img src="/img/indien/IMG_1021.jpg" alt="Alt Text""/></p><p>Anschließend ging’s zurück in das Gewusel der Gassen von Old Delhi</p><p><img src="/img/indien/IMG_1031.jpg" alt="Alt Text""/></p><p>…wo alles verkauft wird…</p><p><img src="/img/indien/IMG_1034.jpg" alt="Alt Text""/></p><p><img src="/img/indien/IMG_1042.jpg" alt="Alt Text""/></p><p>…und man alles findet – auch an Dienstleistungen…</p><p><img src="/img/indien/IMG_1033.jpg" alt="Alt Text""/></p><p>…aber auch spektakuläre Gewürzläden (und das ist noch nicht der Gewürzmarkt!)</p><p><img src="/img/indien/IMG_1038.jpg" alt="Alt Text""/></p><p>Oder Stoffe (irgendwo müssen die Sargs ja herkommen)</p><p><img src="/img/indien/IMG_1043.jpg" alt="Alt Text""/></p><p>Blicke nach oben sind immer wieder erstaunlich…</p><p><img src="/img/indien/IMG_1046.jpg" alt="Alt Text""/></p><p><img src="/img/indien/IMG_1053.jpg" alt="Alt Text""/></p><p>Anschließend ging’s ins Rote Fort. Das ist…ein Tempel…</p><p><img src="/img/indien/IMG_1066.jpg" alt="Alt Text""/></p><p>Sagte ich schon, dass die Tempelanlagen hier häufig riesig groß sind?!</p><p><img src="/img/indien/IMG_1069.jpg" alt="Alt Text""/></p><p>…und gefühlt an allen Ecken permanent gebaut wird?</p><p><img src="/img/indien/IMG_1077.jpg" alt="Alt Text""/></p><p>Nach so viel Tempel wurden wir hungrig – wollten uns aber nicht zu einem der Herren gesellen die direkt auf der Straße essen, und sind in ein gepflegtes Touri-Restaurant gegangen…</p><p><img src="/img/indien/IMG_1085.jpg" alt="Alt Text""/></p><p>Dann waren wir noch kurz in einem Eck dass vom englischen Kolonialstil geprägt ist: Connaught Place.</p><p><img src="/img/indien/IMG_1092.jpg" alt="Alt Text""/></p><p>Anschließend ging’s mit der Metro ins Hotel, es wurde geduscht und wir trafen Indische Kollegen zum Abendessen. Jetzt ist es hier kurz vor Mitternacht, und ich gehe schlafen.</p><p>Gute Nacht,</p><p>– Till.</p></p>
+  			<a href="blog/indien/indien-tag-1.html"><h1>Indien Tag 1</h1></a>
+  			<p>10 April 2012</p>
+  			<p><p>Hi Freunde,<br/>es ist 22:00 lokale Zeit. Eben sind wir vom Essen zurück gekommen ins Hotel – und fix &amp; fertig. Der erste Tag war gleich vollgepackt mit neuen Dingen. Und das nach einer Nacht im Flieger mit ca. 1 Stunde Schlaf und 4:30 Zeitverschiebung in die falsche Richtung…<br/>Hier das kurze Fotoprotokoll:<br/><img src="/img/indien/IMG_0859.jpg" alt="Alt Text""/><br/>Das ist in der Nähe unseres Hotels. Typisch: Ultramodern und Uralt nebeneinander.<br/><img src="/img/indien/IMG_0860.jpg" alt="Alt Text""/><br/>Auch in der Bank geht es zu wie bei uns in den 40er-Jahren<br/><img src="/img/indien/IMG_0865.jpg" alt="Alt Text""/><br/>S-Bahn gibt es – und die ist echt gut organisiert. Braucht es wohl bei eine 21-Millionen-Stadt…<br/><img src="/img/indien/IMG_0884.jpg" alt="Alt Text""/><br/>Überall sieht man wunderschöne Saris<br/><img src="/img/indien/IMG_0895.jpg" alt="Alt Text""/><br/>Tempel haben sie hier noch &amp; nöcher.<br/><img src="/img/indien/IMG_0897.jpg" alt="Alt Text""/><br/>Gleich auf der Fahrt vom Flughafen zum Hotel haben wir einen Elefanten auf der Straße gesehen. Leider war ich nicht schnell genug mit der Kamera. Aber es gibt ja noch mehr Tiere im Straßenverkehr…<br/><img src="/img/indien/IMG_0910.jpg" alt="Alt Text""/><br/>Das ist die kleine Vorlage vom Taj Mahal – kommt einem gar nicht klein vor…<br/><img src="/img/indien/IMG_0916.jpg" alt="Alt Text""/><br/>…und ist auch schon sehr beeindruckend.<br/><img src="/img/indien/IMG_0936.jpg" alt="Alt Text""/><br/>Einen Arc de Triomphe haben sie auch: Sie nennen es “India Gate”<br/><img src="/img/indien/IMG_0939.jpg" alt="Alt Text""/><br/>Mein Kollege Christian hat gleich ganz mutig auf der Strasse “Indian Bread” geholt. Wie hier üblich extrem pikant. Normalerweise lautet die Regel: If you can’t peal it and you can’t cook it – forget it!<br/><img src="/img/indien/IMG_0945.jpg" alt="Alt Text""/><br/>Noch ein Tempel: Der ist mitten in der Stadt…<br/><img src="/img/indien/IMG_0955.jpg" alt="Alt Text""/><br/>In Old-Delhi geht es noch mal ein Stück enger, voller, schneller auf der Strasse zu.<br/><img src="/img/indien/IMG_0960.jpg" alt="Alt Text""/><br/>Und so sieht man dann aus, nach einem Tag voller neuer Eindrücke und Tempel.<br/>So, jetzt muss ich ins Bett fallen.<br/>Gute Nacht,<br/>– Till.</p></p>
+  			<a href="blog/ipad-hologram.html"><h1>iPad Hologram</h1></a>
+  			<p>31 March 2011</p>
+  			<p><p>Diese hidden Features sind schon toll!</p><p><iframe width="853" height="480" src="https://www.youtube.com/embed/z1magCv4LtM?rel=0" frameborder="0" allowfullscreen></iframe></p></p>
+	
+	<hr />
+	
+	<p>Older posts are available in the <a href="archive.html">archive</a>.</p>
+
+		</div>
+		<div id="push"></div>
+    </div>
+    
+    <div id="footer">
+      <div class="container">
+        <p class="muted credit">&copy; 2014 | Mixed with <a href="http://getbootstrap.com/">Bootstrap v3.1.1</a> | Baked with <a href="http://jbake.org">JBake v2.4.0</a></p>
+      </div>
+    </div>
+    
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/prettify.js"></script>
+    
+  </body>
+</html>

@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>JBake</title>
+    <link>http://tillgartner.com</link>
+    <atom:link href="http://tillgartner.com/feed.xml" rel="self" type="application/rss+xml" />
+    <description>JBake Bootstrap Template</description>
+    <language>en-gb</language>
+    <pubDate>Mon, 7 Dec 2015 11:34:44 +0700</pubDate>
+    <lastBuildDate>Mon, 7 Dec 2015 11:34:44 +0700</lastBuildDate>
+
+    <item>
+      <title>How I moved to GitHub &amp; JBake</title>
+      <link>http://tillgartner.com/blog/how_i_moved_to_github_and_jbake.html</link>
+      <pubDate>Mon, 30 Nov 2015 00:00:00 +0700</pubDate>
+      <guid isPermaLink="false">blog/how_i_moved_to_github_and_jbake.html</guid>
+      	<description>
+	&lt;p&gt;***** This page is under construction *****&lt;/p&gt;&lt;p&gt;First: It&apos;s not my invention! Many did it before, there are lots of description out there. It still took me some time ;)&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://alexcican.com/post/guide-hosting-website-dropbox-github/&quot;&gt;This&lt;/a&gt; and &lt;a href=&quot;http://alexcican.com/post/blog-dropbox-scriptogram&quot;&gt;this&lt;/a&gt; was the most inspiring source and easiest explanation (that gives confidence ;) ).&lt;/p&gt;&lt;h1&gt;Setup&lt;/h1&gt;&lt;p&gt;So this is the overall setup I have:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;A directory on my Mac that holds the content. I use the basic structure that &lt;a href=&quot;http://jbake.org&quot;&gt;Jbake&lt;/a&gt; uses.&lt;/li&gt;
+  &lt;li&gt;A git-cloned directory on my Mac with the output of the jBake-process&lt;/li&gt;
+  &lt;li&gt;A little script that I run every time I modified something. The script does the baking and the git-publishing&lt;/li&gt;
+  &lt;li&gt;And of course the settings in the DNS to point my Domain name to the Github IPs&lt;/li&gt;
+&lt;/ul&gt;&lt;h2&gt;JBake&lt;/h2&gt;&lt;p&gt;Why do I use JBake? I like the principle and I feel more comfortable in Java than in other programming languages. I haven&apos;t touched the JBake internal code, but I feel confident that I could.&lt;br/&gt;The principle way that JBake operates is similar to the famous &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt;: It parses content files and creates (static) HTML files out of it. The content files can contain Markdown or some other formats; I just use Markdown.&lt;/p&gt;&lt;p&gt;My directory structure looks like this:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;.
+|-- assets
+|   |-- favicon.gif
+|   |-- robots.txt
+|   |-- img
+|   |   |-- logo.png
+|   |-- js
+|   |   |-- custom.js
+|   |-- css
+|       |-- style.css
+|
+|-- content
+|   |-- about.html
+|   |-- 2013
+|       |-- 01
+|       |   |-- hello-world.html
+|       |-- 02 
+|           |-- weekly-links-1.ad
+|           |-- weekly-links-2.md
+|
+|-- templates
+|   |-- index.ftl
+|   |-- page.ftl
+|   |-- post.ftl
+|   |-- feed.ftl
+|
+|-- jbake.properties
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;By default JBake produces the output directory into this tree. In my case I bake my stuff into a directory that is git-synced.&lt;/p&gt;&lt;h2&gt;The GitHub setup&lt;/h2&gt;&lt;h2&gt;The DNS settings&lt;/h2&gt;&lt;h2&gt;My workflow&lt;/h2&gt;&lt;h1&gt;Next up&lt;/h1&gt;&lt;p&gt;There are a couple of things I plan to change. My work list moved &lt;a href=&quot;/todo&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+	</description>
+    </item>
+    <item>
+      <title>Blogging from Textmate</title>
+      <link>http://tillgartner.com/blog/blogging_from_textmate.html</link>
+      <pubDate>Wed, 31 Oct 2012 00:00:00 +0700</pubDate>
+      <guid isPermaLink="false">blog/blogging_from_textmate.html</guid>
+      	<description>
+	&lt;p&gt;All you senior Textmate users forgive me for my childish enthusiasm, BUT: It’s just great!&lt;/p&gt;&lt;p&gt;TextMate, the workhorse editor on Mac has a blogging bundle I just discovered. If you are curioud, [this movie] explains it in a really decent way. Although it’s 6 years old (!!) it’s still valid and very handy.&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/img/blogging_from_mate1.png&quot; alt=&quot;alt text&quot; title=&quot;Blogging from Textmate&quot;&quot;/&gt;&lt;/p&gt;&lt;p&gt;Only the markdown translation seems somehow broken…&lt;/p&gt;&lt;p&gt;Ahoj,&lt;br/&gt;- Till.&lt;/p&gt;
+	</description>
+    </item>
+    <item>
+      <title>Indien Tag 2</title>
+      <link>http://tillgartner.com/blog/indien/indien-tag-2.html</link>
+      <pubDate>Wed, 11 Apr 2012 00:00:00 +0700</pubDate>
+      <guid isPermaLink="false">blog/indien/indien-tag-2.html</guid>
+      	<description>
+	&lt;p&gt;Heute war unser 2. Tag in Indien – schon wieder seeehr spannend!&lt;/p&gt;&lt;p&gt;Hier wieder die Fotostrecke:&lt;/p&gt;&lt;p&gt;Nachdem wir schön ausgeschlafen hatten, und der hiesige Rhythmus sich schon verdaut anfühlte (will heißen Jetlag OK), ging es mit der Metro nach Old Delhi. Wie der Name andeutet ist das der alte Teil von Delhi…&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/img/indien/IMG_0964.jpg&quot; alt=&quot;Alt Text&quot;&quot;/&gt;&lt;/p&gt;&lt;p&gt;Old Delhi fühlt sich schon viel mehr so an, wie mir Indien von vielen Leuten vor meiner Abreise beschrieben wurde: Anderes Zeitalter..&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/img/indien/IMG_0966.jpg&quot; alt=&quot;Alt Text&quot;&quot;/&gt;&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/img/indien/IMG_0970.jpg&quot; alt=&quot;Alt Text&quot;&quot;/&gt;&lt;/p&gt;&lt;p&gt;Was auf den Fotos nicht ersichtlich ist, sind 2 Dinge, die die Eindrücke sehr stark prägen:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;p&gt;Der Lärm: Alle Rikschas, Autos, Laster, sogar die Fahrräder hupen und klingeln permanent und extrem laut. Da die Strassen in Old Delhi keine Einteilung von Fahrbahn und Bürgersteig haben, springt man die ganze Zeit auf die Seite um nicht überrollt oder angerempelt zu werden.&lt;/p&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;p&gt;Die Gerüche: Alles riecht – meistens nicht gut…&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;&lt;p&gt;&lt;img src=&quot;/img/indien/IMG_0972.jpg&quot; alt=&quot;Alt Text&quot;&quot;/&gt;&lt;/p&gt;&lt;p&gt;Wie man sieht, ist die IT-Industrie in Indien omnipräsent: Hier prägt sie auch sehr stark das Strassenbild ;-)&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/img/indien/IMG_0978.jpg&quot; alt=&quot;Alt Text&quot;&quot;/&gt;&lt;/p&gt;&lt;p&gt;Viele Leute waschen sich hier auf der Strasse – vielleicht weil Sonntag ist?&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/img/indien/IMG_0979.jpg&quot; alt=&quot;Alt Text&quot;&quot;/&gt;&lt;/p&gt;&lt;p&gt;…und geschlafen wird auch im Auto – oder so…&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/img/indien/IMG_0995.jpg&quot; alt=&quot;Alt Text&quot;&quot;/&gt;&lt;/p&gt;&lt;p&gt;Auch Tiere sieht man überall auf der Strasse&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/img/indien/IMG_0996.jpg&quot; alt=&quot;Alt Text&quot;&quot;/&gt;&lt;/p&gt;&lt;p&gt;Und mittendrin – ein Tempel… Diesmal eine Moschee.&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/img/indien/IMG_1009.jpg&quot; alt=&quot;Alt Text&quot;&quot;/&gt;&lt;/p&gt;&lt;p&gt;In der Moschee hat man den Einruck, ganze Familien würden hier wohnen:&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/img/indien/IMG_1016.jpg&quot; alt=&quot;Alt Text&quot;&quot;/&gt;&lt;/p&gt;&lt;p&gt;Und so sieht die Moschee aus dem Eingangsbereich, über den großen Platz hinweg aus:&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/img/indien/IMG_1021.jpg&quot; alt=&quot;Alt Text&quot;&quot;/&gt;&lt;/p&gt;&lt;p&gt;Anschließend ging’s zurück in das Gewusel der Gassen von Old Delhi&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/img/indien/IMG_1031.jpg&quot; alt=&quot;Alt Text&quot;&quot;/&gt;&lt;/p&gt;&lt;p&gt;…wo alles verkauft wird…&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/img/indien/IMG_1034.jpg&quot; alt=&quot;Alt Text&quot;&quot;/&gt;&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/img/indien/IMG_1042.jpg&quot; alt=&quot;Alt Text&quot;&quot;/&gt;&lt;/p&gt;&lt;p&gt;…und man alles findet – auch an Dienstleistungen…&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/img/indien/IMG_1033.jpg&quot; alt=&quot;Alt Text&quot;&quot;/&gt;&lt;/p&gt;&lt;p&gt;…aber auch spektakuläre Gewürzläden (und das ist noch nicht der Gewürzmarkt!)&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/img/indien/IMG_1038.jpg&quot; alt=&quot;Alt Text&quot;&quot;/&gt;&lt;/p&gt;&lt;p&gt;Oder Stoffe (irgendwo müssen die Sargs ja herkommen)&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/img/indien/IMG_1043.jpg&quot; alt=&quot;Alt Text&quot;&quot;/&gt;&lt;/p&gt;&lt;p&gt;Blicke nach oben sind immer wieder erstaunlich…&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/img/indien/IMG_1046.jpg&quot; alt=&quot;Alt Text&quot;&quot;/&gt;&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/img/indien/IMG_1053.jpg&quot; alt=&quot;Alt Text&quot;&quot;/&gt;&lt;/p&gt;&lt;p&gt;Anschließend ging’s ins Rote Fort. Das ist…ein Tempel…&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/img/indien/IMG_1066.jpg&quot; alt=&quot;Alt Text&quot;&quot;/&gt;&lt;/p&gt;&lt;p&gt;Sagte ich schon, dass die Tempelanlagen hier häufig riesig groß sind?!&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/img/indien/IMG_1069.jpg&quot; alt=&quot;Alt Text&quot;&quot;/&gt;&lt;/p&gt;&lt;p&gt;…und gefühlt an allen Ecken permanent gebaut wird?&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/img/indien/IMG_1077.jpg&quot; alt=&quot;Alt Text&quot;&quot;/&gt;&lt;/p&gt;&lt;p&gt;Nach so viel Tempel wurden wir hungrig – wollten uns aber nicht zu einem der Herren gesellen die direkt auf der Straße essen, und sind in ein gepflegtes Touri-Restaurant gegangen…&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/img/indien/IMG_1085.jpg&quot; alt=&quot;Alt Text&quot;&quot;/&gt;&lt;/p&gt;&lt;p&gt;Dann waren wir noch kurz in einem Eck dass vom englischen Kolonialstil geprägt ist: Connaught Place.&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/img/indien/IMG_1092.jpg&quot; alt=&quot;Alt Text&quot;&quot;/&gt;&lt;/p&gt;&lt;p&gt;Anschließend ging’s mit der Metro ins Hotel, es wurde geduscht und wir trafen Indische Kollegen zum Abendessen. Jetzt ist es hier kurz vor Mitternacht, und ich gehe schlafen.&lt;/p&gt;&lt;p&gt;Gute Nacht,&lt;/p&gt;&lt;p&gt;– Till.&lt;/p&gt;
+	</description>
+    </item>
+    <item>
+      <title>Indien Tag 1</title>
+      <link>http://tillgartner.com/blog/indien/indien-tag-1.html</link>
+      <pubDate>Tue, 10 Apr 2012 00:00:00 +0700</pubDate>
+      <guid isPermaLink="false">blog/indien/indien-tag-1.html</guid>
+      	<description>
+	&lt;p&gt;Hi Freunde,&lt;br/&gt;es ist 22:00 lokale Zeit. Eben sind wir vom Essen zurück gekommen ins Hotel – und fix &amp;amp; fertig. Der erste Tag war gleich vollgepackt mit neuen Dingen. Und das nach einer Nacht im Flieger mit ca. 1 Stunde Schlaf und 4:30 Zeitverschiebung in die falsche Richtung…&lt;br/&gt;Hier das kurze Fotoprotokoll:&lt;br/&gt;&lt;img src=&quot;/img/indien/IMG_0859.jpg&quot; alt=&quot;Alt Text&quot;&quot;/&gt;&lt;br/&gt;Das ist in der Nähe unseres Hotels. Typisch: Ultramodern und Uralt nebeneinander.&lt;br/&gt;&lt;img src=&quot;/img/indien/IMG_0860.jpg&quot; alt=&quot;Alt Text&quot;&quot;/&gt;&lt;br/&gt;Auch in der Bank geht es zu wie bei uns in den 40er-Jahren&lt;br/&gt;&lt;img src=&quot;/img/indien/IMG_0865.jpg&quot; alt=&quot;Alt Text&quot;&quot;/&gt;&lt;br/&gt;S-Bahn gibt es – und die ist echt gut organisiert. Braucht es wohl bei eine 21-Millionen-Stadt…&lt;br/&gt;&lt;img src=&quot;/img/indien/IMG_0884.jpg&quot; alt=&quot;Alt Text&quot;&quot;/&gt;&lt;br/&gt;Überall sieht man wunderschöne Saris&lt;br/&gt;&lt;img src=&quot;/img/indien/IMG_0895.jpg&quot; alt=&quot;Alt Text&quot;&quot;/&gt;&lt;br/&gt;Tempel haben sie hier noch &amp;amp; nöcher.&lt;br/&gt;&lt;img src=&quot;/img/indien/IMG_0897.jpg&quot; alt=&quot;Alt Text&quot;&quot;/&gt;&lt;br/&gt;Gleich auf der Fahrt vom Flughafen zum Hotel haben wir einen Elefanten auf der Straße gesehen. Leider war ich nicht schnell genug mit der Kamera. Aber es gibt ja noch mehr Tiere im Straßenverkehr…&lt;br/&gt;&lt;img src=&quot;/img/indien/IMG_0910.jpg&quot; alt=&quot;Alt Text&quot;&quot;/&gt;&lt;br/&gt;Das ist die kleine Vorlage vom Taj Mahal – kommt einem gar nicht klein vor…&lt;br/&gt;&lt;img src=&quot;/img/indien/IMG_0916.jpg&quot; alt=&quot;Alt Text&quot;&quot;/&gt;&lt;br/&gt;…und ist auch schon sehr beeindruckend.&lt;br/&gt;&lt;img src=&quot;/img/indien/IMG_0936.jpg&quot; alt=&quot;Alt Text&quot;&quot;/&gt;&lt;br/&gt;Einen Arc de Triomphe haben sie auch: Sie nennen es “India Gate”&lt;br/&gt;&lt;img src=&quot;/img/indien/IMG_0939.jpg&quot; alt=&quot;Alt Text&quot;&quot;/&gt;&lt;br/&gt;Mein Kollege Christian hat gleich ganz mutig auf der Strasse “Indian Bread” geholt. Wie hier üblich extrem pikant. Normalerweise lautet die Regel: If you can’t peal it and you can’t cook it – forget it!&lt;br/&gt;&lt;img src=&quot;/img/indien/IMG_0945.jpg&quot; alt=&quot;Alt Text&quot;&quot;/&gt;&lt;br/&gt;Noch ein Tempel: Der ist mitten in der Stadt…&lt;br/&gt;&lt;img src=&quot;/img/indien/IMG_0955.jpg&quot; alt=&quot;Alt Text&quot;&quot;/&gt;&lt;br/&gt;In Old-Delhi geht es noch mal ein Stück enger, voller, schneller auf der Strasse zu.&lt;br/&gt;&lt;img src=&quot;/img/indien/IMG_0960.jpg&quot; alt=&quot;Alt Text&quot;&quot;/&gt;&lt;br/&gt;Und so sieht man dann aus, nach einem Tag voller neuer Eindrücke und Tempel.&lt;br/&gt;So, jetzt muss ich ins Bett fallen.&lt;br/&gt;Gute Nacht,&lt;br/&gt;– Till.&lt;/p&gt;
+	</description>
+    </item>
+    <item>
+      <title>iPad Hologram</title>
+      <link>http://tillgartner.com/blog/ipad-hologram.html</link>
+      <pubDate>Thu, 31 Mar 2011 00:00:00 +0700</pubDate>
+      <guid isPermaLink="false">blog/ipad-hologram.html</guid>
+      	<description>
+	&lt;p&gt;Diese hidden Features sind schon toll!&lt;/p&gt;&lt;p&gt;&lt;iframe width=&quot;853&quot; height=&quot;480&quot; src=&quot;https://www.youtube.com/embed/z1magCv4LtM?rel=0&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+	</description>
+    </item>
+
+  </channel> 
+</rss>
