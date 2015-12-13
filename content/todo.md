@@ -8,9 +8,12 @@ Things I plan to do on the website:
 - Document what I did so far: The GoDaddy settings, the baking script, the Github/Travis setup for autobaking
 - Have TOCs for longer markdown files
 - Have category pages
+- Add the date & time when site was baked the last time
 - Add Google tracking
+- Automatically maintain a log Filmes that is readable online
 - Have my old content from the former [gartnerich.com](http://web.archive.org/web/20131107042444/http://gartnerich.com/) website moved over
 - Redo the design. I like a lot the one from [Alex Cinan](http://alexcican.com/) - will copy some ideas
+- Have a site map in the footer area
 - Make it smart-phone-friendly
 - Make pages stored locally for long time (i.e. the bookmarks page)
 - Have special templates for some content types, i.e.
