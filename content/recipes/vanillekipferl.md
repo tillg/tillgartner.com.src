@@ -9,9 +9,10 @@ Vanillekipferl are a German / Bavarian traditional cookie that we all love ;)
 
 This receipe is from Katja, and her Kipferl are the world best ones.
 ![Kipferl Rezept](/img/receipes/vanillekipferl-rezept.jpg)
-TRanslated that would be:
 
-- 60g Icing sugar
+Translated that would be:
+
+- 60g icing sugar
 - 90g grounded almonds
 - 150g butter
 - 100g corn starch
