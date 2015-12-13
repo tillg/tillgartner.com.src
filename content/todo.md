@@ -7,7 +7,7 @@ Things I plan to do on the website:
 
 - Document what I did so far: The GoDaddy settings, the baking script, the Github/Travis setup for autobaking
 - Have TOCs for longer markdown files
-- Have category pages
+- Have category pages, i.e. Recipe, SoftwareWeNeed etc
 - Add the date & time when site was baked the last time
 - Add Google tracking
 - Automatically maintain a log Filmes that is readable online
