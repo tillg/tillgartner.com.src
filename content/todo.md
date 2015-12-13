@@ -6,7 +6,8 @@ status=published
 Things I plan to do on the website:
 
 - Have the content Git'ted (that is the content before it is JBake'd)
-- Have a baking process automatically launched when content is modified and Git-pushed
+- Have a baking process automatically launched when content is modified and Git-pushed. Look here:
+    - [Automatically Update Github Pages with Travis Example](https://github.com/steveklabnik/automatically_update_github_pages_with_travis_example)
 - Add Google tracking
 - Have my old content from the former [gartnerich.com](http://web.archive.org/web/20131107042444/http://gartnerich.com/) website moved over
 - Redo the design. I like a lot the one from [Alex Cinan](http://alexcican.com/) - will copy some ideas
