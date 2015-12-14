@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <url>
-        <loc>http://tillgartner.com/recipes/vanillekipferl.html</loc>
-        <lastmod>2015-12-06</lastmod>
-    </url>
-    <url>
         <loc>http://tillgartner.com/log.html</loc>
         <lastmod>2015-12-02</lastmod>
     </url>
@@ -19,6 +15,10 @@
     <url>
         <loc>http://tillgartner.com/about.html</loc>
         <lastmod>2015-11-27</lastmod>
+    </url>
+    <url>
+        <loc>http://tillgartner.com/recipes/vanillekipferl.html</loc>
+        <lastmod>2015-12-06</lastmod>
     </url>
     <url>
         <loc>http://tillgartner.com/blog/how_i_moved_to_github_and_jbake.html</loc>

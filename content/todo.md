@@ -6,7 +6,6 @@ status=published
 Things I plan to do on the website:
 
 - Document what I did so far: The GoDaddy settings, the baking script, the Github/Travis setup for autobaking
-- Have TOCs for longer markdown files
 - Have category pages, i.e. Recipe, SoftwareWeNeed etc
 - Add the date & time when site was baked the last time
 - Add Google tracking
@@ -25,3 +24,6 @@ Things I plan to do on the website:
 - Have auto generated Table of Contents for larger pages. This seems to be a little problem with Markdown...
 - Add comments. [DISQUS](http://www.wikiwand.com/en/Disqus) looks crappy, may be there is a better solution.
 - And have more content of course ;)
+
+- Have TOCs for longer markdown files
+    I have postponed this one, since the smart guys are currently working on a TOC extension for the pegdown markdown tool that is used by jBake. For details see [here](https://github.com/sirthias/pegdown/pull/206)

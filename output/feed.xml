@@ -6,22 +6,39 @@
     <atom:link href="http://tillgartner.com/feed.xml" rel="self" type="application/rss+xml" />
     <description>JBake Bootstrap Template</description>
     <language>en-gb</language>
-    <pubDate>Mon, 7 Dec 2015 11:34:44 +0700</pubDate>
-    <lastBuildDate>Mon, 7 Dec 2015 11:34:44 +0700</lastBuildDate>
+    <pubDate>Mon, 14 Dec 2015 18:22:51 +0700</pubDate>
+    <lastBuildDate>Mon, 14 Dec 2015 18:22:51 +0700</lastBuildDate>
 
+    <item>
+      <title>Vanillekipferl</title>
+      <link>http://tillgartner.com/recipes/vanillekipferl.html</link>
+      <pubDate>Sun, 6 Dec 2015 00:00:00 +0700</pubDate>
+      <guid isPermaLink="false">recipes/vanillekipferl.html</guid>
+      	<description>
+	&lt;p&gt;Vanillekipferl are a German / Bavarian traditional cookie that we all love ;)&lt;/p&gt;&lt;p&gt;This receipe is from Katja, and her Kipferl are the world best ones.&lt;br/&gt;&lt;img src=&quot;/img/receipes/vanillekipferl-rezept.jpg&quot; alt=&quot;Kipferl Rezept&quot;&quot;/&gt;&lt;/p&gt;&lt;p&gt;Translated that would be:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;60g icing sugar&lt;/li&gt;
+  &lt;li&gt;90g grounded almonds&lt;/li&gt;
+  &lt;li&gt;150g butter&lt;/li&gt;
+  &lt;li&gt;100g corn starch&lt;/li&gt;
+  &lt;li&gt;100g flour&lt;/li&gt;
+  &lt;li&gt;Vanilla iced sugar for covering&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;You mix it all (except the vanilla iced sugar) with your hands to get a nice dough. Put it in the fridge for 1/2 hour. Then make little dough balls and shape them to become half moon cookies. It all goes in the oven at 200 degrees until they are golden brown. Depending on the size of the cookies and the oven it should take 8-10 minutes.&lt;br/&gt;When the cookies are still warm, roll them in vanilla iced sugar.&lt;/p&gt;&lt;p&gt;This is what you want them to look like&lt;br/&gt;&lt;img src=&quot;/img/receipes/vanillekipferl.jpg&quot; alt=&quot;Vanillekipferl&quot;&quot;/&gt;&lt;/p&gt;
+	</description>
+    </item>
     <item>
       <title>How I moved to GitHub &amp; JBake</title>
       <link>http://tillgartner.com/blog/how_i_moved_to_github_and_jbake.html</link>
       <pubDate>Mon, 30 Nov 2015 00:00:00 +0700</pubDate>
       <guid isPermaLink="false">blog/how_i_moved_to_github_and_jbake.html</guid>
       	<description>
-	&lt;p&gt;***** This page is under construction *****&lt;/p&gt;&lt;p&gt;First: It&apos;s not my invention! Many did it before, there are lots of description out there. It still took me some time ;)&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://alexcican.com/post/guide-hosting-website-dropbox-github/&quot;&gt;This&lt;/a&gt; and &lt;a href=&quot;http://alexcican.com/post/blog-dropbox-scriptogram&quot;&gt;this&lt;/a&gt; was the most inspiring source and easiest explanation (that gives confidence ;) ).&lt;/p&gt;&lt;h1&gt;Setup&lt;/h1&gt;&lt;p&gt;So this is the overall setup I have:&lt;/p&gt;
+	&lt;p&gt;***** This page is under construction *****&lt;/p&gt;&lt;p&gt;First: It&amp;rsquo;s not my invention! Many did it before, there are lots of description out there. It still took me some time ;)&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://alexcican.com/post/guide-hosting-website-dropbox-github/&quot;&gt;This&lt;/a&gt; and &lt;a href=&quot;http://alexcican.com/post/blog-dropbox-scriptogram&quot;&gt;this&lt;/a&gt; was the most inspiring source and easiest explanation (that gives confidence ;) ).&lt;/p&gt;&lt;h1&gt;Setup&lt;/h1&gt;&lt;p&gt;So this is the overall setup I have:&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;A directory on my Mac that holds the content. I use the basic structure that &lt;a href=&quot;http://jbake.org&quot;&gt;Jbake&lt;/a&gt; uses.&lt;/li&gt;
   &lt;li&gt;A git-cloned directory on my Mac with the output of the jBake-process&lt;/li&gt;
   &lt;li&gt;A little script that I run every time I modified something. The script does the baking and the git-publishing&lt;/li&gt;
   &lt;li&gt;And of course the settings in the DNS to point my Domain name to the Github IPs&lt;/li&gt;
-&lt;/ul&gt;&lt;h2&gt;JBake&lt;/h2&gt;&lt;p&gt;Why do I use JBake? I like the principle and I feel more comfortable in Java than in other programming languages. I haven&apos;t touched the JBake internal code, but I feel confident that I could.&lt;br/&gt;The principle way that JBake operates is similar to the famous &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt;: It parses content files and creates (static) HTML files out of it. The content files can contain Markdown or some other formats; I just use Markdown.&lt;/p&gt;&lt;p&gt;My directory structure looks like this:&lt;/p&gt;
+&lt;/ul&gt;&lt;h2&gt;JBake&lt;/h2&gt;&lt;p&gt;Why do I use JBake? I like the principle and I feel more comfortable in Java than in other programming languages. I haven&amp;rsquo;t touched the JBake internal code, but I feel confident that I could.&lt;br/&gt;The principle way that JBake operates is similar to the famous &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt;: It parses content files and creates (static) HTML files out of it. The content files can contain Markdown or some other formats; I just use Markdown.&lt;/p&gt;&lt;p&gt;My directory structure looks like this:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;.
 |-- assets
 |   |-- favicon.gif

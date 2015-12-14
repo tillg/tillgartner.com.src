@@ -4,7 +4,8 @@
     
     <div id="footer">
       <div class="container">
-        <p class="muted credit">&copy; 2014 | Mixed with <a href="http://getbootstrap.com/">Bootstrap v3.1.1</a> | Baked with <a href="http://jbake.org">JBake ${version}</a></p>
+          <#assign aDateTime = .now>
+        <p class="muted credit">&copy; Till Gartner 2015 - Rendered ${aDateTime?iso_utc}</a></p>
       </div>
     </div>
     
