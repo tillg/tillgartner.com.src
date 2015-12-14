@@ -1,5 +1,4 @@
 title=To do
-date=2015-12-02
 type=page
 status=published
 ~~~~~~

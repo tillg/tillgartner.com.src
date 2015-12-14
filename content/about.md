@@ -1,5 +1,4 @@
 title=About
-date=2015-11-27
 type=page
 status=published
 pic=till.jpg
