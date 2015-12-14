@@ -7,9 +7,7 @@ Things I plan to do on the website:
 
 - Document what I did so far: The GoDaddy settings, the baking script, the Github/Travis setup for autobaking
 - Have category pages, i.e. Recipe, SoftwareWeNeed etc
-- Add the date & time when site was baked the last time
 - Add Google tracking
-- Automatically maintain a log Filmes that is readable online
 - Have my old content from the former [gartnerich.com](http://web.archive.org/web/20131107042444/http://gartnerich.com/) website moved over
 - Redo the design. I like a lot the one from [Alex Cinan](http://alexcican.com/) - will copy some ideas
 - Have a site map in the footer area
@@ -21,9 +19,9 @@ Things I plan to do on the website:
 - Add a search engine (probably Google Search)
 - Have my CV online
 - Try improving some SEO and [performance](https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Ftillgartner.com%2F)
-- Have auto generated Table of Contents for larger pages. This seems to be a little problem with Markdown...
 - Add comments. [DISQUS](http://www.wikiwand.com/en/Disqus) looks crappy, may be there is a better solution.
 - And have more content of course ;)
 
+# Postponed
 - Have TOCs for longer markdown files
     I have postponed this one, since the smart guys are currently working on a TOC extension for the pegdown markdown tool that is used by jBake. For details see [here](https://github.com/sirthias/pegdown/pull/206)

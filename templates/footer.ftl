@@ -5,7 +5,7 @@
     <div id="footer">
       <div class="container">
           <#assign aDateTime = .now>
-        <p class="muted credit">&copy; Till Gartner 2015 - Rendered ${aDateTime?iso_utc}</a></p>
+        <p class="muted credit">&copy; Till Gartner 2015 - Last generated ${aDateTime} UTC - <a href="/todo.html"> ToDo</a> - <a href="/log.html">Done</a></p>
       </div>
     </div>
     
