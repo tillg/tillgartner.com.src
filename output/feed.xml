@@ -6,8 +6,8 @@
     <atom:link href="http://tillgartner.com/feed.xml" rel="self" type="application/rss+xml" />
     <description>JBake Bootstrap Template</description>
     <language>en-gb</language>
-    <pubDate>Mon, 14 Dec 2015 18:57:50 +0700</pubDate>
-    <lastBuildDate>Mon, 14 Dec 2015 18:57:50 +0700</lastBuildDate>
+    <pubDate>Mon, 14 Dec 2015 19:15:01 +0700</pubDate>
+    <lastBuildDate>Mon, 14 Dec 2015 19:15:01 +0700</lastBuildDate>
 
     <item>
       <title>Vanillekipferl</title>
@@ -28,9 +28,9 @@
     </item>
     <item>
       <title>How I moved to GitHub &amp; JBake</title>
-      <link>http://tillgartner.com/blog/how_i_moved_to_github_and_jbake.html</link>
+      <link>http://tillgartner.com/blog/2015-11-30_how_i_moved_to_github_and_jbake.html</link>
       <pubDate>Mon, 30 Nov 2015 00:00:00 +0700</pubDate>
-      <guid isPermaLink="false">blog/how_i_moved_to_github_and_jbake.html</guid>
+      <guid isPermaLink="false">blog/2015-11-30_how_i_moved_to_github_and_jbake.html</guid>
       	<description>
 	&lt;p&gt;***** This page is under construction *****&lt;/p&gt;&lt;p&gt;First: It&amp;rsquo;s not my invention! Many did it before, there are lots of description out there. It still took me some time ;)&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://alexcican.com/post/guide-hosting-website-dropbox-github/&quot;&gt;This&lt;/a&gt; and &lt;a href=&quot;http://alexcican.com/post/blog-dropbox-scriptogram&quot;&gt;this&lt;/a&gt; was the most inspiring source and easiest explanation (that gives confidence ;) ).&lt;/p&gt;&lt;h1&gt;Setup&lt;/h1&gt;&lt;p&gt;So this is the overall setup I have:&lt;/p&gt;
 &lt;ul&gt;
@@ -71,9 +71,9 @@
     </item>
     <item>
       <title>Blogging from Textmate</title>
-      <link>http://tillgartner.com/blog/blogging_from_textmate.html</link>
+      <link>http://tillgartner.com/blog/2012-10-31_blogging_from_textmate.html</link>
       <pubDate>Wed, 31 Oct 2012 00:00:00 +0700</pubDate>
-      <guid isPermaLink="false">blog/blogging_from_textmate.html</guid>
+      <guid isPermaLink="false">blog/2012-10-31_blogging_from_textmate.html</guid>
       	<description>
 	&lt;p&gt;All you senior Textmate users forgive me for my childish enthusiasm, BUT: It’s just great!&lt;/p&gt;&lt;p&gt;TextMate, the workhorse editor on Mac has a blogging bundle I just discovered. If you are curioud, [this movie] explains it in a really decent way. Although it’s 6 years old (!!) it’s still valid and very handy.&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/img/blogging_from_mate1.png&quot; alt=&quot;alt text&quot; title=&quot;Blogging from Textmate&quot;&quot;/&gt;&lt;/p&gt;&lt;p&gt;Only the markdown translation seems somehow broken…&lt;/p&gt;&lt;p&gt;Ahoj,&lt;br/&gt;- Till.&lt;/p&gt;
 	</description>
@@ -102,9 +102,9 @@
     </item>
     <item>
       <title>iPad Hologram</title>
-      <link>http://tillgartner.com/blog/ipad-hologram.html</link>
+      <link>http://tillgartner.com/blog/2011-03-31_ipad-hologram.html</link>
       <pubDate>Thu, 31 Mar 2011 00:00:00 +0700</pubDate>
-      <guid isPermaLink="false">blog/ipad-hologram.html</guid>
+      <guid isPermaLink="false">blog/2011-03-31_ipad-hologram.html</guid>
       	<description>
 	&lt;p&gt;Diese hidden Features sind schon toll!&lt;/p&gt;&lt;p&gt;&lt;iframe width=&quot;853&quot; height=&quot;480&quot; src=&quot;https://www.youtube.com/embed/z1magCv4LtM?rel=0&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
 	</description>

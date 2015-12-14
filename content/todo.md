@@ -1,5 +1,6 @@
 title=To do
 type=page
+date=2015-12-14
 status=published
 ~~~~~~
 Things I plan to do on the website:

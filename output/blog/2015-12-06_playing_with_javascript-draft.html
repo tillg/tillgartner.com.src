@@ -2,7 +2,7 @@
 <html lang="de">
   <head>
     <meta charset="utf-8"/>
-    <title>Vanillekipferl</title>
+    <title>Playing with JavaScript</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="Till Gartner">
@@ -45,20 +45,81 @@
     </div>
     <div class="container">	
 	<div class="page-header">
-		<h1>Vanillekipferl</h1>
+		<h1>Playing with JavaScript</h1>
 	</div>
 
 	<p><em>06 December 2015</em></p>
 
-	<p><p>Vanillekipferl are a German / Bavarian traditional cookie that we all love ;)</p><p>This receipe is from Katja, and her Kipferl are the world best ones.<br/><img src="/img/receipes/vanillekipferl-rezept.jpg" alt="Kipferl Rezept""/></p><p>Translated that would be:</p>
-<ul>
-  <li>60g icing sugar</li>
-  <li>90g grounded almonds</li>
-  <li>150g butter</li>
-  <li>100g corn starch</li>
-  <li>100g flour</li>
-  <li>Vanilla iced sugar for covering</li>
-</ul><p>You mix it all (except the vanilla iced sugar) with your hands to get a nice dough. Put it in the fridge for 1/2 hour. Then make little dough balls and shape them to become half moon cookies. It all goes in the oven at 200 degrees until they are golden brown. Depending on the size of the cookies and the oven it should take 8-10 minutes.<br/>When the cookies are still warm, roll them in vanilla iced sugar.</p><p>This is what you want them to look like<br/><img src="/img/receipes/vanillekipferl.jpg" alt="Vanillekipferl""/></p></p>
+	<p><p>I&rsquo;ve been playing around with HTML &amp; JavaScript. And Geometry is just it ;)</p>
+<div id="c" onload="Draw()"> </div>
+<script>
+var c = document.getElementById("c");
+var ctx = c.getContext("2d");
+var cw = c.width = 600,
+  cx = cw / 2;
+var ch = c.height = 600,
+  cy = ch / 2;
+var rad = (Math.PI / 180);
+var phi = 0;
+
+ctx.lineWidth = .2;
+ctx.strokeStyle = "black";
+var num_circles = 200;
+var frames = 0;
+var flag = false;
+
+var I = 50;
+var a = 3 * I;
+var b = 1 * I
+
+var outer_rad = cy;
+var nVert = 3;
+var angle_incr = (360/nVert) * rad;
+
+function Draw() {
+  if(frames >= 7){ flag = true;}else if(frames <= 0){flag = false;}
+  if(flag == false){frames += .005;}else{frames -= .005;}
+ 
+  phi += .01*Math.cos(50*frames*rad);
+  var step = Math.abs(Math.cos(frames * rad)) + .005;
+  ctx.clearRect(0, 0, cw, ch);
+  ctx.beginPath();
+  for (var i = 0; i <= num_circles; i += step) {
+    var ratio = i / num_circles;
+    var angle = i * angle_incr * Math.cos(frames * rad);
+    var spiral_rad = ratio * outer_rad;
+	var r = spiral_rad/nVert;
+	
+	var h = (a) * (Math.sin(i * rad));
+	var x =     cx + (a - b) * Math.cos(angle) + h * Math.cos(phi + (a - b) / b * angle);
+    var y = cy + (a - b) * Math.sin(angle) - h * Math.sin(phi + (a - b) / b * angle);
+	
+    ctx.arc(x, y,1,0,2*Math.PI);
+	//ctx.lineTo(x, y);
+  }
+  ctx.stroke();
+  requestId = window.requestAnimationFrame(Draw);
+}
+
+function start() {
+  requestId = window.requestAnimationFrame(Draw);
+  stopped = false;
+}
+
+function stopAnim() {
+  if (requestId) {
+    window.cancelAnimationFrame(requestId);
+  }
+  stopped = true;
+}
+
+window.addEventListener("load", start(), false);
+
+c.addEventListener("click", function() {
+  (stopped == true) ? start(): stopAnim();
+}, false)
+
+</script></p>
 
 	<hr />
 	

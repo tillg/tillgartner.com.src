@@ -1,4 +1,5 @@
 title=Log
+date=2015-12-14
 type=page
 status=published
 ~~~~~~

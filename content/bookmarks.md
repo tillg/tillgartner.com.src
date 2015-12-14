@@ -1,6 +1,6 @@
 title=Bookmarks
-date=2015-12-01
 type=page
+date=2015-12-01
 status=published
 ~~~~~~
 
