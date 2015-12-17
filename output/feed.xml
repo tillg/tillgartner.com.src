@@ -6,8 +6,8 @@
     <atom:link href="http://tillgartner.com/feed.xml" rel="self" type="application/rss+xml" />
     <description>JBake Bootstrap Template</description>
     <language>en-gb</language>
-    <pubDate>Wed, 16 Dec 2015 09:41:30 +0700</pubDate>
-    <lastBuildDate>Wed, 16 Dec 2015 09:41:30 +0700</lastBuildDate>
+    <pubDate>Thu, 17 Dec 2015 08:40:54 +0700</pubDate>
+    <lastBuildDate>Thu, 17 Dec 2015 08:40:54 +0700</lastBuildDate>
 
     <item>
       <title>Playing with Highcharts</title>
@@ -75,7 +75,7 @@
 |   |-- feed.ftl
 |
 |-- jbake.properties
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;By default JBake produces the output directory into this tree. In my case I bake my stuff into a directory that is git-synced.&lt;/p&gt;&lt;h2&gt;The GitHub setup&lt;/h2&gt;&lt;h2&gt;The DNS settings&lt;/h2&gt;&lt;h2&gt;My workflow&lt;/h2&gt;&lt;h1&gt;Next up&lt;/h1&gt;&lt;p&gt;There are a couple of things I plan to change. My work list moved &lt;a href=&quot;/todo&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;By default JBake produces the output directory into this tree. In my case I bake my stuff into a directory that is git-synced.&lt;/p&gt;&lt;h2&gt;The GitHub setup&lt;/h2&gt;&lt;h2&gt;The DNS settings&lt;/h2&gt;&lt;h1&gt;Next up&lt;/h1&gt;&lt;p&gt;There are a couple of things I plan to change. My work list moved &lt;a href=&quot;/todo&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 	</description>
     </item>
     <item>
@@ -89,9 +89,9 @@
     </item>
     <item>
       <title>Indien Tag 2</title>
-      <link>http://tillgartner.com/blog/indien/indien-tag-2.html</link>
+      <link>http://tillgartner.com/blog/indien/2012-04-11_indien_tag_2.html</link>
       <pubDate>Wed, 11 Apr 2012 00:00:00 +0700</pubDate>
-      <guid isPermaLink="false">blog/indien/indien-tag-2.html</guid>
+      <guid isPermaLink="false">blog/indien/2012-04-11_indien_tag_2.html</guid>
       	<description>
 	&lt;p&gt;Heute war unser 2. Tag in Indien – schon wieder seeehr spannend!&lt;/p&gt;&lt;p&gt;Hier wieder die Fotostrecke:&lt;/p&gt;&lt;p&gt;Nachdem wir schön ausgeschlafen hatten, und der hiesige Rhythmus sich schon verdaut anfühlte (will heißen Jetlag OK), ging es mit der Metro nach Old Delhi. Wie der Name andeutet ist das der alte Teil von Delhi…&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/img/indien/IMG_0964.jpg&quot; alt=&quot;Alt Text&quot;&quot;/&gt;&lt;/p&gt;&lt;p&gt;Old Delhi fühlt sich schon viel mehr so an, wie mir Indien von vielen Leuten vor meiner Abreise beschrieben wurde: Anderes Zeitalter..&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/img/indien/IMG_0966.jpg&quot; alt=&quot;Alt Text&quot;&quot;/&gt;&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/img/indien/IMG_0970.jpg&quot; alt=&quot;Alt Text&quot;&quot;/&gt;&lt;/p&gt;&lt;p&gt;Was auf den Fotos nicht ersichtlich ist, sind 2 Dinge, die die Eindrücke sehr stark prägen:&lt;/p&gt;
 &lt;ol&gt;
@@ -102,9 +102,9 @@
     </item>
     <item>
       <title>Indien Tag 1</title>
-      <link>http://tillgartner.com/blog/indien/indien-tag-1.html</link>
+      <link>http://tillgartner.com/blog/indien/2012-04-10_indien_tag_1.html</link>
       <pubDate>Tue, 10 Apr 2012 00:00:00 +0700</pubDate>
-      <guid isPermaLink="false">blog/indien/indien-tag-1.html</guid>
+      <guid isPermaLink="false">blog/indien/2012-04-10_indien_tag_1.html</guid>
       	<description>
 	&lt;p&gt;Hi Freunde,&lt;br/&gt;es ist 22:00 lokale Zeit. Eben sind wir vom Essen zurück gekommen ins Hotel – und fix &amp;amp; fertig. Der erste Tag war gleich vollgepackt mit neuen Dingen. Und das nach einer Nacht im Flieger mit ca. 1 Stunde Schlaf und 4:30 Zeitverschiebung in die falsche Richtung…&lt;br/&gt;Hier das kurze Fotoprotokoll:&lt;br/&gt;&lt;img src=&quot;/img/indien/IMG_0859.jpg&quot; alt=&quot;Alt Text&quot;&quot;/&gt;&lt;br/&gt;Das ist in der Nähe unseres Hotels. Typisch: Ultramodern und Uralt nebeneinander.&lt;br/&gt;&lt;img src=&quot;/img/indien/IMG_0860.jpg&quot; alt=&quot;Alt Text&quot;&quot;/&gt;&lt;br/&gt;Auch in der Bank geht es zu wie bei uns in den 40er-Jahren&lt;br/&gt;&lt;img src=&quot;/img/indien/IMG_0865.jpg&quot; alt=&quot;Alt Text&quot;&quot;/&gt;&lt;br/&gt;S-Bahn gibt es – und die ist echt gut organisiert. Braucht es wohl bei eine 21-Millionen-Stadt…&lt;br/&gt;&lt;img src=&quot;/img/indien/IMG_0884.jpg&quot; alt=&quot;Alt Text&quot;&quot;/&gt;&lt;br/&gt;Überall sieht man wunderschöne Saris&lt;br/&gt;&lt;img src=&quot;/img/indien/IMG_0895.jpg&quot; alt=&quot;Alt Text&quot;&quot;/&gt;&lt;br/&gt;Tempel haben sie hier noch &amp;amp; nöcher.&lt;br/&gt;&lt;img src=&quot;/img/indien/IMG_0897.jpg&quot; alt=&quot;Alt Text&quot;&quot;/&gt;&lt;br/&gt;Gleich auf der Fahrt vom Flughafen zum Hotel haben wir einen Elefanten auf der Straße gesehen. Leider war ich nicht schnell genug mit der Kamera. Aber es gibt ja noch mehr Tiere im Straßenverkehr…&lt;br/&gt;&lt;img src=&quot;/img/indien/IMG_0910.jpg&quot; alt=&quot;Alt Text&quot;&quot;/&gt;&lt;br/&gt;Das ist die kleine Vorlage vom Taj Mahal – kommt einem gar nicht klein vor…&lt;br/&gt;&lt;img src=&quot;/img/indien/IMG_0916.jpg&quot; alt=&quot;Alt Text&quot;&quot;/&gt;&lt;br/&gt;…und ist auch schon sehr beeindruckend.&lt;br/&gt;&lt;img src=&quot;/img/indien/IMG_0936.jpg&quot; alt=&quot;Alt Text&quot;&quot;/&gt;&lt;br/&gt;Einen Arc de Triomphe haben sie auch: Sie nennen es “India Gate”&lt;br/&gt;&lt;img src=&quot;/img/indien/IMG_0939.jpg&quot; alt=&quot;Alt Text&quot;&quot;/&gt;&lt;br/&gt;Mein Kollege Christian hat gleich ganz mutig auf der Strasse “Indian Bread” geholt. Wie hier üblich extrem pikant. Normalerweise lautet die Regel: If you can’t peal it and you can’t cook it – forget it!&lt;br/&gt;&lt;img src=&quot;/img/indien/IMG_0945.jpg&quot; alt=&quot;Alt Text&quot;&quot;/&gt;&lt;br/&gt;Noch ein Tempel: Der ist mitten in der Stadt…&lt;br/&gt;&lt;img src=&quot;/img/indien/IMG_0955.jpg&quot; alt=&quot;Alt Text&quot;&quot;/&gt;&lt;br/&gt;In Old-Delhi geht es noch mal ein Stück enger, voller, schneller auf der Strasse zu.&lt;br/&gt;&lt;img src=&quot;/img/indien/IMG_0960.jpg&quot; alt=&quot;Alt Text&quot;&quot;/&gt;&lt;br/&gt;Und so sieht man dann aus, nach einem Tag voller neuer Eindrücke und Tempel.&lt;br/&gt;So, jetzt muss ich ins Bett fallen.&lt;br/&gt;Gute Nacht,&lt;br/&gt;– Till.&lt;/p&gt;
 	</description>

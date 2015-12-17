@@ -4,6 +4,7 @@ type=post
 status=draft
 ~~~~~~
 
+
 I've been playing around with HTML & JavaScript. And Geometry is just it  ;)
 
 <div id="c" onload="Draw()"> </div>

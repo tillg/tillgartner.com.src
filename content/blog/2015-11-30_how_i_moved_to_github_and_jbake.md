@@ -61,8 +61,6 @@ By default JBake produces the output directory into this tree. In my case I bake
 
 ## The DNS settings
 
-## My workflow
-
 # Next up
 
 There are a couple of things I plan to change. My work list moved [here](/todo).
