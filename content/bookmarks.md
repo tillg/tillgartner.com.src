@@ -26,3 +26,6 @@ status=published
 **Translate** [![leo](/img/bookmarks/leo.ico) Leo.org](http://www.leo.org/) - [![translate](/img/bookmarks/google_translate.png) Google Translate](https://translate.google.com/)
 [Speedtest.net](http://www.speedtest.net/)
 [HTML Presentations with reveal.js](http://lab.hakim.se/reveal-js/#/)
+
+#Weather
+[Weather Da Nang](http://www.wunderground.com/cgi-bin/findweather/getForecast?query=16.067801,108.220802)

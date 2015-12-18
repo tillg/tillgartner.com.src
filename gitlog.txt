@@ -1,0 +1,129 @@
+commit 2682370cca12e9694f0623a2f26971518f3617c2
+Author: Till Gartner <till.gartner@gmail.com>
+Date:   Wed Dec 16 09:43:18 2015 +0700
+
+    Blog article about Highchart
+
+commit 2cfca3ae5d029959030cd592793b2874629c99f8
+Author: Till Gartner <till.gartner@gmail.com>
+Date:   Wed Dec 16 09:43:08 2015 +0700
+
+    Blog article about Highchart
+
+commit 372e84fbfffb11401df7a2f76f9f06c2628ce3fb
+Author: Till Gartner <till.gartner@gmail.com>
+Date:   Mon Dec 14 19:31:23 2015 +0700
+
+    Fixed: Even pages need a date. The feed needs it
+
+commit 8d5bde59fef9fe3b7dcd741528b8337d1ea30813
+Author: Till Gartner <till.gartner@gmail.com>
+Date:   Mon Dec 14 19:05:03 2015 +0700
+
+    Took away dates in pages
+
+commit 59893b307055049d1f40c2e98bd29ab2935491e4
+Author: Till Gartner <till.gartner@gmail.com>
+Date:   Mon Dec 14 19:01:25 2015 +0700
+
+    Baking taime added to footer as well as links to ToDo and Log
+
+commit 797421b1ec9b183223f704b0114c10de7955a265
+Author: Till Gartner <till.gartner@gmail.com>
+Date:   Mon Dec 14 18:46:24 2015 +0700
+
+    Added time of creation (i.e. baking process) to the site footer.
+
+commit ff79c38e17c4c78fb3cb0f9006ecebd5b230810d
+Author: Till Gartner <till.gartner@gmail.com>
+Date:   Mon Dec 14 18:11:54 2015 +0700
+
+    Activate all jBake-Markdown-Extensions
+
+commit 75c59b6ad02ebb21ae1948da5660b2d95741382a
+Author: Till Gartner <till.gartner@gmail.com>
+Date:   Mon Dec 14 14:59:28 2015 +0700
+
+    Just for fun
+
+commit a43b9751d3c7bc9e4783843d412f7ec19818592a
+Author: Till <till.gartner@gmail.com>
+Date:   Sun Dec 13 22:40:22 2015 +0700
+
+    Added another to do
+
+commit b216769432701337aa79a0afef5515c2a3620e6d
+Author: Till <till.gartner@gmail.com>
+Date:   Sun Dec 13 22:34:13 2015 +0700
+
+    added todos
+
+commit dcbaee1477ac8427028aa00b93405dc4246b4244
+Author: Till <till.gartner@gmail.com>
+Date:   Sun Dec 13 22:28:27 2015 +0700
+
+    Edit to do list
+
+commit c9e8ec8b6719a98b36e87d1f207f967e83d99fc9
+Author: Till Gartner <till.gartner@gmail.com>
+Date:   Sun Dec 13 19:30:47 2015 +0700
+
+    Update ToDo & Log
+
+commit ae856bd3d5166036fb8cae9356dbb1a530bc09ab
+Author: Till Gartner <till.gartner@gmail.com>
+Date:   Sun Dec 13 19:21:47 2015 +0700
+
+    A little change to test the baking process.
+
+commit e1649d38f6773698b6131ba6ce8b29be94adcd2c
+Author: Till Gartner <till.gartner@gmail.com>
+Date:   Sun Dec 13 19:17:03 2015 +0700
+
+    Complete setup of auto-baking
+
+commit 9e4484dcf7a17fbed3577dfda956c3958a7bc0fc
+Author: Till Gartner <till.gartner@gmail.com>
+Date:   Mon Dec 7 11:46:36 2015 +0700
+
+    Logs of baking process go to stdout
+
+commit fae1f6f1889b0a0e4f14f63d2e53630945adc79d
+Author: Till Gartner <till.gartner@gmail.com>
+Date:   Mon Dec 7 11:42:52 2015 +0700
+
+    A test to kick Travis
+
+commit 13ef2237802f25b227b7abdc5715b6d3f7719e4b
+Author: Till Gartner <till.gartner@gmail.com>
+Date:   Mon Dec 7 11:41:02 2015 +0700
+
+    Added a .travis.yml
+
+commit 57a1deb99f2b39d4dd2c80690886e4a7596ac059
+Author: Till Gartner <till.gartner@gmail.com>
+Date:   Mon Dec 7 11:39:41 2015 +0700
+
+    Added a baker script and the output dir structure
+
+commit 583548833faa3216fe056fcc47c885ba2763a62f
+Author: Till Gartner <till.gartner@gmail.com>
+Date:   Sun Dec 6 16:34:31 2015 +0700
+
+    Made a proper doc out of Vanillekipferl
+    
+    The header was missing…
+
+commit f3130c29305f5eaa83fcbc222f3a04214d88c818
+Author: Till Gartner <till.gartner@gmail.com>
+Date:   Sun Dec 6 16:31:30 2015 +0700
+
+    Added the current state as initial.
+    
+    Includes all the content, the assets, the log…
+
+commit f82aca9a475359ac8aac31e2a29c1729635e3f04
+Author: Till Gartner <till.gartner@gmail.com>
+Date:   Sun Dec 6 16:26:32 2015 +0700
+
+    Initial commit
