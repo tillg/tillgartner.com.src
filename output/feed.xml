@@ -6,8 +6,8 @@
     <atom:link href="http://tillgartner.com/feed.xml" rel="self" type="application/rss+xml" />
     <description>JBake Bootstrap Template</description>
     <language>en-gb</language>
-    <pubDate>Sat, 19 Dec 2015 17:20:34 +0700</pubDate>
-    <lastBuildDate>Sat, 19 Dec 2015 17:20:34 +0700</lastBuildDate>
+    <pubDate>Sat, 19 Dec 2015 17:24:48 +0700</pubDate>
+    <lastBuildDate>Sat, 19 Dec 2015 17:24:48 +0700</lastBuildDate>
 
     <item>
       <title>Adding Search to a static site</title>
