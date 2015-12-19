@@ -3,6 +3,7 @@ date=2015-12-19
 type=post
 status=published
 category=recipe
+pic=/img/2015-12/rhabarber.jpg
 ~~~~~~
 
 Beim Aufräumen von alten Files, bin ich auf dieses rezept gestossen. Normalerweise hätte ich es einfach gelöscht - aber Rezepte von Juju hebt man auf!

@@ -3,6 +3,7 @@ date=2015-12-19
 type=post
 status=published
 category=recipe
+pic=/img/2015-12/fond.jpg
 ~~~~~~
 
 Und noch ein Juju-Rezept, diesmaö zu Fonds.
