@@ -19,3 +19,6 @@ My search page.
   })();
 </script>
 <gcse:searchresults-only></gcse:searchresults-only>
+
+
+This is the bottom of the page.

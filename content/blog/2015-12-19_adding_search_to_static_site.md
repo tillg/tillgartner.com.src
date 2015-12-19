@@ -1,4 +1,4 @@
-title=Addidng Search to a static site
+title=Adding Search to a static site
 date=2015-12-19
 type=post
 status=published

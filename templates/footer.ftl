@@ -5,7 +5,7 @@
     <div id="footer">
       <div class="container">
           <#assign aDateTime = .now>
-        <p class="muted credit">&copy; Till Gartner 2015 - Last generated ${aDateTime} UTC <img src="https://travis-ci.org/tillg/tillgartner.com.src.svg?branch=master"> - <a href="/cheatsheet.html">Markdown - <a href="/todo.html"> ToDo</a> - <a href="/log.html">Done</a></p>
+        <p class="muted credit">&copy; Till Gartner 2015 - Last generated ${aDateTime} UTC <img src="https://travis-ci.org/tillg/tillgartner.com.src.svg?branch=master"> - <a href="/markdown.html">Markdown</a> - <a href="/todo.html">ToDo</a> - <a href="/log.html">Done</a></p>
       </div>
     </div>
     
