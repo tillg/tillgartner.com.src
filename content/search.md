@@ -4,7 +4,7 @@ date=2015-12-17
 status=published
 ~~~~~~
 
-My search page.
+
 
 <script>
   (function() {
@@ -18,6 +18,6 @@ My search page.
     s.parentNode.insertBefore(gcse, s);
   })();
 </script>
-<div markdown = "0"><gcse:searchresults-only></gcse:searchresults-only></div>
+<div markdown = "0"><gcse:searchresults-only>Search results...</gcse:searchresults-only></div>
 
 

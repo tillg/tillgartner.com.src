@@ -20,7 +20,7 @@ Next we need a search box on our pages. I want a search box on the top right of 
 
 In my case the `menu.ftl` looks something like this:
 
-```HTML
+```javascript
 	<!-- Fixed navbar -->
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
 		
@@ -60,7 +60,8 @@ In my case the `menu.ftl` looks something like this:
 		
 The result is a neat little serach box on the top right corner:
 
-![Search box](/img/2015-12-19_search_engine/search_box_.jpg)
+![Search box](/img/2015-12-19_search_engine/search_box.jpg)
+
 
 
 

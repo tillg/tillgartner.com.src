@@ -1,5 +1,6 @@
 	<!-- Fixed navbar -->
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">		  
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+		  
       <div class="container-fluid">
         <div class="navbar-header">
           <a class="navbar-brand" href="http://tillgartner.com">tillgartner.com</a>
@@ -9,12 +10,17 @@
             <li><a href="/about.html">About</a></li>
           </ul>
 		  <div class="col-sm-3 col-md-3 pull-right">
-		   	<form class="navbar-form" role="search" action="/search.html">
-				<div class="input-group">
-					<input type="text" class="form-control" placeholder="Search" name="q">
-					<div class="input-group-btn"></div>
-				</div>
-			</form>
+		  	<form class="navbar-form" role="search" action="/search.html">
+		    <div class="input-group">
+		    	<input type="text" class="form-control" placeholder="Search" name="q">
+		        <div class="input-group-btn">
+		        	<button class="btn btn-default" type="submit">
+                    	<i class="glyphicon glyphicon-search"></i>
+					</button>
+		        </div>
+		    </div>
+		 </form>
+		 </div>
         </div><!--/.nav-collapse -->
       </div>
     </nav>
