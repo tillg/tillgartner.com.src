@@ -6,10 +6,8 @@ status=published
 Things I plan to do on the website:
 
 - Document what I did so far: The GoDaddy settings, the baking script, the Github/Travis setup for autobaking
-- Add site to google index (prerequisite for Google Search)
-- Add a search engine (probably Google Search)
-- Add Google tracking
 - Have category pages, i.e. Recipe, SoftwareWeNeed etc
+- Fix the code syntax highlighting feature (doesn't work currently)
 - Have my old content from the former [gartnerich.com](http://web.archive.org/web/20131107042444/http://gartnerich.com/) website moved over
 - Redo the design. I like a lot the one from [Alex Cinan](http://alexcican.com/) - will copy some ideas
 - Have a site map in the footer area
