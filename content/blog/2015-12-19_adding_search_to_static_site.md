@@ -62,7 +62,6 @@ In my case the search result page will hold **only** the search result. In case 
 The search result page will hold the code we copied when configuring the Custom Serach Engine. In my case the entire Markdown file looks like this:
 
 ``` javascript
-
 title=Search
 type=page
 date=2015-12-17
@@ -85,10 +84,9 @@ status=published
 ```
 
 It took me a while to figure out how to tell markdown that this is pure HTML and that it should take it as such without transforming or quoting it. The solution was the `<div markdown="0">` tag.
-	
 
 ##Resources
-
+Some reading that helped me to find wy way:
 * Create your own search engine at [http://www.google.com/cse](http://www.google.com/cse)
 * http://www.cambiaresearch.com/articles/84/how-to-integrate-a-google-custom-search-popup-in-a-bootstrap-navbar
 * https://developers.google.com/custom-search/docs/tutorial/implementingsearchbox

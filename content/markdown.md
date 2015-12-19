@@ -6,7 +6,7 @@ status=published
 
 This is my cheatsheet for markdown in jBake. jBake uses the [Pegdown](https://github.com/sirthias/pegdown/) to translate markdown to HTML. I started this Cheatsheet with a copy from [this one](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) and then modified it.
 
-##### Table of Contents  
+## Table of Contents  
 [Headers](#headers)  
 [Emphasis](#emphasis)  
 [Lists](#lists)  
