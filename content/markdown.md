@@ -58,6 +58,7 @@ Alt-H2
 
 <a name="emphasis"/>
 ## Emphasis
+</a>
 
 ```no-highlight
 Emphasis, aka italics, with *asterisks* or _underscores_.
@@ -80,6 +81,7 @@ Strikethrough uses two tildes. ~~Scratch this.~~
 
 <a name="lists"/>
 ## Lists
+</a>
 
 (In this example, leading and trailing spaces are shown with with dots: ⋅)
 
@@ -121,6 +123,7 @@ Strikethrough uses two tildes. ~~Scratch this.~~
 
 <a name="links"/>
 ## Links
+</a>
 
 There are two ways to create links.
 
@@ -172,6 +175,7 @@ Some text to show that the reference links can follow later.
 
 <a name="images"/>
 ## Images
+</a>
 
 ```no-highlight
 Here's our logo (hover to see the title text):
@@ -197,6 +201,7 @@ Reference-style:
 
 <a name="code"/>
 ## Code and Syntax Highlighting
+</a>
 
 Code blocks are part of the Markdown spec, but syntax highlighting isn't. However, many renderers -- like Github's and *Markdown Here* -- support syntax highlighting. Which languages are supported and how those language names should be written will vary from renderer to renderer. *Markdown Here* supports highlighting for dozens of languages (and not-really-languages, like diffs and HTTP headers); to see the complete list, and how to write the language names, see the [highlight.js demo page](http://softwaremaniacs.org/media/soft/highlight/test.html).
 
@@ -244,6 +249,7 @@ But let's throw in a <b>tag</b>.
 
 <a name="tables"/>
 ## Tables
+</a>
 
 A simple table example:
 
@@ -281,6 +287,7 @@ And a more complex example with grouping:
 
 <a name="blockquotes"/>
 ## Blockquotes
+</a>
 
 ```no-highlight
 > Blockquotes are very handy in email to emulate reply text.
@@ -300,6 +307,7 @@ Quote break.
 
 <a name="html"/>
 ## Inline HTML
+</a>
 
 You can also use raw HTML in your Markdown, and it'll mostly work pretty well. 
 
@@ -356,6 +364,7 @@ Underscores
 
 <a name="lines"/>
 ## Line Breaks
+</a>
 
 My basic recommendation for learning how line breaks work is to experiment and discover -- hit &lt;Enter&gt; once (i.e., insert one newline), then hit it twice (i.e., insert two newlines), see what happens. You'll soon learn to get what you want. "Markdown Toggle" is your friend. 
 
@@ -381,6 +390,7 @@ This line is only separated by a single newline, so it's a separate line in the 
 
 <a name="videos"/>
 ## Youtube videos
+</a>
 
 They can't be added directly but you can add an image with a link to the video like this:
 
