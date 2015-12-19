@@ -6,14 +6,23 @@
     <atom:link href="http://tillgartner.com/feed.xml" rel="self" type="application/rss+xml" />
     <description>JBake Bootstrap Template</description>
     <language>en-gb</language>
-    <pubDate>Thu, 17 Dec 2015 08:40:54 +0700</pubDate>
-    <lastBuildDate>Thu, 17 Dec 2015 08:40:54 +0700</lastBuildDate>
+    <pubDate>Sat, 19 Dec 2015 08:26:19 +0700</pubDate>
+    <lastBuildDate>Sat, 19 Dec 2015 08:26:19 +0700</lastBuildDate>
 
     <item>
       <title>Playing with Highcharts</title>
       <link>http://tillgartner.com/blog/2015-12-16_playing_with_highcharts.html</link>
       <pubDate>Wed, 16 Dec 2015 00:00:00 +0700</pubDate>
       <guid isPermaLink="false">blog/2015-12-16_playing_with_highcharts.html</guid>
+      	<description>
+	&lt;p&gt;Today I discovered Highcharts: A tool to easily create charts online. It actually lets you create the chart on their website (you litteraly need less than 5 minutes!) and publish it from there.&lt;/p&gt;&lt;p&gt;This is the mileage (or would you say &lt;em&gt;kilometreage&lt;/em&gt;?) of my Vespa since I bought it:&lt;/p&gt;&lt;p&gt;&lt;iframe width=&quot;853&quot; height=&quot;480&quot; src=&quot;http://cloud.highcharts.com/show/opequb&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;&lt;p&gt;The only downside seems to be the fact that the service costs money if you want to use it in a professional context. They are on &lt;a href=&quot;https://github.com/highcharts/highcharts&quot;&gt;github&lt;/a&gt; but the description of the licence actually points you to their &lt;a href=&quot;http://shop.highsoft.com/&quot;&gt;online shop&lt;/a&gt;.&lt;/p&gt;
+	</description>
+    </item>
+    <item>
+      <title>Playing with Highcharts</title>
+      <link>http://tillgartner.com/blog/2015-12-19_adding_search_to_static_site.html</link>
+      <pubDate>Wed, 16 Dec 2015 00:00:00 +0700</pubDate>
+      <guid isPermaLink="false">blog/2015-12-19_adding_search_to_static_site.html</guid>
       	<description>
 	&lt;p&gt;Today I discovered Highcharts: A tool to easily create charts online. It actually lets you create the chart on their website (you litteraly need less than 5 minutes!) and publish it from there.&lt;/p&gt;&lt;p&gt;This is the mileage (or would you say &lt;em&gt;kilometreage&lt;/em&gt;?) of my Vespa since I bought it:&lt;/p&gt;&lt;p&gt;&lt;iframe width=&quot;853&quot; height=&quot;480&quot; src=&quot;http://cloud.highcharts.com/show/opequb&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;&lt;p&gt;The only downside seems to be the fact that the service costs money if you want to use it in a professional context. They are on &lt;a href=&quot;https://github.com/highcharts/highcharts&quot;&gt;github&lt;/a&gt; but the description of the licence actually points you to their &lt;a href=&quot;http://shop.highsoft.com/&quot;&gt;online shop&lt;/a&gt;.&lt;/p&gt;
 	</description>
