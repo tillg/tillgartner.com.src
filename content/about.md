@@ -2,7 +2,7 @@ title=About
 type=page
 date=2015-12-01
 status=published
-pic=/img/till_helm_.jpg
+pic=/img/till_helm.jpg
 ~~~~~~
 
 This is the website of Till Gartner. I'm a simple, guy with simple hobbies:
@@ -12,4 +12,4 @@ This is the website of Till Gartner. I'm a simple, guy with simple hobbies:
 - Some sport: Skiing, running, swimming, more recently some wave surfing.
 - Some programming (yes, even though by now I rather manage IT than coding): Play around with new stuff, Java. Currently playing around with Git and GitHub as a web hosting service.
 
-![Till](/img/till_tie.jpg_)
+![Till](/img/till_tie.jpg)

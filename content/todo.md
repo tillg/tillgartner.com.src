@@ -2,6 +2,7 @@ title=To do
 type=page
 date=2015-12-14
 status=published
+pic=/img/todo.jpg
 ~~~~~~
 Things I plan to do on the website:
 
