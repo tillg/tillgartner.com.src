@@ -2,6 +2,7 @@ title=Search
 type=page
 date=2015-12-17
 status=published
+pic=/img/search.jpg
 ~~~~~~
 
 <script>

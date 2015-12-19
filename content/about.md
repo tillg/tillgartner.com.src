@@ -2,7 +2,7 @@ title=About
 type=page
 date=2015-12-01
 status=published
-pic=till.jpg
+pic=/img/till_helm_.jpg
 ~~~~~~
 
 This is the website of Till Gartner. I'm a simple, guy with simple hobbies:
