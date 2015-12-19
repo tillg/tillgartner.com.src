@@ -18,7 +18,8 @@ My search page.
     s.parentNode.insertBefore(gcse, s);
   })();
 </script>
+<a>
 <gcse:searchresults-only></gcse:searchresults-only>
-
+</a>
 
 This is the bottom of the page.
