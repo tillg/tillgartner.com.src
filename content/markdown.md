@@ -244,41 +244,39 @@ But let's throw in a <b>tag</b>.
 <a name="tables"/>
 ## Tables
 
-Tables aren't part of the core Markdown spec, but they are part of GFM and *Markdown Here* supports them. They are an easy way of adding tables to your email -- a task that would otherwise require copy-pasting from another application.
+A simple table example:
+
 
 ```no-highlight
-Colons can be used to align columns.
-
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
-
-There must be at least 3 dashes separating each header cell.
-The outer pipes (|) are optional, and you don't need to make the 
-raw Markdown line up prettily. You can also use inline Markdown.
-
-Markdown | Less | Pretty
---- | --- | ---
-*Still* | `renders` | **nicely**
-1 | 2 | 3
+| First Header | Second Header |         Third Header |  
+| :----------- | :-----------: | -------------------: |  
+| First row    |      Data     | Very long data entry |  
+| Second row   |    **Cell**   |               *Cell* |  
 ```
 
-Colons can be used to align columns.
+| First Header | Second Header |         Third Header |  
+| :----------- | :-----------: | -------------------: |  
+| First row    |      Data     | Very long data entry |  
+| Second row   |    **Cell**   |               *Cell* |  
 
-| Tables        | Are           | Cool |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+And a more complex example with grouping:
 
-There must be at least 3 dashes separating each header cell. The outer pipes (|) are optional, and you don't need to make the raw Markdown line up prettily. You can also use inline Markdown.
+```no-highlight
+|              | Grouping                    ||  
+| First Header | Second Header | Third Header |  
+| ------------ | :-----------: | -----------: |  
+| Content      | *Long Cell*                 ||  
+| Content      | **Cell**      | Cell         |  
+| New section  | More          | Data         |  
+```     
 
-Markdown | Less | Pretty
---- | --- | ---
-*Still* | `renders` | **nicely**
-1 | 2 | 3
+|              | Grouping                    ||  
+| First Header | Second Header | Third Header |  
+| ------------ | :-----------: | -----------: |  
+| Content      | *Long Cell*                 ||  
+| Content      | **Cell**      | Cell         |  
+| New section  | More          | Data         |  
+
 
 <a name="blockquotes"/>
 ## Blockquotes

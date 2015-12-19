@@ -6,11 +6,11 @@
     <atom:link href="http://tillgartner.com/feed.xml" rel="self" type="application/rss+xml" />
     <description>JBake Bootstrap Template</description>
     <language>en-gb</language>
-    <pubDate>Sat, 19 Dec 2015 08:34:59 +0700</pubDate>
-    <lastBuildDate>Sat, 19 Dec 2015 08:34:59 +0700</lastBuildDate>
+    <pubDate>Sat, 19 Dec 2015 09:35:36 +0700</pubDate>
+    <lastBuildDate>Sat, 19 Dec 2015 09:35:36 +0700</lastBuildDate>
 
     <item>
-      <title>Addidng Search to a static site</title>
+      <title>Adding Search to a static site</title>
       <link>http://tillgartner.com/blog/2015-12-19_adding_search_to_static_site.html</link>
       <pubDate>Sat, 19 Dec 2015 00:00:00 +0700</pubDate>
       <guid isPermaLink="false">blog/2015-12-19_adding_search_to_static_site.html</guid>

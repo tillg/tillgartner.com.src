@@ -18,8 +18,6 @@ My search page.
     s.parentNode.insertBefore(gcse, s);
   })();
 </script>
-<a>
-<gcse:searchresults-only></gcse:searchresults-only>
-</a>
+<div markdown = "0"><gcse:searchresults-only></gcse:searchresults-only> hello </div>
 
 This is the bottom of the page.
