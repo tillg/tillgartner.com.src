@@ -26,6 +26,10 @@
       </div>
     </nav>
     <div class="container">
+        
+    <#if content.pic??>
+	</br> </br>	</br> </br>	</br>	
+    </#if>
 		
 		
 	

@@ -13,7 +13,7 @@ status=published
 **mgm Homepages** [mgm tp Homepage](http://www.mgm-tp.com/) - [mgm cp Homepage](https://www.mgm-cp.com/)
 
 ![hybris](/img/bookmarks/hybris.png) **hybris** [Wiki](https://wiki.hybris.com/dashboard.action)
-
+ 
 #Private
 **Banking** [![hvb](/img/bookmarks/hvb.ico) HVB Kundenlogin](https://my.hypovereinsbank.de/login?view=/privatkunden/login.jsp) - [Vietin iPay](https://ebanking.vietinbank.vn/ipay/login.do?locale=en)
 

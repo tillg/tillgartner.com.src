@@ -27,7 +27,12 @@
     <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">-->
     <link rel="shortcut icon" href="/img/favicon.ico">
   </head>
-  <body onload="prettyPrint()">
+  <body onload="prettyPrint()"
+  <#if content.pic??>
+  style="background-image:url('${content.pic}');background-repeat:no-repeat;background-size:100%">
+  
+  </#if>
+  >
  	 
     <div id="wrap">
    

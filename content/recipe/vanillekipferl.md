@@ -3,6 +3,7 @@ date=2015-12-06
 type=post
 status=published
 category=recipe
+pic=/img/recipes/vanillekipferl.jpg
 ~~~~~~
 
 Vanillekipferl are a German / Bavarian traditional cookie that we all love ;)
