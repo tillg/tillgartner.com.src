@@ -4,8 +4,6 @@ date=2015-12-17
 status=published
 ~~~~~~
 
-
-
 <script>
   (function() {
     var cx = '011503887378875287451:9kwp-5hxmnc';

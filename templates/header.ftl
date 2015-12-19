@@ -28,5 +28,6 @@
     <link rel="shortcut icon" href="/img/favicon.ico">
   </head>
   <body onload="prettyPrint()">
+ 	 <#include "google_tracking.ftl">
     <div id="wrap">
    
