@@ -7,6 +7,7 @@
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
+			  <li><a href="/recipe/recipe.html">Recipes</a></li>
             <li><a href="/about.html">About</a></li>
           </ul>
 		  <div class="col-sm-3 col-md-3 pull-right">

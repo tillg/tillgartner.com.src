@@ -2,6 +2,7 @@ title=Blogging from Textmate
 date=2012-10-31
 type=post
 status=published
+category=tech
 ~~~~~~
 
 All you senior Textmate users forgive me for my childish enthusiasm, BUT: It’s just great!

@@ -8,7 +8,7 @@ category=recipe
 Vanillekipferl are a German / Bavarian traditional cookie that we all love ;)
 
 This receipe is from Katja, and her Kipferl are the world best ones.
-![Kipferl Rezept](/img/receipes/vanillekipferl-rezept.jpg)
+![Kipferl Rezept](/img/recipes/vanillekipferl-rezept.jpg)
 
 Translated that would be:
 
@@ -23,4 +23,4 @@ You mix it all (except the vanilla iced sugar) with your hands to get a nice dou
 When the cookies are still warm, roll them in vanilla iced sugar.
 
 This is what you want them to look like
-![Vanillekipferl](/img/receipes/vanillekipferl.jpg)
+![Vanillekipferl](/img/recipes/vanillekipferl.jpg)

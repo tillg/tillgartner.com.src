@@ -2,6 +2,7 @@ title=How I moved to GitHub & JBake
 date=2015-11-30
 type=post
 status=published
+category=tech
 ~~~~~~
 
 ***** This page is under construction *****

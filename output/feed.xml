@@ -6,8 +6,8 @@
     <atom:link href="http://tillgartner.com/feed.xml" rel="self" type="application/rss+xml" />
     <description>JBake Bootstrap Template</description>
     <language>en-gb</language>
-    <pubDate>Sat, 19 Dec 2015 15:09:11 +0700</pubDate>
-    <lastBuildDate>Sat, 19 Dec 2015 15:09:11 +0700</lastBuildDate>
+    <pubDate>Sat, 19 Dec 2015 16:00:27 +0700</pubDate>
+    <lastBuildDate>Sat, 19 Dec 2015 16:00:27 +0700</lastBuildDate>
 
     <item>
       <title>Adding Search to a static site</title>
@@ -50,7 +50,7 @@ status=published
 
 &amp;lt;script&amp;gt;
   (function() {
-    var cx = &amp;#39;011503887378875287451:9kwp-5hxmnc&amp;#39;;
+    var cx = &amp;#39;XXX_Your_code:goes_here_XXX&amp;#39;;
     var gcse = document.createElement(&amp;#39;script&amp;#39;);
     gcse.type = &amp;#39;text/javascript&amp;#39;;
     gcse.async = true;
@@ -61,7 +61,12 @@ status=published
   })();
 &amp;lt;/script&amp;gt;
 &amp;lt;div markdown = &amp;quot;0&amp;quot;&amp;gt;&amp;lt;gcse:searchresults-only&amp;gt;Search results...&amp;lt;/gcse:searchresults-only&amp;gt;&amp;lt;/div&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Create your own search engine at &lt;a href=&quot;http://www.google.com/cse&quot;&gt;http://www.google.com/cse&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://www.cambiaresearch.com/articles/84/how-to-integrate-a-google-custom-search-popup-in-a-bootstrap-navbar&quot;&gt;http://www.cambiaresearch.com/articles/84/how-to-integrate-a-google-custom-search-popup-in-a-bootstrap-navbar&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://developers.google.com/custom-search/docs/tutorial/implementingsearchbox&quot;&gt;https://developers.google.com/custom-search/docs/tutorial/implementingsearchbox&lt;/a&gt;&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;It took me a while to figure out how to tell markdown that this is pure HTML and that it should take it as such without transforming or quoting it. The solution was the &lt;code&gt;&amp;lt;div markdown=&amp;quot;0&amp;quot;&amp;gt;&lt;/code&gt; tag.&lt;/p&gt;&lt;h2&gt;Resources&lt;/h2&gt;&lt;p&gt;Some reading that helped me to find wy way:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Create your own search engine at &lt;a href=&quot;http://www.google.com/cse&quot;&gt;http://www.google.com/cse&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.cambiaresearch.com/articles/84/how-to-integrate-a-google-custom-search-popup-in-a-bootstrap-navbar&quot;&gt;http://www.cambiaresearch.com/articles/84/how-to-integrate-a-google-custom-search-popup-in-a-bootstrap-navbar&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://developers.google.com/custom-search/docs/tutorial/implementingsearchbox&quot;&gt;https://developers.google.com/custom-search/docs/tutorial/implementingsearchbox&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 	</description>
     </item>
     <item>
@@ -75,11 +80,11 @@ status=published
     </item>
     <item>
       <title>Vanillekipferl</title>
-      <link>http://tillgartner.com/recipes/vanillekipferl.html</link>
+      <link>http://tillgartner.com/recipe/vanillekipferl.html</link>
       <pubDate>Sun, 6 Dec 2015 00:00:00 +0700</pubDate>
-      <guid isPermaLink="false">recipes/vanillekipferl.html</guid>
+      <guid isPermaLink="false">recipe/vanillekipferl.html</guid>
       	<description>
-	&lt;p&gt;Vanillekipferl are a German / Bavarian traditional cookie that we all love ;)&lt;/p&gt;&lt;p&gt;This receipe is from Katja, and her Kipferl are the world best ones.&lt;br/&gt;&lt;img src=&quot;/img/receipes/vanillekipferl-rezept.jpg&quot; alt=&quot;Kipferl Rezept&quot;&quot;/&gt;&lt;/p&gt;&lt;p&gt;Translated that would be:&lt;/p&gt;
+	&lt;p&gt;Vanillekipferl are a German / Bavarian traditional cookie that we all love ;)&lt;/p&gt;&lt;p&gt;This receipe is from Katja, and her Kipferl are the world best ones.&lt;br/&gt;&lt;img src=&quot;/img/recipes/vanillekipferl-rezept.jpg&quot; alt=&quot;Kipferl Rezept&quot;&quot;/&gt;&lt;/p&gt;&lt;p&gt;Translated that would be:&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;60g icing sugar&lt;/li&gt;
   &lt;li&gt;90g grounded almonds&lt;/li&gt;
@@ -87,7 +92,7 @@ status=published
   &lt;li&gt;100g corn starch&lt;/li&gt;
   &lt;li&gt;100g flour&lt;/li&gt;
   &lt;li&gt;Vanilla iced sugar for covering&lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt;You mix it all (except the vanilla iced sugar) with your hands to get a nice dough. Put it in the fridge for 1/2 hour. Then make little dough balls and shape them to become half moon cookies. It all goes in the oven at 200 degrees until they are golden brown. Depending on the size of the cookies and the oven it should take 8-10 minutes.&lt;br/&gt;When the cookies are still warm, roll them in vanilla iced sugar.&lt;/p&gt;&lt;p&gt;This is what you want them to look like&lt;br/&gt;&lt;img src=&quot;/img/receipes/vanillekipferl.jpg&quot; alt=&quot;Vanillekipferl&quot;&quot;/&gt;&lt;/p&gt;
+&lt;/ul&gt;&lt;p&gt;You mix it all (except the vanilla iced sugar) with your hands to get a nice dough. Put it in the fridge for 1/2 hour. Then make little dough balls and shape them to become half moon cookies. It all goes in the oven at 200 degrees until they are golden brown. Depending on the size of the cookies and the oven it should take 8-10 minutes.&lt;br/&gt;When the cookies are still warm, roll them in vanilla iced sugar.&lt;/p&gt;&lt;p&gt;This is what you want them to look like&lt;br/&gt;&lt;img src=&quot;/img/recipes/vanillekipferl.jpg&quot; alt=&quot;Vanillekipferl&quot;&quot;/&gt;&lt;/p&gt;
 	</description>
     </item>
     <item>

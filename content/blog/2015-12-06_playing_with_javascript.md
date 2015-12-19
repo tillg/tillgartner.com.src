@@ -2,6 +2,7 @@ title=Playing with JavaScript
 date=2015-12-06
 type=post
 status=draft
+category=tech
 ~~~~~~
 
 
