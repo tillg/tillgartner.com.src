@@ -3,7 +3,6 @@
 
       <div class="row-fluid marketing">
         <div class="span9">
-          <h2>Recipes</h2>
           <ul>
           	<#list posts as post>
           		<#if (post.status == "published") && (post.category??) && (post.category == content.category)>
