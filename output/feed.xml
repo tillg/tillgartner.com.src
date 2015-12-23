@@ -6,8 +6,8 @@
     <atom:link href="http://tillgartner.com/feed.xml" rel="self" type="application/rss+xml" />
     <description>JBake Bootstrap Template</description>
     <language>en-gb</language>
-    <pubDate>Sat, 19 Dec 2015 19:26:30 +0700</pubDate>
-    <lastBuildDate>Sat, 19 Dec 2015 19:26:30 +0700</lastBuildDate>
+    <pubDate>Sat, 19 Dec 2015 23:15:23 +0700</pubDate>
+    <lastBuildDate>Sat, 19 Dec 2015 23:15:23 +0700</lastBuildDate>
 
     <item>
       <title>Adding Search to a static site</title>
@@ -91,6 +91,32 @@ status=published
       <guid isPermaLink="false">recipe/fond.html</guid>
       	<description>
 	&lt;p&gt;Und noch ein Juju-Rezept, diesmaö zu Fonds.&lt;/p&gt;&lt;h2&gt;Fisch-Fond&lt;/h2&gt;&lt;p&gt;Wichtig: Kiemen und Augen rausnehmen.&lt;br/&gt;Ca 1 Kilo Fischgräten grob hacken. 2 Zwiebeln. 1 Stange Lauch. Schale einer Zitrone , auch ganze Zitrone möglich, Vorsicht das weiße wird bitter. 5cl Olivenöl. Wasser.&lt;br/&gt;Gute ist auch zusätzlich 1 Lorbeerblatt. Dies gibt aber intensiven Geschmack und kann später bei bedarf hinzugefügt werden. &lt;/p&gt;&lt;h2&gt;Hühner-Fond&lt;/h2&gt;&lt;p&gt;1-2 kg Hühnerskelett (Knochenreste nach Essen) (zitronenhuhn: Olivenöl &amp;amp; Zitrone, pfeffer, salz auf huhn Zitrone in Hintern ca. 180 später 200 grad) 3 Karotten. 2 Zwiebeln. 1 Stange Lauch.1/2 Sellerie. 2 Knoblauch. 1-2 Nelken. Ca 10 Pfefferkörner im Mörser gerieben. 1-2 Scheiben Ingwer ca 1/2 cm. Wasser. Ca 1 Stunde köcheln lassen. Durch ein feines Sieb aussieben. Abfüllen in z.b. Eiswürfeltaschen.&lt;/p&gt;
+	</description>
+    </item>
+    <item>
+      <title>Moelleux au chocolat</title>
+      <link>http://tillgartner.com/recipe/moelleux.html</link>
+      <pubDate>Sat, 19 Dec 2015 00:00:00 +0700</pubDate>
+      <guid isPermaLink="false">recipe/moelleux.html</guid>
+      	<description>
+	&lt;p&gt;La fameuse recette du Moelleux de Juju.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;200g Chocolat noir (par ex. 70%)&lt;/li&gt;
+  &lt;li&gt;200g beure&lt;/li&gt;
+  &lt;li&gt;5 œufs à température ambiante&lt;/li&gt;
+  &lt;li&gt;250 sucre glace&lt;/li&gt;
+  &lt;li&gt;1 cuillère soupe de farine&lt;/li&gt;
+  &lt;li&gt;Une pincée de fleur de sel&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+  &lt;li&gt;beurrer le moule et le fariner&lt;/li&gt;
+  &lt;li&gt;préchauffer le four à 180 degrés&lt;/li&gt;
+  &lt;li&gt;faire fondre le chocolat et le beure au bain-marie&lt;/li&gt;
+  &lt;li&gt;hors du feu, ajouter les œufs un à un en battant le mélange au fouet&lt;/li&gt;
+  &lt;li&gt;ajouter le sucre glace et la farine&lt;/li&gt;
+  &lt;li&gt;ajouter la fleur de sel&lt;/li&gt;
+  &lt;li&gt;mettre dans le moule et enfourner pendant 20 min.&lt;/li&gt;
+&lt;/ol&gt;&lt;h2&gt;Les vins&lt;/h2&gt;&lt;p&gt;Vins moelleux rouges, par exemple Banyuls, Passito.&lt;br/&gt;Ou bien Champagne demi sec ou Porto ou PX&lt;/p&gt;&lt;p&gt;De Juju, Mars 2006&lt;/p&gt;&lt;h2&gt;Remarques&lt;/h2&gt;&lt;p&gt;Aug 2009: Das erste mal im neuen Ofen in der Spicherenstr. gemacht: Ober/Unterhitze oder Umluft??&lt;br/&gt;Nov/Dec 06: Les 3 dernières fois le bas du gâteau (qui en servant est le haut du gâteau) avait des trous: Des bulles d’air enfermées. La prochaine fois: Après avoir versé la pâte dans le moule un peu secouer le tout pour que l’air sorte.&lt;br/&gt;März 2006: In Prag super gelungen: mit KitchenAid &amp;amp; gutem Ofen!&lt;br/&gt;4. März 2006 In Grenoble unter Jujus Anleitung gebacken. Leider misslungen, da sein Grenobler Ofen zu heiß war (hatten den Kuchen 19 Minuten im Ofen).&lt;/p&gt;
 	</description>
     </item>
     <item>
