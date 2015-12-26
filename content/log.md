@@ -2,6 +2,7 @@ title=Log
 date=2015-12-14
 type=page
 status=published
+pic=/img/2015-12/done.jpg
 ~~~~~~
 A log of what I did on my website.
 

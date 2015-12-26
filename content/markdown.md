@@ -2,6 +2,7 @@ title=Markdown Cheatsheet
 type=page
 date=2015-12-17
 status=published
+pic=/img/2015-12/markdown.png
 ~~~~~~
 
 This is my cheatsheet for markdown in jBake. jBake uses the [Pegdown](https://github.com/sirthias/pegdown/) to translate markdown to HTML. I started this Cheatsheet with a copy from [this one](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) and then modified it.
