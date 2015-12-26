@@ -6,7 +6,10 @@ pic=/img/2015-12/done.jpg
 ~~~~~~
 A log of what I did on my website.
 
+- 26.12.2015: Have only the first 3 blog entries listed on the index.html and then refer to the archive.
+- 26.12.2015: BUG: Date and time stamp of last baking is wrong.
 - 26.12.2015: Have a local deploy into my Apache so I can test all locally
+- 23.12.2015: Have category pages, i.e. Recipe, SoftwareWeNeed etc
 - 19.12.2015: Add site to google index (prerequisite for Google Search) via Webmaster Tools
 - 19.12.2015: Added Google Search Engine see [here](http://tillgartner.com/blog/2015-12-19_adding_search_to_static_site.html)
 - 192.12.2015: Add Google tracking / Google Analytics

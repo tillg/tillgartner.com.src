@@ -5,8 +5,10 @@
 	<div class="page-header">
 		<h1>Blog</h1>
 	</div>
+    <#assign i = 0> 
 	<#list posts as post>
-  		<#if (post.status == "published")>
+  		<#if (post.status == "published" && i < 3)>
+            <#assign i = i + 1>
   			<a href="${post.uri}"><h1><#escape x as x?xml>${post.title}</#escape></h1></a>
   			<p>${post.date?string("dd MMMM yyyy")}</p>
 			<#if post.category??>

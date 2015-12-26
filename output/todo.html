@@ -77,14 +77,13 @@
 
 	<p><p>Things I plan to do on the website:</p>
 <ul>
-  <li>BUG: Date and time stamp of last baking is wrong.</li>
+  <li>Performance tune the index page: Have only 3 blog entries fully displayed, the next 10 just as header and then refere to the archive page</li>
   <li>Reengineer the structure of the templates</li>
   <li>Reduce the images in size: Have a post-baking-process that shrinks the picture files</li>
   <li>Document what I did so far: The GoDaddy settings, the baking script, the Github/Travis setup for autobaking</li>
-  <li>Have category pages, i.e. Recipe, SoftwareWeNeed etc</li>
   <li>Fix the code syntax highlighting feature (doesn't work currently)</li>
   <li>Have my old content from the former <a href="http://web.archive.org/web/20131107042444/http://gartnerich.com/">gartnerich.com</a> website moved over</li>
-  <li>Redo the design. I like a lot the one from <a href="http://alexcican.com/">Alex Cinan</a> - will copy some ideas</li>
+  <li>Redo the design</li>
   <li>Have a site map in the footer area</li>
   <li>Make it smart-phone-friendly</li>
   <li>Make pages stored locally for long time (i.e. the bookmarks page)</li>
@@ -111,7 +110,7 @@
     <div id="footer">
       <div class="container">
                     
-        <p class="muted credit">&copy; Till Gartner 2015 - Last generated <div id="bakeDate"></div> - <a href="/markdown.html">Markdown</a> - <a href="/todo.html">ToDo</a> - <a href="/log.html">Done</a></p>
+        <p class="muted credit">&copy; Till Gartner 2015 - Last generated Dec 26, 2015 3:58:38 PM UTC - <a href="/markdown.html">Markdown</a> - <a href="/todo.html">ToDo</a> - <a href="/log.html">Done</a></p>
       </div>
     </div>
     
@@ -121,10 +120,6 @@
     <script src="js/jquery-1.11.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/prettify.js"></script>
-    <script>
-            theDate = new Date("Dec 26, 2015 2:38:04 PM");
-            document.getElementById("bakeDate").innerHTML = theDate.toLocaleString();
-    </script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

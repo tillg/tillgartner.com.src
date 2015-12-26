@@ -6,14 +6,13 @@ pic=/img/todo.jpg
 ~~~~~~
 Things I plan to do on the website:
 
-- BUG: Date and time stamp of last baking is wrong.
+- Performance tune the index page: Have only 3 blog entries fully displayed, the next 10 just as header and then refere to the archive page
 - Reengineer the structure of the templates
 - Reduce the images in size: Have a post-baking-process that shrinks the picture files
 - Document what I did so far: The GoDaddy settings, the baking script, the Github/Travis setup for autobaking
-- Have category pages, i.e. Recipe, SoftwareWeNeed etc
 - Fix the code syntax highlighting feature (doesn't work currently)
 - Have my old content from the former [gartnerich.com](http://web.archive.org/web/20131107042444/http://gartnerich.com/) website moved over
-- Redo the design. I like a lot the one from [Alex Cinan](http://alexcican.com/) - will copy some ideas
+- Redo the design
 - Have a site map in the footer area
 - Make it smart-phone-friendly
 - Make pages stored locally for long time (i.e. the bookmarks page)

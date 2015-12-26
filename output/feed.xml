@@ -6,11 +6,11 @@
     <atom:link href="http://tillgartner.com/feed.xml" rel="self" type="application/rss+xml" />
     <description>JBake Bootstrap Template</description>
     <language>en-gb</language>
-    <pubDate>Sat, 26 Dec 2015 14:38:04 +0100</pubDate>
-    <lastBuildDate>Sat, 26 Dec 2015 14:38:04 +0100</lastBuildDate>
+    <pubDate>Sat, 26 Dec 2015 15:58:38 +0100</pubDate>
+    <lastBuildDate>Sat, 26 Dec 2015 15:58:38 +0100</lastBuildDate>
 
     <item>
-      <title>Beautiful sites</title>
+      <title>Beautiful websites</title>
       <link>http://tillgartner.com/blog/2015-12-26_beautiful_sites.html</link>
       <pubDate>Sat, 26 Dec 2015 00:00:00 +0100</pubDate>
       <guid isPermaLink="false">blog/2015-12-26_beautiful_sites.html</guid>
@@ -22,6 +22,11 @@
     &lt;li&gt;Large fonts&lt;/li&gt;
     &lt;li&gt;Good for text based entries as well as pictures&lt;/li&gt;
     &lt;li&gt;Simple navigation&lt;/li&gt;
+  &lt;/ul&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://alexcican.com/&quot;&gt;Alex Cinan&lt;/a&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Large fonts&lt;/li&gt;
+    &lt;li&gt;BIG pictures with the cool paralax effect&lt;/li&gt;
   &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 	</description>

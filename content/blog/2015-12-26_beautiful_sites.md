@@ -12,4 +12,6 @@ Since I always Have in mind that my site needs a proper design, I need a place t
     * Large fonts
     * Good for text based entries as well as pictures
     * Simple navigation
-    
+* [Alex Cinan](http://alexcican.com/)
+    * Large fonts
+    * BIG pictures with the cool paralax effect
