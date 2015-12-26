@@ -22,5 +22,6 @@
       </div>
 
       <hr>
+	</div>
 
 <#include "footer.ftl">
