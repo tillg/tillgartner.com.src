@@ -1,6 +1,6 @@
 title=Welche ist die schönste Bibliothek Münchens?!
 date=2013-06-14
-type=pagenew
+type=blog
 status=published
 pic=/img/bib.jpg
 ~~~~~~
