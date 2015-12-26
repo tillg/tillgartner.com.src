@@ -5,6 +5,7 @@ status=published
 ~~~~~~
 A log of what I did on my website.
 
+- 26.12.2015: Have a local deploy into my Apache so I can test all locally
 - 19.12.2015: Add site to google index (prerequisite for Google Search) via Webmaster Tools
 - 19.12.2015: Added Google Search Engine see [here](http://tillgartner.com/blog/2015-12-19_adding_search_to_static_site.html)
 - 192.12.2015: Add Google tracking / Google Analytics

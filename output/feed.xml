@@ -6,9 +6,26 @@
     <atom:link href="http://tillgartner.com/feed.xml" rel="self" type="application/rss+xml" />
     <description>JBake Bootstrap Template</description>
     <language>en-gb</language>
-    <pubDate>Sat, 26 Dec 2015 14:27:32 +0100</pubDate>
-    <lastBuildDate>Sat, 26 Dec 2015 14:27:32 +0100</lastBuildDate>
+    <pubDate>Sat, 26 Dec 2015 14:38:04 +0100</pubDate>
+    <lastBuildDate>Sat, 26 Dec 2015 14:38:04 +0100</lastBuildDate>
 
+    <item>
+      <title>Beautiful sites</title>
+      <link>http://tillgartner.com/blog/2015-12-26_beautiful_sites.html</link>
+      <pubDate>Sat, 26 Dec 2015 00:00:00 +0100</pubDate>
+      <guid isPermaLink="false">blog/2015-12-26_beautiful_sites.html</guid>
+      	<description>
+	&lt;p&gt;Since I always Have in mind that my site needs a proper design, I need a place to keep track of beautiful sites or at least sites where I like the design. So this is the home of those URLs &lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://jason.pureconcepts.net/&quot;&gt;Jason McCreary&apos;s blog&lt;/a&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Large fonts&lt;/li&gt;
+    &lt;li&gt;Good for text based entries as well as pictures&lt;/li&gt;
+    &lt;li&gt;Simple navigation&lt;/li&gt;
+  &lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+	</description>
+    </item>
     <item>
       <title>Kaiserschmarrn</title>
       <link>http://tillgartner.com/recipe/kaiserschmarrn.html</link>
