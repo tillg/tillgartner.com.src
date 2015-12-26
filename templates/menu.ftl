@@ -3,7 +3,7 @@
 		  
       <div class="container-fluid">
         <div class="navbar-header">
-          <a class="navbar-brand" href="http://tillgartner.com">tillgartner.com</a>
+          <a class="navbar-brand" href="/">tillgartner.com</a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">

@@ -6,6 +6,9 @@ pic=/img/todo.jpg
 ~~~~~~
 Things I plan to do on the website:
 
+- Have a local deploy into my Apache so I can test all locally
+- Reengineer the structure of the templates
+- Reduce the images in size: Have a post-baking-process that shrinks the picture files
 - Document what I did so far: The GoDaddy settings, the baking script, the Github/Travis setup for autobaking
 - Have category pages, i.e. Recipe, SoftwareWeNeed etc
 - Fix the code syntax highlighting feature (doesn't work currently)
