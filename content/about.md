@@ -5,7 +5,7 @@ status=published
 pic=/img/till_helm.jpg
 ~~~~~~
 
-This is the website of Till Gartner. I'm a simple, guy with simple hobbies:
+This is the website of Till Gartner. I'm a simple, guy with simple hobbies, like
 
 - My family and kids
 - My business (I'm a manager in a really [cool software company](mgm-tp.com))
