@@ -6,9 +6,52 @@
     <atom:link href="http://tillgartner.com/feed.xml" rel="self" type="application/rss+xml" />
     <description>JBake Bootstrap Template</description>
     <language>en-gb</language>
-    <pubDate>Sat, 26 Dec 2015 17:01:29 +0100</pubDate>
-    <lastBuildDate>Sat, 26 Dec 2015 17:01:29 +0100</lastBuildDate>
+    <pubDate>Sun, 27 Dec 2015 15:30:17 +0100</pubDate>
+    <lastBuildDate>Sun, 27 Dec 2015 15:30:17 +0100</lastBuildDate>
 
+    <item>
+      <title>SiteWeightWatcher - keeps your website slim</title>
+      <link>http://tillgartner.com/blog/2015-12-27_siteweightwatcher.html</link>
+      <pubDate>Sun, 27 Dec 2015 00:00:00 +0100</pubDate>
+      <guid isPermaLink="false">blog/2015-12-27_siteweightwatcher.html</guid>
+      	<description>
+	&lt;p&gt;Good software developers test their stuff. And the &lt;a href=&quot;https://www.wikiwand.com/en/Test-driven_development&quot;&gt;TDD (Test Driven Development)&lt;/a&gt; addicts are maniacs when it comes to testing. Those guys usually think in code, be it Java, Python, nodeJS, you name it. TDD means you write tests first, then you code just as much as it takes to let the tests become green. Then you rework your code and only then you start writing tests for new requirements. &lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/img/2015-12/tdd.png&quot; alt=&quot;TDD cycle&quot;&quot;/&gt;&lt;/p&gt;&lt;p&gt;This is &lt;strong&gt;very&lt;/strong&gt; testy. My opinion is that if you do it the way it&apos;s written and described in the books you become awfully slow and it turns into nonsense. But that&apos;s another discussion, and not one I want to sort out here...&lt;/p&gt;&lt;p&gt;What&apos;s missing with most of the test approaches I have seen in the past are the following two things:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;The test guys and test tools stop monitoring the software or website once it went into production. Somehow they feel that their responsibility ends with the going live...&lt;/li&gt;
+  &lt;li&gt;They test the software. Not the rest, I.e. The design, the HTML, the CSS etc. And the user experience, the feeling wether what I see, touch, browse navigate is of good quality, is very much influenced by this packaging of the software logic.&lt;/li&gt;
+&lt;/ol&gt;&lt;p&gt;So I am looking for a tool to test (web based) software once it&apos;s out in the wild and throughout the entire user experience. Imagine a website, a simple blog. It might be perfect when it got launched, but over time it just degrades: the designers have added so many bells and whistles, the volume of the content has grown, it was tweaked to be more useable on mobiles... And eventually the site is bloated, heavy and slow. Why do I have to wait for my users to tell me (that would be complaining)? &lt;/p&gt;&lt;p&gt;At &lt;a href=&quot;http://mgm-tp.com&quot;&gt;mgm technology partners&lt;/a&gt; we have automated test suites that run every night. So developers that built in code that slows down the software have a report that tells them every morning in their inbox. &lt;/p&gt;&lt;p&gt;So here is what my SiteWeightWatcher should do:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Run tests every 5-30 minutes against the production site&lt;/li&gt;
+  &lt;li&gt;Check all the pages, not just index.html&lt;/li&gt;
+  &lt;li&gt;Report immediately when pages become slow (that would be slower than they used to be)&lt;/li&gt;
+  &lt;li&gt;Track key figures and how they evolve over time:
+  &lt;ul&gt;
+    &lt;li&gt;How much data is transferred for each page?&lt;/li&gt;
+    &lt;li&gt;How many requests are going back &amp;amp; forth?&lt;/li&gt;
+    &lt;li&gt;How much time does it take searching for products? Over time...&lt;/li&gt;
+    &lt;li&gt;How well connected is the site for users in Germany, UK, US or Asia? Over time, because those things change without us having done anything.&lt;/li&gt;
+  &lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;I could imagine a dashboard for an online shop like &lt;a href=&quot;http://kickz.com&quot;&gt;KICKZ.com&lt;/a&gt; to look may this way:&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/img/2015-12/kickz_dashboard.png&quot; alt=&quot;KICKZ Dashboard&quot;&quot;/&gt;&lt;/p&gt;&lt;p&gt;And just as the normal test teams do, these tests should also evolve and become more and more adapted to the site, it&apos;s functionality and its users. Whenever we have a real problem or bug out there, we have to make sure that our WeightWatcher will find it in case it should appear or happen again. &lt;/p&gt;&lt;p&gt;How could we start to build such a tool? Some thoughts:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;We have agents and a central server. The agents are located all around the globe or in different networks (think of little Docker images that run on different clouds). They report all their captured data to the central server. This is where the reports are generated and where interactive explication of the data is provided.&lt;/li&gt;
+  &lt;li&gt;The agents start collecting simple metrics:
+  &lt;ul&gt;
+    &lt;li&gt;No of HTTP requests per page&lt;/li&gt;
+    &lt;li&gt;Data transferred per page&lt;/li&gt;
+    &lt;li&gt;No of lines of JavaScript per page&lt;/li&gt;
+    &lt;li&gt;Time to load the data&lt;/li&gt;
+    &lt;li&gt;Time to execute JavaScript&lt;/li&gt;
+  &lt;/ul&gt;&lt;/li&gt;
+  &lt;li&gt;Based on this we start with simple reports:
+  &lt;ul&gt;
+    &lt;li&gt;What&apos;s the average page size?&lt;/li&gt;
+    &lt;li&gt;What&apos;s the average no of requests per page?&lt;/li&gt;
+    &lt;li&gt;What are my &lt;em&gt;heaviest&lt;/em&gt; pages?&lt;/li&gt;
+    &lt;li&gt;A graph that shows availability of my site as well as load time over a 24h scale, a week scale, a month. May be my users only experience slow loading in the evenings.&lt;/li&gt;
+  &lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;From there we we extend the data we collect as well as the reports. &lt;/p&gt;&lt;p&gt;Such a tool would be great to monitor sites that I am in charge of (I.e. websites that we have developed at mgm) but could also give valuable information about other market players. It could be used both by technical people as well as the marketing guys - since they also &lt;em&gt;sometimes&lt;/em&gt; break performance ;) I would be curious to see this kind of stats for Zalando ;)&lt;/p&gt;&lt;p&gt;Does anyone know about such a monitoring system? Please let me know till(dot)gartner(at)gmail(dot)com.&lt;/p&gt;
+	</description>
+    </item>
     <item>
       <title>Beautiful websites</title>
       <link>http://tillgartner.com/blog/2015-12-26_beautiful_sites.html</link>
