@@ -9,6 +9,9 @@ Things I plan to do on the website:
 - Reengineer the structure of the templates
     * Have the DIV for the white background of text isolated in its own file
     * Have the category bullets isolated in its own file
+- Enable remote working w/o network access. This includes:
+    - All resources must come from the one source/domain (tillgartner.com). Also jQuery, bootstrap and the sort
+    - HTML tutorials or help descriptions must be available on tillgartner.com
 - Have the output directory ignored when by git in the gartnerprivat.de repo
 - Have the category bullets listed in different color, depending on wether the category page exists or not. This can be done via Ajax, see [here](http://stackoverflow.com/questions/3922989/how-to-check-if-page-exists-using-javascript)
 - Reduce the images in size: Have a post-baking-process that shrinks the picture files
