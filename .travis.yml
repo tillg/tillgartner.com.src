@@ -2,7 +2,8 @@ language: java
 jdk:
    - openjdk7
 before_script:
-   - printf "\n" | pecl install imagick
+   - System.out.println("Huhu");
+   - pecl install imagick
 script: 
    - bash bakeit.sh
 after_success:
