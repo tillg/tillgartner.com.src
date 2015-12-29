@@ -27,5 +27,7 @@ status=published
 [Speedtest.net](http://www.speedtest.net/)
 [HTML Presentations with reveal.js](http://lab.hakim.se/reveal-js/#/)
 
+#Code
+**HTML and CSS** [![html5](/img/bookmarks/html5.png) DevDocs (also available offline)](http://devdocs.io/)
 #Weather
 [Weather Da Nang](http://www.wunderground.com/cgi-bin/findweather/getForecast?query=16.067801,108.220802)

@@ -116,7 +116,7 @@
       &lt;/div&gt;
     &lt;/nav&gt;
     &lt;div class=&quot;container&quot;&gt;
-</code></pre><p><em>Note:</em> I fixed the code on my site and on the code above on 29.12.2015. The code for the button that appears when the width of the screen makes the menu collapse, was missing. Just in case you read this earlier and wonder why it's different now...</p><p>It's standard Bootstrap menu jiggling. What's special in our case is the <code>action</code> attribute in the form that links to the search result page (called <code>search.html</code> in my case).</p><p>The result is a neat little serach box on the top right corner:</p><p><img src="/img/2015-12-19_search_engine/search_box.jpg" alt="Search box""/></p><h2>Search result page</h2><p>Last but not least we need the search result page. This page will be called (i.e. linked to) from the search form we just made. It's URL will be something like </p>
+</code></pre><p><em>Note:</em> I fixed the code on my site and on the code above on 29.12.2015. The code for the button that appears when the width of the screen makes the menu collapse, was missing. Just in case you read this earlier and wonder why it's different now...</p><p>I found thatthe part of the menu and how it collapses wasn't trivial. The best explanation I found was <a href="https://bootstrapbay.com/blog/bootstrap-tutorial-navbar/">this video</a>.</p><p>It's standard Bootstrap menu jiggling. What's special in our case is the <code>action</code> attribute in the form that links to the search result page (called <code>search.html</code> in my case).</p><p>The result is a neat little serach box on the top right corner:</p><p><img src="/img/2015-12-19_search_engine/search_box.jpg" alt="Search box""/></p><h2>Search result page</h2><p>Last but not least we need the search result page. This page will be called (i.e. linked to) from the search form we just made. It's URL will be something like </p>
 <pre><code>http://tillgartner.com/search.html?q=huhu
 </code></pre><p>In my case the search result page will hold <strong>only</strong> the search result. In case the user wants to modify his search, he still has the ubiquitous search box on the top right corner.<br/>The search result page will hold the code we copied when configuring the Custom Serach Engine. In my case the entire Markdown file looks like this:</p>
 <pre><code class="javascript">title=Search
@@ -154,7 +154,7 @@ status=published
     <div id="footer">
       <div class="container">
                     
-        <p class="muted credit">&copy; Till Gartner 2015 - Last generated Dec 29, 2015 9:37:25 AM UTC - <a href="/markdown.html">Markdown</a> - <a href="/todo.html">ToDo</a> - <a href="/log.html">Done</a></p>
+        <p class="muted credit">&copy; Till Gartner 2015 - Last generated Dec 29, 2015 10:01:33 AM UTC - <a href="/markdown.html">Markdown</a> - <a href="/todo.html">ToDo</a> - <a href="/log.html">Done</a></p>
       </div>
     </div>
     
