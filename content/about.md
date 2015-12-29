@@ -8,8 +8,8 @@ pic=/img/2015-12/beach.jpg
 This is the website of Till Gartner. I'm a simple, guy with simple hobbies, like
 
 - My family and kids
-- My business (I'm a manager in a really [cool software company](http://mgm-tp.com))
-- Some sport: Skiing, running, swimming, more recently some wave surfing.
-- Some programming (yes, even though by now I rather manage IT than coding): Play around with new stuff, Java. Currently playing around with Git and GitHub as a web hosting service.
+- My business (I'm a manager in a really cool software company called [mgm technology partners](http://mgm-tp.com))
+- Some sport: Skiing, running, swimming, more recently trying to get into wave surfing.
+- Some programming (yes, even though by now I rather manage IT than code): Play around with new stuff, Java. Currently playing around with Git and GitHub as a web hosting service.
 
 ![Till](/img/till_helm.jpg)

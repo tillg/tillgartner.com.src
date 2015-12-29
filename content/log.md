@@ -6,6 +6,7 @@ pic=/img/2015-12/done.jpg
 ~~~~~~
 A log of what I did on my website.
 
+- 28.12.2015: Added some ToDos
 - 27.12.2015: Blog about SiteWeightWatchers
 - 26.12.2015: Started restructuring the Freemarker templates.
 - 26.12.2015: Have only the first 3 blog entries listed on the index.html and then refer to the archive.
