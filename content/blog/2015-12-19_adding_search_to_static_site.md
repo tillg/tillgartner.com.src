@@ -25,28 +25,43 @@ In my case the `menu.ftl` looks something like this:
 ```javascript
 	<!-- Fixed navbar -->
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-		
-		<script>
       <div class="container-fluid">
         <div class="navbar-header">
-          <a class="navbar-brand" href="http://tillgartner.com">tillgartner.com</a>
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+          <a class="navbar-brand" href="/">tillgartner.com</a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
+			<li><a href="/recipe/recipe.html">Recipes</a></li>
             <li><a href="/about.html">About</a></li>
           </ul>
 		  <div class="col-sm-3 col-md-3 pull-right">
-		   	<form class="navbar-form" role="search" action="/search.html">
-				<div class="input-group">
-					<input type="text" class="form-control" placeholder="Search" name="q">
-					<div class="input-group-btn"></div>
-				</div>
-			</form>
+		  	<form class="navbar-form" role="search" action="/search.html">
+		    <div class="input-group">
+		    	<input type="text" class="form-control" placeholder="Search" name="q">
+		        <div class="input-group-btn">
+		        	<button class="btn btn-default" type="submit">
+                    	<i class="glyphicon glyphicon-search"></i>
+					</button>
+		        </div>
+		    </div>
+		 </form>
+		 </div>
         </div><!--/.nav-collapse -->
       </div>
     </nav>
     <div class="container">
 ```		
+
+_Note:_ I fixed the code on my site and on the code above on 29.12.2015. The code for the button that appears when the width of the screen makes the menu collapse, was missing. Just in case you read this earlier and wonder why it's different now...
+
+I found thatthe part of the menu and how it collapses wasn't trivial. The best explanation I found was [this video](https://bootstrapbay.com/blog/bootstrap-tutorial-navbar/).
+
 It's standard Bootstrap menu jiggling. What's special in our case is the `action` attribute in the form that links to the search result page (called `search.html` in my case).
 
 The result is a neat little serach box on the top right corner:

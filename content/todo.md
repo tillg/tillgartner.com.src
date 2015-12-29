@@ -6,8 +6,6 @@ pic=/img/todo.jpg
 ~~~~~~
 Things I plan to do on the website:
 
-- Fix the navbar so it works properly. For tips see here:
-    - https://bootstrapbay.com/blog/bootstrap-tutorial-navbar/
 - Reengineer the structure of the templates
     * Have the DIV for the white background of text isolated in its own file
     * Have the category bullets isolated in its own file
