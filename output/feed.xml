@@ -6,23 +6,23 @@
     <atom:link href="http://tillgartner.com/feed.xml" rel="self" type="application/rss+xml" />
     <description>JBake Bootstrap Template</description>
     <language>en-gb</language>
-    <pubDate>Mon, 4 Jan 2016 10:24:26 +0700</pubDate>
-    <lastBuildDate>Mon, 4 Jan 2016 10:24:26 +0700</lastBuildDate>
+    <pubDate>Mon, 4 Jan 2016 10:36:00 +0700</pubDate>
+    <lastBuildDate>Mon, 4 Jan 2016 10:36:00 +0700</lastBuildDate>
 
     <item>
       <title>Visited countries</title>
-      <link>http://tillgartner.com/blog/2015-12-27_siteweightwatcher.html</link>
+      <link>http://tillgartner.com/blog/2016-01-04_visited_countries.html</link>
       <pubDate>Mon, 4 Jan 2016 00:00:00 +0700</pubDate>
-      <guid isPermaLink="false">blog/2015-12-27_siteweightwatcher.html</guid>
+      <guid isPermaLink="false">blog/2016-01-04_visited_countries.html</guid>
       	<description>
 	&lt;p&gt;A nice tool to play around - because it&apos;s nice to see where you&apos;ve been and because it&apos;s a nice piece of JS:&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://map1.maploco.com/visited-countries/mine.php?c1=mtlev1d7dk-b5fytqed5e-b3op0x9h4w-jefemlierk-2scxhcxdvo&quot;&gt;&lt;img src=&quot;http://map1.maploco.com/visited-countries/ml/mtlev1d7dk-b5fytqed5e-b3op0x9h4w-jefemlierk-2scxhcxdvo.gif&quot; border=0&gt;&lt;/a&gt;&lt;/p&gt;
 	</description>
     </item>
     <item>
       <title>SiteWeightWatcher - keeps your website slim</title>
-      <link>http://tillgartner.com/blog/2016-01-04_visited_countries.html</link>
+      <link>http://tillgartner.com/blog/2015-12-27_siteweightwatcher.html</link>
       <pubDate>Sun, 27 Dec 2015 00:00:00 +0700</pubDate>
-      <guid isPermaLink="false">blog/2016-01-04_visited_countries.html</guid>
+      <guid isPermaLink="false">blog/2015-12-27_siteweightwatcher.html</guid>
       	<description>
 	&lt;p&gt;Good software developers test their stuff. And the &lt;a href=&quot;https://www.wikiwand.com/en/Test-driven_development&quot;&gt;TDD (Test Driven Development)&lt;/a&gt; addicts are maniacs when it comes to testing. Those guys usually think in code, be it Java, Python, nodeJS, you name it. TDD means you write tests first, then you code just as much as it takes to let the tests become green. Then you rework your code and only then you start writing tests for new requirements. &lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/img/2015-12/tdd.png&quot; alt=&quot;TDD cycle&quot;&quot;/&gt;&lt;/p&gt;&lt;p&gt;This is &lt;strong&gt;very&lt;/strong&gt; testy. My opinion is that if you do it the way it&apos;s written and described in the books you become awfully slow and it turns into nonsense. But that&apos;s another discussion, and not one I want to sort out here...&lt;/p&gt;&lt;p&gt;What&apos;s missing with most of the test approaches I have seen in the past are the following two things:&lt;/p&gt;
 &lt;ol&gt;
