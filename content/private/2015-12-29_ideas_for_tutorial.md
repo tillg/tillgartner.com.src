@@ -50,6 +50,7 @@ Goal: Adapt design
 - I would have an extra email address for questions and the sort and used within the demo: till.tutorial@gmail.com
 - The movies would be hosted on a Youtube channel owned by till.tutorial@gmail.com
 - I would use the original mac terminal, not iTerm
+- I [found out](https://www.youtube.com/watch?v=WJnwUJ7zuVs) that I can record screen casts with QuickTime - out of the box! ;)
 
 ##Questions
-- How do I record what I do on the screen?
+- How can I zoom in a spot while recording the screencast?

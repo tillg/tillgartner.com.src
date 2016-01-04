@@ -1,9 +1,18 @@
-title=iPad Hologram
-date=2011-03-31
+title=Missing App
+date=2011-01-11
 type=post
 status=published
 ~~~~~~
 
-Diese hidden Features sind schon toll!
+Die Email bekam ich eben von einer Kollegin – wieso bloß…?
 
-<iframe width="853" height="480" src="https://www.youtube.com/embed/z1magCv4LtM?rel=0" frameborder="0" allowfullscreen></iframe>
+Hi Till,
+
+wünsche dir ein gutes neues Jahr!
+
+Beiliegenden Witz habe ich gerade bekommen und musst an Dich denken ;-)
+
+![no_app](/img/2011-01/no_app.jpg)
+
+Viele Grüße,
+XYZ
