@@ -35,7 +35,7 @@ Some technical thoughts:
 - It dedupes them (i.e. merges the ones that are the same or replicates of one another on different channels)
 - It creates one document / file per social media entry and writes them in an output directory
 - This directory is then replicated / added to a github account
-- Social media entry documents would be named like `2015-12-03-The_title_of_what_&shy;I_wrote-TWITTER.json`
+- Social media entry documents would be named like `2015-12-03-The_title_of_what_ I_wrote-TWITTER.json`
 - There would be a _header file_ with a fixed name, i.e. `sociologs.json`. This file would hold the first 20 logs and point to a file with the next logs.
 - The domain `sociolog.io` would be [available](https://www.godaddy.com/domains/searchresults.aspx?&checkAvail=1&domainToCheck=sociolog.io) - as of today, Jan 4 2016.
 - The generated `index.html` would load the data via JS/AJAX requests and continue loading while the user scrolls down
