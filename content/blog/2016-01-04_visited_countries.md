@@ -1,6 +1,6 @@
 title=Visited countries
 type=post
-date=2016-01-04
+date=2016-01-04-10:00
 status=published
 category=tech
 ~~~~~~
