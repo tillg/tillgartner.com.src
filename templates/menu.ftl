@@ -8,7 +8,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-          <a class="navbar-brand" href="/">tillgartner.com</a>
+          <a class="navbar-brand" href="/"><img src="/img/till_square_logo.png">tillgartner.com</a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
