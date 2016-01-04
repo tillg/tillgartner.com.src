@@ -8,11 +8,11 @@ Things I plan to do on the website.
 
 #Content
 - Rework the Markdown cheatsheet
-- Write article about _SocioLogy_: A private journal generated based on my social media footprint
 - Write article about _cardXchange_
 - Write my CV online
 - Have my old content from the former [gartnerich.com](http://web.archive.org/web/20131107042444/http://gartnerich.com/) website moved over
 - Write a tutorial, [here](http://tillgartner.com/private/2015-12-29_ideas_for_tutorial)
+
 #Technical and design changes
 - Modify the `index.html`to have top level links to category pages, i.e.
 	- Recipes

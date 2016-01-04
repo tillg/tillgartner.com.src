@@ -6,6 +6,8 @@ pic=/img/2015-12/done.jpg
 ~~~~~~
 A log of what I did on my website.
 
+- 4.1.2016: Changed the `favicon.ico`
+- 4.1.2016: Blog about sociolog and the service `visited countries`
 - 29.12.2015: Fixed the navbar so it also works on small screens
 - 28.12.2015: Added some ToDos
 - 27.12.2015: Blog about SiteWeightWatchers
