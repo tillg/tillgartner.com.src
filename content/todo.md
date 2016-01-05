@@ -12,8 +12,10 @@ Things I plan to do on the website.
 - Write my CV online
 - Have my old content from the former [gartnerich.com](http://web.archive.org/web/20131107042444/http://gartnerich.com/) website moved over
 - Write a tutorial, [here](http://tillgartner.com/private/2015-12-29_ideas_for_tutorial)
+- Write a tutorial "How to set up a closed comunity blog; i.e. for family purpose". The setup of gartnerprivat.de
 
 #Technical and design changes
+- Find out why loading is so slow thru 3G
 - Modify the `index.html`to have top level links to category pages, i.e.
 	- Recipes
 	- SoftwareWeNeed
