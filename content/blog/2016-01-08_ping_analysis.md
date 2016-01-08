@@ -41,10 +41,11 @@ I just had to fix some small things to make it run on my Mac (the `ping` syntax 
 So here is what I plan to improve (let's see wether this really happens):
 
 * Have the Sources GITted
-* Imrpove the graph:
+* Improve the graph:
     * The colors are a bit strange to me...
     * It feels upside down
     * Have labels on the y axis
+    * May be have them more [like so](http://pinglogger.co.uk/index.php/screenshots/)
 * May be look into [log stash](https://www.elastic.co/products/logstash) as visualization...
 
 
