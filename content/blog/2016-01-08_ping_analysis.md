@@ -1,4 +1,4 @@
-title=sociolog - Your trail across social media
+title=Ping Visualization and Analysis
 type=post
 date=2016-01-08
 status=published
@@ -45,7 +45,7 @@ So here is what I plan to improve (let's see wether this really happens):
     * The colors are a bit strange to me...
     * It feels upside down
     * Have labels on the y axis
-* May be look into log stash...
+* May be look into [log stash](https://www.elastic.co/products/logstash) as visualization...
 
 
 
