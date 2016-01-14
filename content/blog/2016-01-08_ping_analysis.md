@@ -48,6 +48,9 @@ So here is what I plan to improve (let's see wether this really happens):
     * May be have them more [like so](http://pinglogger.co.uk/index.php/screenshots/)
 * May be look into [log stash](https://www.elastic.co/products/logstash) as visualization...
 
+##Addendum
+Also within the context, and because [Java is the development language of the year 2015](http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html): [A java program to track the ping times to multiple end points](http://pastebin.com/1qnCXDw7)
+
 
 
 
