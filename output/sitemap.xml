@@ -29,7 +29,19 @@
         <lastmod>2015-12-01</lastmod>
     </url>
     <url>
-        <loc>http://tillgartner.com/blog/2016-01-04_visited_countries.html</loc>
+        <loc>http://tillgartner.com/blog/2016-01-20_yoga_novotel.html</loc>
+        <lastmod>2016-01-20</lastmod>
+    </url>
+    <url>
+        <loc>http://tillgartner.com/blog/2016-01-08_ping_analysis.html</loc>
+        <lastmod>2016-01-08</lastmod>
+    </url>
+    <url>
+        <loc>http://tillgartner.com/blog/2016-01-04-10_visited_countries.html</loc>
+        <lastmod>2016-01-04</lastmod>
+    </url>
+    <url>
+        <loc>http://tillgartner.com/blog/2016-01-04-23_sociolog_software.html</loc>
         <lastmod>2016-01-04</lastmod>
     </url>
     <url>
@@ -67,6 +79,10 @@
     <url>
         <loc>http://tillgartner.com/blog/2015-12-16_playing_with_highcharts.html</loc>
         <lastmod>2015-12-16</lastmod>
+    </url>
+    <url>
+        <loc>http://tillgartner.com/blog/2015-12-09_zipf.html</loc>
+        <lastmod>2015-12-09</lastmod>
     </url>
     <url>
         <loc>http://tillgartner.com/recipe/vanillekipferl.html</loc>
@@ -109,11 +125,39 @@
         <lastmod>2012-04-10</lastmod>
     </url>
     <url>
-        <loc>http://tillgartner.com/blog/2011-03-31_ipad-hologram.html</loc>
+        <loc>http://tillgartner.com/blog/2011-03-31_ipad_hologram.html</loc>
         <lastmod>2011-03-31</lastmod>
+    </url>
+    <url>
+        <loc>http://tillgartner.com/blog/2011-01-11_missing_app.html</loc>
+        <lastmod>2011-01-11</lastmod>
+    </url>
+    <url>
+        <loc>http://tillgartner.com/blog/2010-09-02_software_fuer_mac.html</loc>
+        <lastmod>2010-09-02</lastmod>
+    </url>
+    <url>
+        <loc>http://tillgartner.com/blog/2010-07-29_proxy_for_offline_surfing.html</loc>
+        <lastmod>2010-07-29</lastmod>
+    </url>
+    <url>
+        <loc>http://tillgartner.com/blog/2010-04-01_crowdsourcing_angebot.html</loc>
+        <lastmod>2010-04-01</lastmod>
     </url>
     <url>
         <loc>http://tillgartner.com/recipe/recipe.html</loc>
         <lastmod>2015-12-19</lastmod>
+    </url>
+    <url>
+        <loc>http://tillgartner.com/dashboard/ping.html</loc>
+        <lastmod>2016-01-23</lastmod>
+    </url>
+    <url>
+        <loc>http://tillgartner.com/dashboard/waveforecast.html</loc>
+        <lastmod>2016-01-23</lastmod>
+    </url>
+    <url>
+        <loc>http://tillgartner.com/dashboard/weather.html</loc>
+        <lastmod>2016-01-23</lastmod>
     </url>
 </urlset>

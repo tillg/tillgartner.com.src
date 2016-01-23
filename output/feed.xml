@@ -6,16 +6,101 @@
     <atom:link href="http://tillgartner.com/feed.xml" rel="self" type="application/rss+xml" />
     <description>JBake Bootstrap Template</description>
     <language>en-gb</language>
-    <pubDate>Mon, 4 Jan 2016 10:36:00 +0700</pubDate>
-    <lastBuildDate>Mon, 4 Jan 2016 10:36:00 +0700</lastBuildDate>
+    <pubDate>Sat, 23 Jan 2016 16:56:28 +0700</pubDate>
+    <lastBuildDate>Sat, 23 Jan 2016 16:56:28 +0700</lastBuildDate>
 
     <item>
+      <title>Yoga Novotel</title>
+      <link>http://tillgartner.com/blog/2016-01-20_yoga_novotel.html</link>
+      <pubDate>Wed, 20 Jan 2016 00:00:00 +0700</pubDate>
+      <guid isPermaLink="false">blog/2016-01-20_yoga_novotel.html</guid>
+      	<description>
+	&lt;p&gt;I have been looking for a place to do yoga here in Đà Nẵng. I got some answers on Facebook. Because it&apos;s too clumsy to find the posts on Facebook and the schedules that people sent me, I keep them here.&lt;/p&gt;&lt;h2&gt;Yoga @ Novotel with Master Avi&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;/img/2016-01/yoga_novotel.jpg&quot; alt=&quot;Yoga Novotel&quot;&quot;/&gt;&lt;/p&gt;
+	</description>
+    </item>
+    <item>
+      <title>Ping Visualization and Analysis</title>
+      <link>http://tillgartner.com/blog/2016-01-08_ping_analysis.html</link>
+      <pubDate>Fri, 8 Jan 2016 00:00:00 +0700</pubDate>
+      <guid isPermaLink="false">blog/2016-01-08_ping_analysis.html</guid>
+      	<description>
+	&lt;p&gt;So this is the situation I am facing: I use an internet access that doesn&apos;t feel reliable. Sometimes it&apos;s really fast, sometimes it just feels being very unreliable. And I never know what part exactly is just failing: Is the the application that is slow, is it the WIFI, is it the Internet access.&lt;/p&gt;&lt;p&gt;So want I have been looking for is a reliable, long-term measurement of internet access speed. By speed I mean mainly round-trip time / latency. I looked at many tools, large ones (the ones that come from complete eco systems like Nagios or ecinga) small one (i.e. network usage tracking directly on your PC or Mac). The big ones are too much work and too much stuff that needs to be learned, understood, installed. The small ones don&apos;t answer my question since they don&apos;t do long term tracking and recording. And I don&apos;t like complex stuff.&lt;/p&gt;&lt;p&gt;Then found something that is in the essence exactly what I have been looking for. Re-phrtase: If I would have started putting something together myself, this is what I would have built: It&apos;s called &lt;a href=&quot;http://www.medienvilla.com/index.php?id=231&quot;&gt;Ping Visualization and Analysis&lt;/a&gt; and it is based on 2 components;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;One simple script that logs ping times (and by simple I mean &lt;em&gt;realy simple!&lt;/em&gt;)&lt;/li&gt;
+  &lt;li&gt;One HTML page with some JavaScript that visualizes the ping times over time.&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;You can let the ping-logger run on stupid simple hardware. It can run day &amp;amp; night, gathering data. The format is &lt;em&gt;plain&lt;/em&gt;. A sample:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;no-highlight&quot;&gt;Fri Jan  8 15:14:49 ICT 2016: 64 bytes from 185.40.248.50: icmp_seq=89 ttl=53 time=310.716 ms
+Fri Jan  8 15:14:54 ICT 2016: 64 bytes from 185.40.248.50: icmp_seq=90 ttl=53 time=310.349 ms
+Fri Jan  8 15:14:59 ICT 2016: 64 bytes from 185.40.248.50: icmp_seq=91 ttl=53 time=312.787 ms
+Fri Jan  8 15:15:04 ICT 2016: 64 bytes from 185.40.248.50: icmp_seq=92 ttl=53 time=312.805 ms
+Fri Jan  8 15:15:09 ICT 2016: 64 bytes from 185.40.248.50: icmp_seq=93 ttl=53 time=311.273 ms
+Fri Jan  8 15:15:14 ICT 2016: 64 bytes from 185.40.248.50: icmp_seq=94 ttl=53 time=311.371 ms
+Fri Jan  8 15:15:19 ICT 2016: 64 bytes from 185.40.248.50: icmp_seq=95 ttl=53 time=312.096 ms
+Fri Jan  8 15:15:24 ICT 2016: 64 bytes from 185.40.248.50: icmp_seq=96 ttl=53 time=313.387 ms
+Fri Jan  8 15:15:29 ICT 2016: 64 bytes from 185.40.248.50: icmp_seq=97 ttl=53 time=310.404 ms
+Fri Jan  8 15:15:34 ICT 2016: 64 bytes from 185.40.248.50: icmp_seq=98 ttl=53 time=311.076 ms
+Fri Jan  8 15:15:39 ICT 2016: 64 bytes from 185.40.248.50: icmp_seq=99 ttl=53 time=312.640 ms
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Pretty simple, uh?! A simple &lt;code&gt;ping&lt;/code&gt; with a timestamp in front. And the JS stuff reads it and makes a simple graph from it:&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/img/2016-01/ping.png&quot; alt=&quot;graph&quot;&quot;/&gt;&lt;/p&gt;&lt;p&gt;I just had to fix some small things to make it run on my Mac (the &lt;code&gt;ping&lt;/code&gt; syntax was from another Unix slang). &lt;/p&gt;&lt;h2&gt;What next?&lt;/h2&gt;&lt;p&gt;So here is what I plan to improve (let&apos;s see wether this really happens):&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Have the Sources GITted&lt;/li&gt;
+  &lt;li&gt;Improve the graph:
+  &lt;ul&gt;
+    &lt;li&gt;The colors are a bit strange to me...&lt;/li&gt;
+    &lt;li&gt;It feels upside down&lt;/li&gt;
+    &lt;li&gt;Have labels on the y axis&lt;/li&gt;
+    &lt;li&gt;May be have them more &lt;a href=&quot;http://pinglogger.co.uk/index.php/screenshots/&quot;&gt;like so&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;&lt;/li&gt;
+  &lt;li&gt;May be look into &lt;a href=&quot;https://www.elastic.co/products/logstash&quot;&gt;log stash&lt;/a&gt; as visualization...&lt;/li&gt;
+&lt;/ul&gt;&lt;h2&gt;Addendum&lt;/h2&gt;&lt;p&gt;Also within the context, and because &lt;a href=&quot;http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html&quot;&gt;Java is the development language of the year 2015&lt;/a&gt;: &lt;a href=&quot;http://pastebin.com/1qnCXDw7&quot;&gt;A java program to track the ping times to multiple end points&lt;/a&gt;&lt;/p&gt;
+	</description>
+    </item>
+    <item>
       <title>Visited countries</title>
-      <link>http://tillgartner.com/blog/2016-01-04_visited_countries.html</link>
+      <link>http://tillgartner.com/blog/2016-01-04-10_visited_countries.html</link>
       <pubDate>Mon, 4 Jan 2016 00:00:00 +0700</pubDate>
-      <guid isPermaLink="false">blog/2016-01-04_visited_countries.html</guid>
+      <guid isPermaLink="false">blog/2016-01-04-10_visited_countries.html</guid>
       	<description>
 	&lt;p&gt;A nice tool to play around - because it&apos;s nice to see where you&apos;ve been and because it&apos;s a nice piece of JS:&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://map1.maploco.com/visited-countries/mine.php?c1=mtlev1d7dk-b5fytqed5e-b3op0x9h4w-jefemlierk-2scxhcxdvo&quot;&gt;&lt;img src=&quot;http://map1.maploco.com/visited-countries/ml/mtlev1d7dk-b5fytqed5e-b3op0x9h4w-jefemlierk-2scxhcxdvo.gif&quot; border=0&gt;&lt;/a&gt;&lt;/p&gt;
+	</description>
+    </item>
+    <item>
+      <title>sociolog - Your trail across social media</title>
+      <link>http://tillgartner.com/blog/2016-01-04-23_sociolog_software.html</link>
+      <pubDate>Mon, 4 Jan 2016 00:00:00 +0700</pubDate>
+      <guid isPermaLink="false">blog/2016-01-04-23_sociolog_software.html</guid>
+      	<description>
+	&lt;p&gt;I write or blog in different media:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Twitter&lt;/li&gt;
+  &lt;li&gt;Facebook&lt;/li&gt;
+  &lt;li&gt;A private blog with restricted access (because it contains family pictures)&lt;/li&gt;
+  &lt;li&gt;This &lt;a href=&quot;http://tillgartner.com&quot;&gt;blog&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;From time to time I find it nice to scroll through my past. I do this most often on our family blog, because it contains the most interesting content and because it is easy to scroll through. I would like to be able to scroll through all my past across all media. &lt;/p&gt;&lt;p&gt;So this is what my software should do:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Collect all entries I wrote in the social media:
+  &lt;ul&gt;
+    &lt;li&gt;Twitter&lt;/li&gt;
+    &lt;li&gt;Facebook&lt;/li&gt;
+    &lt;li&gt;Wordpress&lt;/li&gt;
+  &lt;/ul&gt;&lt;/li&gt;
+  &lt;li&gt;Create one document per entry in a Github Repo&lt;/li&gt;
+  &lt;li&gt;Handle properly duplicate content: Since some years my Twitter account is &lt;em&gt;linked&lt;/em&gt; to my Facebook account in that Twitter entries are replicated to Facebook. That&apos;s because I have people that I consider &lt;em&gt;audience&lt;/em&gt; in both media.&lt;/li&gt;
+  &lt;li&gt;Collect also the feedback to my posts&lt;/li&gt;
+  &lt;li&gt;Nicely display them in a static way, including overview pages&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;Some technical thoughts:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;I would write it in java because that&apos;s what I know best&lt;/li&gt;
+  &lt;li&gt;Would be a headless program i.e. no UI&lt;/li&gt;
+  &lt;li&gt;Input should be the date of the last recorded social media entry&lt;/li&gt;
+  &lt;li&gt;It collects all the entries (including the comments to it) on the different social media channels since that date&lt;/li&gt;
+  &lt;li&gt;It dedupes them (i.e. merges the ones that are the same or replicates of one another on different channels)&lt;/li&gt;
+  &lt;li&gt;It creates one document / file per social media entry and writes them in an output directory&lt;/li&gt;
+  &lt;li&gt;This directory is then replicated / added to a github account&lt;/li&gt;
+  &lt;li&gt;Social media entry documents would be named like &lt;code&gt;2015-12-03-The_title_of_what_ I_wrote-TWITTER.json&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;There would be a &lt;em&gt;header file&lt;/em&gt; with a fixed name, i.e. &lt;code&gt;sociologs.json&lt;/code&gt;. This file would hold the first 20 logs and point to a file with the next logs.&lt;/li&gt;
+  &lt;li&gt;The domain &lt;code&gt;sociolog.io&lt;/code&gt; would be &lt;a href=&quot;https://www.godaddy.com/domains/searchresults.aspx?&amp;checkAvail=1&amp;domainToCheck=sociolog.io&quot;&gt;available&lt;/a&gt; - as of today, Jan 4 2016.&lt;/li&gt;
+  &lt;li&gt;The generated &lt;code&gt;index.html&lt;/code&gt; would load the data via JS/AJAX requests and continue loading while the user scrolls down&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;If anyone is interested, or has comment, please get in touch at till&lt;code&gt;dot&lt;/code&gt;gartner&lt;code&gt;at&lt;/code&gt;gmail&lt;code&gt;dot&lt;/code&gt;com.&lt;/p&gt;
 	</description>
     </item>
     <item>
@@ -252,6 +337,15 @@ status=published
 	</description>
     </item>
     <item>
+      <title>Zipf Mystery</title>
+      <link>http://tillgartner.com/blog/2015-12-09_zipf.html</link>
+      <pubDate>Wed, 9 Dec 2015 00:00:00 +0700</pubDate>
+      <guid isPermaLink="false">blog/2015-12-09_zipf.html</guid>
+      	<description>
+	&lt;p&gt;No real content from me, but a meme I discovered and I felt I need to remember:&lt;/p&gt;&lt;p&gt;&lt;iframe width=&quot;853&quot; height=&quot;480&quot; src=&quot;https://www.youtube.com/embed/fCn8zs912OE?rel=0&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;&lt;p&gt;And the guy is now definitely on my watch list ;)&lt;/p&gt;
+	</description>
+    </item>
+    <item>
       <title>Vanillekipferl</title>
       <link>http://tillgartner.com/recipe/vanillekipferl.html</link>
       <pubDate>Sun, 6 Dec 2015 00:00:00 +0700</pubDate>
@@ -394,11 +488,102 @@ status=published
     </item>
     <item>
       <title>iPad Hologram</title>
-      <link>http://tillgartner.com/blog/2011-03-31_ipad-hologram.html</link>
+      <link>http://tillgartner.com/blog/2011-03-31_ipad_hologram.html</link>
       <pubDate>Thu, 31 Mar 2011 00:00:00 +0700</pubDate>
-      <guid isPermaLink="false">blog/2011-03-31_ipad-hologram.html</guid>
+      <guid isPermaLink="false">blog/2011-03-31_ipad_hologram.html</guid>
       	<description>
 	&lt;p&gt;Diese hidden Features sind schon toll!&lt;/p&gt;&lt;p&gt;&lt;iframe width=&quot;853&quot; height=&quot;480&quot; src=&quot;https://www.youtube.com/embed/z1magCv4LtM?rel=0&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+	</description>
+    </item>
+    <item>
+      <title>Missing App</title>
+      <link>http://tillgartner.com/blog/2011-01-11_missing_app.html</link>
+      <pubDate>Tue, 11 Jan 2011 00:00:00 +0700</pubDate>
+      <guid isPermaLink="false">blog/2011-01-11_missing_app.html</guid>
+      	<description>
+	&lt;p&gt;Die Email bekam ich eben von einer Kollegin – wieso bloß…?&lt;/p&gt;&lt;p&gt;Hi Till,&lt;/p&gt;&lt;p&gt;wünsche dir ein gutes neues Jahr!&lt;/p&gt;&lt;p&gt;Beiliegenden Witz habe ich gerade bekommen und musst an Dich denken ;-)&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/img/2011-01/no_app.jpg&quot; alt=&quot;no_app&quot;&quot;/&gt;&lt;/p&gt;&lt;p&gt;Viele Grüße,&lt;br/&gt;XYZ&lt;/p&gt;
+	</description>
+    </item>
+    <item>
+      <title>Was braucht man auf seinem Mac</title>
+      <link>http://tillgartner.com/blog/2010-09-02_software_fuer_mac.html</link>
+      <pubDate>Thu, 2 Sep 2010 00:00:00 +0700</pubDate>
+      <guid isPermaLink="false">blog/2010-09-02_software_fuer_mac.html</guid>
+      	<description>
+	&lt;p&gt;Nachdem ich oft von Freunden gefragt werde, was man für Programme auf seinem Mac braucht, will ich das ein für alle mal beantworten. Nicht, dass ich sagen könnte, was andere Leute brauchen – aber ich erzähl einfach mal, was ich so habe. Ich geh’ mal alphabetisch meine App-Liste durch (nicht vollständig)…&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/img/2010-09/1password.jpg&quot; alt=&quot;1passsword&quot;&quot;/&gt;&lt;/p&gt;&lt;h3&gt;1Password – Passwort-Manager&lt;/h3&gt;&lt;p&gt;Eines der gekauften Programme – und eines meiner Lieblinge! Verwaltet Passwörter so gut und elegant wie kein anderes (das ich kenne). Und macht die Passwort-Liste als HTML-File verfügbar – überall!&lt;br/&gt;Am besten zu benutzen in Kombi mit der Dropbox (siehe weiter unten).&lt;br/&gt;Ein paar Highlights:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Super integriert in alle Browser&lt;/li&gt;
+  &lt;li&gt;Verwaltet neben Passwörtern auch Software-Lizenzen, Kreditkarten-Infos, Unix-Accounts, FTP-Accounts…&lt;/li&gt;
+  &lt;li&gt;Ich traue den Jungs die 1Password machen (technisch): Sie erklären gut, warum sie welche Lösung wählen, sie arbeiten sehr aktiv an ihrem Produkt (ca. jede 2. Woche ein Update) – das schafft Vertrauen.&lt;/li&gt;
+  &lt;li&gt;Mit meiner Dropbox komme ich von überall an meine Passwörter – ohne Sicherheitsleck&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;img src=&quot;/img/2010-09/dropbox.jpg&quot; alt=&quot;dropbox&quot;&quot;/&gt;&lt;/p&gt;&lt;h3&gt;Dropbox&lt;/h3&gt;&lt;p&gt;Ein genialer Service/Software: Du hast plötzlich ein Directory, das auf all Deinen Maschinen verläßlich (!!) gleich vorhanden ist: Auf Deinen Mac(s) und Windows-Kisten. Da muß man keinen Rechner mehr rumschleppen.&lt;/p&gt;&lt;h3&gt;Google Earth&lt;/h3&gt;&lt;p&gt;…Weil man’s einfach braucht!&lt;/p&gt;&lt;h3&gt;iLife&lt;/h3&gt;&lt;p&gt;Meine Fotos habe ich in iPhoto, den Rest benutze ich eigentlich nicht. Würde ich aber, wenn ich zB Videos editieren müßte.&lt;/p&gt;&lt;h3&gt;iTunes&lt;/h3&gt;&lt;p&gt;Muß man sowas eigentlich erwähnen?&lt;/p&gt;&lt;h3&gt;iWork&lt;/h3&gt;&lt;p&gt;iWork ist die Apple-Version von MS-Office. Pages ist die beste Textverarbeitung die ich kenne. Keynote ist so was wie PowerPoint – nur viiiieel schöner!! Nur Schade, dass alle meine Kollegen so auf Word und PowerPoint stehen.&lt;/p&gt;&lt;h3&gt;Microsoft Office&lt;/h3&gt;&lt;p&gt;Wie gesagt, die anderen setzen den Standard – leider.&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/img/2010-09/netnewswire.jpg&quot; alt=&quot;netnewswire&quot;&quot;/&gt;&lt;/p&gt;&lt;h3&gt;NetNewsWire&lt;/h3&gt;&lt;p&gt;Der beste und angenehmste RSS-Reader den ch bisher auf dem mac gefunden habe. Und er synct mit Google. Und er läuft auch genau so auf dem iPhone.&lt;/p&gt;&lt;h3&gt;PlainView&lt;/h3&gt;&lt;p&gt;Damit mach surfen einfach mehr Schbass!&lt;/p&gt;&lt;h3&gt;Remote Desktop Connection&lt;/h3&gt;&lt;p&gt;Damit kann man die Windows-Kisten fernsteuern. Gratis bei Microsoft runterladen – ja, sowas gibt’s…&lt;/p&gt;&lt;h3&gt;Skype&lt;/h3&gt;&lt;p&gt;Weil die Kollegen in Prag sitzen – und die Schwiegereltern in Süd-Afrika.&lt;/p&gt;&lt;h3&gt;SQLWorkbench&lt;/h3&gt;&lt;p&gt;Weil man Datenbanken braucht – und Datenbanken brauchen die Workbench.&lt;/p&gt;&lt;h3&gt;TeamViewer&lt;/h3&gt;&lt;p&gt;DAS Tool um anderen Leuten auf ihrem Rechner zu helfen, um anderen Leuten remote Präsentation zu zeigen. Und es funktioniert gut, ist für den privaten Gebrauch kostenfrei und läuft auf Mac &amp;amp; Windows!&lt;/p&gt;&lt;h3&gt;TextMate&lt;/h3&gt;&lt;p&gt;Noch ein Liebling: Um die Krone der Editoren buhlen ja viele. Jeder mit seinem Schwerpunkt und mit seiner Geschmacksrichtung. TextMate hat meinen Geschmack getroffen: Super-einfach zu nutzen, schaut aus wie Notepad, kann alles öffnen (jedes Format, jede Größe – will man nicht immer sehen, kann man aber), und kann auch satt IDE-Features auspacken (schaut Euch doch mal an, wie und mit was die Ruby-Könige in ihren Sessions arbeiten!)&lt;/p&gt;&lt;h3&gt;Things&lt;/h3&gt;&lt;p&gt;Das Beste was ich finden konnte, um ToDo-Listen zu pflegen – und das bringt’s wirklich!!&lt;/p&gt;&lt;h3&gt;Transmission&lt;/h3&gt;&lt;p&gt;Der einfachste, für mich passendste Torrent-Sauger den ich finden konnte.&lt;/p&gt;&lt;h3&gt;Tweetie&lt;/h3&gt;&lt;p&gt;Z.Z. mein Twitter-Client – aber in dem Bereich tut sich viel, alle paar Monate mal zu wechseln ist wohl normal…&lt;/p&gt;&lt;h3&gt;VMware Fusion&lt;/h3&gt;&lt;p&gt;Eine echte IT-Revolution. Und das Zeug läuft soo flott – die meisten Windows-Rechner sind langsamer! Und dass es das Ding gratis von VMware gibt erstaunt mich immer wieder!&lt;/p&gt;&lt;h3&gt;Xmarks&lt;/h3&gt;&lt;p&gt;Das Ding synct Bookmarks cross-Plattform, cross-Browser, cross-alles: Zwischen Mac, Windows und iPhone. Zwischen Safari, FireFox, IE, Chrome…&lt;/p&gt;&lt;h3&gt;YummyFTP&lt;/h3&gt;&lt;p&gt;Der coolste FTP-Client!&lt;/p&gt;&lt;p&gt;So, das waren die wichtigsten Programme, mit denen ich im Alltag arbeite – neben den fest installierten:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Mail&lt;/li&gt;
+  &lt;li&gt;Safari&lt;/li&gt;
+  &lt;li&gt;AddressBook&lt;/li&gt;
+  &lt;li&gt;iCalendar&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;Liebe Grüße,&lt;/p&gt;&lt;p&gt;– Till.&lt;/p&gt;
+	</description>
+    </item>
+    <item>
+      <title>A Proxy for offline surfing</title>
+      <link>http://tillgartner.com/blog/2010-07-29_proxy_for_offline_surfing.html</link>
+      <pubDate>Thu, 29 Jul 2010 00:00:00 +0700</pubDate>
+      <guid isPermaLink="false">blog/2010-07-29_proxy_for_offline_surfing.html</guid>
+      	<description>
+	&lt;p&gt;his is a piece of software I would love to have: A proxy that runs on my notebook and that intelligently caches certain websites so I can surf them when being offline.&lt;/p&gt;&lt;p&gt;More specifically:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;A proxy that runs on my notebook&lt;/li&gt;
+  &lt;li&gt;The proxy knows what pages/sites I want to have available when being offline&lt;/li&gt;
+  &lt;li&gt;When the browser requests one of those pages, the proxy checks wether the website is reachable. If so, it downloads the page and sends it to the browser. If the proxy can’t reach the website, it tries to serve the page from its local cache.&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;This way, I could surf normally when being online. When being offline, I could only access a little part of the internet – but I could still read some pages.&lt;/p&gt;&lt;p&gt;Once this is achieved, the proxy could be improved:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;While being idle and having an internet connection, it could refresh pages in it’s cache&lt;/li&gt;
+  &lt;li&gt;By counting what pages I access often, it could decide what pages make sense to be cached&lt;/li&gt;
+  &lt;li&gt;It could learn what pages change how often and adapt the refresh intervals accordingly&lt;/li&gt;
+  &lt;li&gt;…&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;And here are the questions I have:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Does anyone out there know a tool that provides this functionality?&lt;/li&gt;
+  &lt;li&gt;Would anyone see a killer-problem I missed?&lt;/li&gt;
+  &lt;li&gt;Any good ideas how this could be built?&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;For completeness of information: I use a MacBook, OS X 10.6. Comments are welcome….&lt;/p&gt;&lt;p&gt;Have a nice evening,&lt;/p&gt;&lt;p&gt;– Till.&lt;/p&gt;
+	</description>
+    </item>
+    <item>
+      <title>Crowdsourcing: Zahle 100,- € für Wappen</title>
+      <link>http://tillgartner.com/blog/2010-04-01_crowdsourcing_angebot.html</link>
+      <pubDate>Thu, 1 Apr 2010 00:00:00 +0700</pubDate>
+      <guid isPermaLink="false">blog/2010-04-01_crowdsourcing_angebot.html</guid>
+      	<description>
+	&lt;p&gt;Diese Webseite heißt gartnerich.com weil sie von der Familie Gartner ist. Und wir Gartners sind adelig – also so bissi zumindest… An sich ist das noch nicht spektakulär, weil solange man kein von im Namen trägt (oder noch besser einen Graf) bringt das nix.&lt;br/&gt;Etwas hat man allerdings davon: Ein Wappen!&lt;br/&gt;Unser Wappen schaut so aus:&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/img/2010-04/gartner-wappen.jpg&quot; alt=&quot;wappen&quot;&quot;/&gt;&lt;/p&gt;&lt;p&gt;Unser Adelsbrief stammt vom 15.11.1699 und in ihm wird das Wappen etwa wie folgt beschrieben:&lt;/p&gt;&lt;p&gt;…Adeliches Wappen hinfüro ewiglich zu gebrauchen und also zu führen gnädiglich gegönnt und erlaubet als mit Namen:&lt;br/&gt;“einen quartierten Schild, dessen hinter untere und vorder obere Feldung in drei gleiche Balken geteilt, deren hintere und vordere weiß, der mittlere aber rot ist; Vom vorderen unteren bis zum hinteren ober Eck mit einer Strasse der Schräge nach durchschnitten, so im weißen rot und im roten weiß ist, auf welch jedem länglichen weißen Balken einer auf d. rot zwei sechseckige goldene Sterne, in der Schrägstrasse aber im Roten eine weiße und im weißen eine rote Rose zu ersehen ist. Vorder untere und hinter obere Feldung, in der Mitte über Zwerch also abgeteilt, daß der untere Teil gelb- oder goldfarbig, oberer aber blau oder lasurfarben und im Untern auf grünem dreigehügeltem Berg ein braunes zum Sprung aufrecht gestelltes gesatteltes Pferd mit zurückfliegendem Zaum, im hinter oberen Teil ein auf gleichfalls gehügeltem Berg ein stehender Greif erscheint, so von unten bis auf die Mitte blau oder lasurfarbig, im oberen Teil aber gelb oder goldfarbig ist, mit aufgetanen Flügeln, rot ausschlagender Zunge und mit der rechten Vorderklaue einen gebogenen Säbel bei dem Handgriff, mit der linken Klaue aber die Spitze haltend. In der Mitte der Quartierung einen weisses oder silberfarbiges gekröntes Herzschild, in welchem ein Bergknapp mit braunem Bart und Haaren, angetan mit einem roten engen Leibrock und auf dem Kopf mit einer ungarischen abhangenden Haube, daran der Überstülp, und der Leibgürtel, Knöpfe und Rockaufschlag weiß oder silberfärbig, die linke Hand in die Hüfte setzend, in der Rechten aber eine Bergstufe, woraus zwei grüne Palmzweige, mit einem Lorbeerkränzel umfangen, hervorwachsen, haltend. Auf dem Schild ein freier, adeliger Turnierhelm mit umfangenden Kleinod usw. usw.”&lt;/p&gt;&lt;p&gt;Nun würde ich das Wappen gerne nutzen – oder etwas, dass dem Wappen ähnlich ist. Ich habe aber nur ein kleines Foto in unserer Familiengeschichte entdeckt. Außerdem ist das Wappen ganz schön verschnörkelt; ich würde mir etwas schlichteres, aufgeräumteres wünschen.&lt;br/&gt;Deswegen folgender Aufruf:&lt;/p&gt;
+&lt;div align=&quot;center&quot;&gt;
+Wer uns ein schönes Wappen designt, wird mit 100,- EUR belohnt!
+&lt;/div&gt;&lt;p&gt;Hier die Spielregeln:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Das Wappen muss mir gefallen – so gut, dass ich es nutze. Anders herum: Wenn ich es nutze, zahle ich.&lt;/li&gt;
+  &lt;li&gt;Belohnt wird nur das Wappen, welches mir am besten gefällt.&lt;/li&gt;
+  &lt;li&gt;Ich bekomme alle Nutzungsrechte an dem Wappen. D.h. unter anderem, dass der Künstler alle Rechte vergeben hat weil er sie selber hat.&lt;/li&gt;
+  &lt;li&gt;Nochmal explizit: Es ist ein echt selber entwickeltes Werk, nix kopiertes.&lt;/li&gt;
+  &lt;li&gt;Bis Ende April warte ich garantiert, länger nicht unbedingt.&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;Die technischen Anforderungen:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Geliefert wird ein oder mehrere PSD-Files.&lt;/li&gt;
+  &lt;li&gt;Es soll groß und klein nutzbar sein, bzw. Varianten für große und kleine Nutzung beinhalten. Ein Beispiel für große Nutzung wäre ein Druck auf dem Rücken eines T-Shirts. Eine kleine Nutzung wäre auf einem Golfball.&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;Und hier noch ein paar Stichpunkte mit Hinweisen was mir gefällt (oder nicht):&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Sie Mordernisierung stelle ich mir so vor, daß es weniger verschnörkelt im Detail wird.&lt;/li&gt;
+  &lt;li&gt;Es darf flippig sein, aber nicht zerzaust.&lt;/li&gt;
+  &lt;li&gt;Man muss nicht modelltreu bleiben, weglassen ist erlaubt. Es sollte sich aber schon an dem Gartner-Wappen anlehnen.&lt;/li&gt;
+  &lt;li&gt;Beispieleinsätze für das Wappen wären
+  &lt;ul&gt;
+    &lt;li&gt;Auf der Fahne unseres Fahrradanhängers (Größe ca. DIN A4)&lt;/li&gt;
+    &lt;li&gt;Auf T-Shirts oder Polos, groß auf dem Rücken ofer klein auf dem Ärmel.&lt;/li&gt;
+    &lt;li&gt;Auf dieser Webseite.&lt;/li&gt;
+    &lt;li&gt;Auf Golfbällen oder Skiern.&lt;/li&gt;
+    &lt;li&gt;Da fällt mir dann sicher noch mehr ein…&lt;/li&gt;
+  &lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;So jetzt seid Ihr dran. ich bin schon gespannt, was da kommt – und ob überhaupt etwas kommt…&lt;/p&gt;&lt;p&gt;Gute Nacht,&lt;br/&gt;– Till.&lt;/p&gt;
 	</description>
     </item>
 

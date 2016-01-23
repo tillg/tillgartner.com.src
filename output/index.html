@@ -25,7 +25,7 @@
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">-->
-    <link rel="shortcut icon" href="/img/favicon.ico">
+    <link rel="shortcut icon" href="/img/till_square_16x16.png">
   </head>
   <body onload="prettyPrint()"
   
@@ -43,7 +43,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-          <a class="navbar-brand" href="/">tillgartner.com</a>
+          <a class="navbar-brand" href="/"><b>t</b>ill<b>g</b>artner.com</a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
@@ -72,65 +72,45 @@
 
     <div style="background-color:white;padding-right:10px;padding-left:10px">
 
-      			<a href="blog/2016-01-04_visited_countries.html"><h1>Visited countries</h1></a>
+      			<a href="blog/2016-01-20_yoga_novotel.html"><h1>Yoga Novotel</h1></a>
+      			<p>20 January 2016</p>
+    			Category: <button type="button" class="btn btn-primary">wellness</button>
+      			<p><p>I have been looking for a place to do yoga here in Đà Nẵng. I got some answers on Facebook. Because it's too clumsy to find the posts on Facebook and the schedules that people sent me, I keep them here.</p><h2>Yoga @ Novotel with Master Avi</h2><p><img src="/img/2016-01/yoga_novotel.jpg" alt="Yoga Novotel""/></p></p>
+      			<a href="blog/2016-01-08_ping_analysis.html"><h1>Ping Visualization and Analysis</h1></a>
+      			<p>08 January 2016</p>
+    			Category: <button type="button" class="btn btn-primary">tech</button>
+      			<p><p>So this is the situation I am facing: I use an internet access that doesn't feel reliable. Sometimes it's really fast, sometimes it just feels being very unreliable. And I never know what part exactly is just failing: Is the the application that is slow, is it the WIFI, is it the Internet access.</p><p>So want I have been looking for is a reliable, long-term measurement of internet access speed. By speed I mean mainly round-trip time / latency. I looked at many tools, large ones (the ones that come from complete eco systems like Nagios or ecinga) small one (i.e. network usage tracking directly on your PC or Mac). The big ones are too much work and too much stuff that needs to be learned, understood, installed. The small ones don't answer my question since they don't do long term tracking and recording. And I don't like complex stuff.</p><p>Then found something that is in the essence exactly what I have been looking for. Re-phrtase: If I would have started putting something together myself, this is what I would have built: It's called <a href="http://www.medienvilla.com/index.php?id=231">Ping Visualization and Analysis</a> and it is based on 2 components;</p>
+<ul>
+  <li>One simple script that logs ping times (and by simple I mean <em>realy simple!</em>)</li>
+  <li>One HTML page with some JavaScript that visualizes the ping times over time.</li>
+</ul><p>You can let the ping-logger run on stupid simple hardware. It can run day &amp; night, gathering data. The format is <em>plain</em>. A sample:</p>
+<pre><code class="no-highlight">Fri Jan  8 15:14:49 ICT 2016: 64 bytes from 185.40.248.50: icmp_seq=89 ttl=53 time=310.716 ms
+Fri Jan  8 15:14:54 ICT 2016: 64 bytes from 185.40.248.50: icmp_seq=90 ttl=53 time=310.349 ms
+Fri Jan  8 15:14:59 ICT 2016: 64 bytes from 185.40.248.50: icmp_seq=91 ttl=53 time=312.787 ms
+Fri Jan  8 15:15:04 ICT 2016: 64 bytes from 185.40.248.50: icmp_seq=92 ttl=53 time=312.805 ms
+Fri Jan  8 15:15:09 ICT 2016: 64 bytes from 185.40.248.50: icmp_seq=93 ttl=53 time=311.273 ms
+Fri Jan  8 15:15:14 ICT 2016: 64 bytes from 185.40.248.50: icmp_seq=94 ttl=53 time=311.371 ms
+Fri Jan  8 15:15:19 ICT 2016: 64 bytes from 185.40.248.50: icmp_seq=95 ttl=53 time=312.096 ms
+Fri Jan  8 15:15:24 ICT 2016: 64 bytes from 185.40.248.50: icmp_seq=96 ttl=53 time=313.387 ms
+Fri Jan  8 15:15:29 ICT 2016: 64 bytes from 185.40.248.50: icmp_seq=97 ttl=53 time=310.404 ms
+Fri Jan  8 15:15:34 ICT 2016: 64 bytes from 185.40.248.50: icmp_seq=98 ttl=53 time=311.076 ms
+Fri Jan  8 15:15:39 ICT 2016: 64 bytes from 185.40.248.50: icmp_seq=99 ttl=53 time=312.640 ms
+</code></pre><p>Pretty simple, uh?! A simple <code>ping</code> with a timestamp in front. And the JS stuff reads it and makes a simple graph from it:</p><p><img src="/img/2016-01/ping.png" alt="graph""/></p><p>I just had to fix some small things to make it run on my Mac (the <code>ping</code> syntax was from another Unix slang). </p><h2>What next?</h2><p>So here is what I plan to improve (let's see wether this really happens):</p>
+<ul>
+  <li>Have the Sources GITted</li>
+  <li>Improve the graph:
+  <ul>
+    <li>The colors are a bit strange to me...</li>
+    <li>It feels upside down</li>
+    <li>Have labels on the y axis</li>
+    <li>May be have them more <a href="http://pinglogger.co.uk/index.php/screenshots/">like so</a></li>
+  </ul></li>
+  <li>May be look into <a href="https://www.elastic.co/products/logstash">log stash</a> as visualization...</li>
+</ul><h2>Addendum</h2><p>Also within the context, and because <a href="http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html">Java is the development language of the year 2015</a>: <a href="http://pastebin.com/1qnCXDw7">A java program to track the ping times to multiple end points</a></p></p>
+      			<a href="blog/2016-01-04-10_visited_countries.html"><h1>Visited countries</h1></a>
       			<p>04 January 2016</p>
     			Category: <button type="button" class="btn btn-primary">tech</button>
       			<p><p>A nice tool to play around - because it's nice to see where you've been and because it's a nice piece of JS:</p><p><a href="http://map1.maploco.com/visited-countries/mine.php?c1=mtlev1d7dk-b5fytqed5e-b3op0x9h4w-jefemlierk-2scxhcxdvo"><img src="http://map1.maploco.com/visited-countries/ml/mtlev1d7dk-b5fytqed5e-b3op0x9h4w-jefemlierk-2scxhcxdvo.gif" border=0></a></p></p>
-      			<a href="blog/2015-12-27_siteweightwatcher.html"><h1>SiteWeightWatcher - keeps your website slim</h1></a>
-      			<p>27 December 2015</p>
-    			Category: <button type="button" class="btn btn-primary">SoftwareWeNeed</button>
-      			<p><p>Good software developers test their stuff. And the <a href="https://www.wikiwand.com/en/Test-driven_development">TDD (Test Driven Development)</a> addicts are maniacs when it comes to testing. Those guys usually think in code, be it Java, Python, nodeJS, you name it. TDD means you write tests first, then you code just as much as it takes to let the tests become green. Then you rework your code and only then you start writing tests for new requirements. </p><p><img src="/img/2015-12/tdd.png" alt="TDD cycle""/></p><p>This is <strong>very</strong> testy. My opinion is that if you do it the way it's written and described in the books you become awfully slow and it turns into nonsense. But that's another discussion, and not one I want to sort out here...</p><p>What's missing with most of the test approaches I have seen in the past are the following two things:</p>
-<ol>
-  <li>The test guys and test tools stop monitoring the software or website once it went into production. Somehow they feel that their responsibility ends with the going live...</li>
-  <li>They test the software. Not the rest, I.e. The design, the HTML, the CSS etc. And the user experience, the feeling wether what I see, touch, browse navigate is of good quality, is very much influenced by this packaging of the software logic.</li>
-</ol><p>So I am looking for a tool to test (web based) software once it's out in the wild and throughout the entire user experience. Imagine a website, a simple blog. It might be perfect when it got launched, but over time it just degrades: the designers have added so many bells and whistles, the volume of the content has grown, it was tweaked to be more useable on mobiles... And eventually the site is bloated, heavy and slow. Why do I have to wait for my users to tell me (that would be complaining)? </p><p>At <a href="http://mgm-tp.com">mgm technology partners</a> we have automated test suites that run every night. So developers that built in code that slows down the software have a report that tells them every morning in their inbox. </p><p>So here is what my SiteWeightWatcher should do:</p>
-<ul>
-  <li>Run tests every 5-30 minutes against the production site</li>
-  <li>Check all the pages, not just index.html</li>
-  <li>Report immediately when pages become slow (that would be slower than they used to be)</li>
-  <li>Track key figures and how they evolve over time:
-  <ul>
-    <li>How much data is transferred for each page?</li>
-    <li>How many requests are going back &amp; forth?</li>
-    <li>How much time does it take searching for products? Over time...</li>
-    <li>How well connected is the site for users in Germany, UK, US or Asia? Over time, because those things change without us having done anything.</li>
-  </ul></li>
-</ul><p>I could imagine a dashboard for an online shop like <a href="http://kickz.com">KICKZ.com</a> to look may this way:</p><p><img src="/img/2015-12/kickz_dashboard.png" alt="KICKZ Dashboard""/></p><p>And just as the normal test teams do, these tests should also evolve and become more and more adapted to the site, it's functionality and its users. Whenever we have a real problem or bug out there, we have to make sure that our WeightWatcher will find it in case it should appear or happen again. </p><p>How could we start to build such a tool? Some thoughts:</p>
-<ul>
-  <li>We have agents and a central server. The agents are located all around the globe or in different networks (think of little Docker images that run on different clouds). They report all their captured data to the central server. This is where the reports are generated and where interactive explication of the data is provided.</li>
-  <li>The agents start collecting simple metrics:
-  <ul>
-    <li>No of HTTP requests per page</li>
-    <li>Data transferred per page</li>
-    <li>No of lines of JavaScript per page</li>
-    <li>Time to load the data</li>
-    <li>Time to execute JavaScript</li>
-  </ul></li>
-  <li>Based on this we start with simple reports:
-  <ul>
-    <li>What's the average page size?</li>
-    <li>What's the average no of requests per page?</li>
-    <li>What are my <em>heaviest</em> pages?</li>
-    <li>A graph that shows availability of my site as well as load time over a 24h scale, a week scale, a month. May be my users only experience slow loading in the evenings.</li>
-  </ul></li>
-</ul><p>From there we we extend the data we collect as well as the reports. </p><p>Such a tool would be great to monitor sites that I am in charge of (I.e. websites that we have developed at mgm) but could also give valuable information about other market players. It could be used both by technical people as well as the marketing guys - since they also <em>sometimes</em> break performance ;) I would be curious to see this kind of stats for Zalando ;)</p><p>Does anyone know about such a monitoring system? Please let me know till(dot)gartner(at)gmail(dot)com.</p></p>
-      			<a href="blog/2015-12-26_beautiful_sites.html"><h1>Beautiful websites</h1></a>
-      			<p>26 December 2015</p>
-    			Category: <button type="button" class="btn btn-primary">tech</button>
-      			<p><p>Since I always Have in mind that my site needs a proper design, I need a place to keep track of beautiful sites or at least sites where I like the design. So this is the home of those URLs </p>
-<ul>
-  <li><a href="http://jason.pureconcepts.net/">Jason McCreary's blog</a>
-  <ul>
-    <li>Large fonts</li>
-    <li>Good for text based entries as well as pictures</li>
-    <li>Simple navigation</li>
-  </ul></li>
-  <li><a href="http://alexcican.com/">Alex Cinan</a>
-  <ul>
-    <li>Large fonts</li>
-    <li>BIG pictures with the cool paralax effect</li>
-  </ul></li>
-</ul></p>
 	
     	<hr />
 	</div>
@@ -143,7 +123,7 @@
     <div id="footer">
       <div class="container">
                     
-        <p class="muted credit">&copy; Till Gartner 2015 - Last generated Jan 4, 2016 10:36:00 AM UTC - <a href="/markdown.html">Markdown</a> - <a href="/todo.html">ToDo</a> - <a href="/log.html">Done</a></p>
+        <p class="muted credit">&copy; Till Gartner 2015 - Last generated Jan 23, 2016 4:56:28 PM UTC - <a href="/markdown.html">Markdown</a> - <a href="/todo.html">ToDo</a> - <a href="/log.html">Done</a></p>
       </div>
     </div>
     
