@@ -7,11 +7,6 @@
         </#if>
     </#if>
     </div>
-    <div class="container">
-        
-    <#if content.pic??>
-	</br> </br>	</br> </br>	</br>	
-    </#if>
-		
+    <div padding="15px">		
 		
 	

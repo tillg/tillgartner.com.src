@@ -19,12 +19,7 @@
     </#if>
 
     <link rel="shortcut icon" href="/img/till_square_16x16.png">
-  </head>
-  
-  <#if content.pic??>
-  <style="background-image:url('${content.pic}');background-repeat:no-repeat;background-size:100%">
-  </#if>
-  
+  </head>    
  	 
-    <div id="wrap">
+    <div padding="15px">
    
