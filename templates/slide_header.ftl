@@ -21,5 +21,5 @@
     <link rel="shortcut icon" href="/img/till_square_16x16.png">
   </head>    
  	 
-    <div padding="15px">
+    <div>
    

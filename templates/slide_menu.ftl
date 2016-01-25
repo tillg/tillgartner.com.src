@@ -5,14 +5,13 @@
         font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; 
         font-size: 18px; 
         height: 50px;
-        color: #777;
-        float: left;
+        color: #000000;
         line-height: 20px;
         padding: 15px; 
         text-decoration: none; 
         background: #EAEAEA;
         box-sizing: border-box">
-      <a href="/"><b>t</b>ill<b>g</b>artner.com</a> 
+      <a href="/" style="vertical-align: middle;"><b>t</b>ill<b>g</b>artner.com</a> 
     <#if content.nextslide??>
         <#if content.mode?? && content.mode=="manual">
     <a href="${content.nextslide}"><img src="/img/arrow-right.png" width="30" height="30"></a>
