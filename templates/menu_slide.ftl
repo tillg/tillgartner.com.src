@@ -1,6 +1,6 @@
 	<!-- Fixed navbar -->
-    <div class="container">
-      <a class="navbar-brand" href="/"><b>t</b>ill<b>g</b>artner.com</a>
+    <div padding="20px">
+      <a href="/"><b>t</b>ill<b>g</b>artner.com</a>
     </div>
     <div class="container">
         

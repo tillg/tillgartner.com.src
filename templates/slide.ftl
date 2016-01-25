@@ -1,6 +1,6 @@
 <#include "header_slide.ftl">
 
-	<#include "menu_empty.ftl">
+	<#include "menu_slide.ftl">
 	
     <div style="background-color:white;padding-right:10px;padding-left:10px">
     
@@ -14,4 +14,4 @@
 
 	</div>
 
-<#include "footer_empty.ftl">
+<#include "footer_slide.ftl">
