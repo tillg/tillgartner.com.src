@@ -4,7 +4,7 @@ status=published
 nextslide=ping
 ~~~~~~
 
-<div align="center">
+<div align="center" width="100%">
 
  <a href="http://www.accuweather.com/en/vn/da-nang/352954/current-weather/352954" class="aw-widget-legal">
  <!--
