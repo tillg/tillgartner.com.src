@@ -9,14 +9,20 @@
     <meta name="keywords" content="">
     <meta name="generator" content="JBake">
     <#if content.nextslide??>
+        <#if content.mode??>
+            <#if ${content.mode} != "manual">
     <meta HTTP-EQUIV="refresh" content="10;URL=${content.nextslide}">
+            </#if>
+        </#else>
+    <meta HTTP-EQUIV="refresh" content="10;URL=${content.nextslide}">
+        </#if>
     </#if>
 
     <link rel="shortcut icon" href="/img/till_square_16x16.png">
   </head>
   
   <#if content.pic??>
-  style="background-image:url('${content.pic}');background-repeat:no-repeat;background-size:100%">
+  <style="background-image:url('${content.pic}');background-repeat:no-repeat;background-size:100%">
   </#if>
   
  	 

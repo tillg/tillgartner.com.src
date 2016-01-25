@@ -2,6 +2,7 @@ type=slide
 date=2016-01-23
 status=published
 nextslide=ping
+mode=manual
 ~~~~~~
 
 <div align="center" width="100%">
