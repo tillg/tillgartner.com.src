@@ -13,7 +13,7 @@
             <#if content.mode != "manual">
     <meta HTTP-EQUIV="refresh" content="10;URL=${content.nextslide}">
             </#if>
-        </#else>
+        <#else>
     <meta HTTP-EQUIV="refresh" content="10;URL=${content.nextslide}">
         </#if>
     </#if>
