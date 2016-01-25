@@ -10,7 +10,7 @@
     <meta name="generator" content="JBake">
     <#if content.nextslide??>
         <#if content.mode??>
-            <#if content.mode != "manual">
+            <#if content.mode!="manual">
     <meta HTTP-EQUIV="refresh" content="10;URL=${content.nextslide}">
             </#if>
         <#else>
