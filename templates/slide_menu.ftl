@@ -1,5 +1,5 @@
 	<!-- Fixed navbar -->
-    <div padding="15px" font-family="Helvetica Neue', Helvetica, Arial, sans-serif" font-size="18px" height="50px" color="#777" text-decoration="none">
+    <div style="padding:15px;font-family=Helvetica,Arial,sans-serif;font-size=18px;height=50px;color=#777;text-decoration=none">
       <a href="/"><b>t</b>ill<b>g</b>artner.com</a>
     <#if content.nextslide??>
         <#if content.mode?? && content.mode=="manual">
