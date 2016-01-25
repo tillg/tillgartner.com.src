@@ -18,7 +18,7 @@
   <#if content.pic??>
   style="background-image:url('${content.pic}');background-repeat:no-repeat;background-size:100%">
   </#if>
-  >
+  
  	 
     <div id="wrap">
    
