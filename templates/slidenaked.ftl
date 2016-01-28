@@ -2,7 +2,6 @@
 
 	<#include "slide_menu.ftl">
 	
-    <div style="background-color:white;padding-right:10px;padding-left:10px">
     
         <#if content.title??>
     	<div class="page-header">
@@ -12,6 +11,5 @@
         
     	<p>${content.body}</p>
 
-	</div>
 
 <#include "slide_footer.ftl">
