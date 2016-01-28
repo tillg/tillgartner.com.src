@@ -1,6 +1,6 @@
-<#include "slide_header.ftl">
+<#include "slidenaked_header.ftl">
 
-	<#include "slide_menu.ftl">
+	<#include "slidenaked_menu.ftl">
 	
     
         <#if content.title??>
@@ -12,4 +12,4 @@
     	<p>${content.body}</p>
 
 
-<#include "slide_footer.ftl">
+<#include "slidenaked_footer.ftl">
