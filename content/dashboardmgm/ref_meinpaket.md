@@ -4,8 +4,4 @@ status=published
 nextslide=waveforecast
 ~~~~~~
 
-<div align="center">
-
- <img src="../img/2016-01/ping2.png"/>
-
-</div>
+<img src ="/img/mgm/ref_meinpaket.png" width="100%">
