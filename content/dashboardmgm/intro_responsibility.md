@@ -3,5 +3,4 @@ date=2016-01-23
 status=published
 nextslide=ping
 ~~~~~~
-
-<img src ="/img/mgm/intro_egov.png" width="100%">
+<img src ="/img/mgm/intro_responsibility.png" width="100%">

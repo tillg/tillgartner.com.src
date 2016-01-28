@@ -4,4 +4,4 @@ status=published
 nextslide=intro_developers
 ~~~~~~
 
-![egov](/img/mgm/intro_bigdata.png)
+<img src ="/img/mgm/intro_bigdata.png" width="100%">
