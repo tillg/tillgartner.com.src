@@ -4,6 +4,5 @@
     <a href="${content.nextslide}"><img src="/img/arrow-right.png" width="30" height="30"></a>
         </#if>
     </#if>
-    <div padding="15px">		
 		
 	
