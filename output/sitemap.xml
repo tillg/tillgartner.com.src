@@ -29,6 +29,10 @@
         <lastmod>2015-12-01</lastmod>
     </url>
     <url>
+        <loc>http://tillgartner.com/blog/2016-01-26_command_line.html</loc>
+        <lastmod>2016-01-26</lastmod>
+    </url>
+    <url>
         <loc>http://tillgartner.com/blog/2016-01-20_yoga_novotel.html</loc>
         <lastmod>2016-01-20</lastmod>
     </url>
@@ -149,6 +153,10 @@
         <lastmod>2015-12-19</lastmod>
     </url>
     <url>
+        <loc>http://tillgartner.com/dashboard/customers.html</loc>
+        <lastmod>2016-01-23</lastmod>
+    </url>
+    <url>
         <loc>http://tillgartner.com/dashboard/ping.html</loc>
         <lastmod>2016-01-23</lastmod>
     </url>
@@ -158,6 +166,130 @@
     </url>
     <url>
         <loc>http://tillgartner.com/dashboard/weather.html</loc>
+        <lastmod>2016-01-23</lastmod>
+    </url>
+    <url>
+        <loc>http://tillgartner.com/dashboard/weather2.html</loc>
+        <lastmod>2016-01-23</lastmod>
+    </url>
+    <url>
+        <loc>http://tillgartner.com/dashboard/weather3.html</loc>
+        <lastmod>2016-01-23</lastmod>
+    </url>
+    <url>
+        <loc>http://tillgartner.com/dashboardmgm/01_fields.html</loc>
+        <lastmod>2016-01-23</lastmod>
+    </url>
+    <url>
+        <loc>http://tillgartner.com/dashboardmgm/02_history.html</loc>
+        <lastmod>2016-01-23</lastmod>
+    </url>
+    <url>
+        <loc>http://tillgartner.com/dashboardmgm/03_locations.html</loc>
+        <lastmod>2016-01-23</lastmod>
+    </url>
+    <url>
+        <loc>http://tillgartner.com/dashboardmgm/04_projectstructure.html</loc>
+        <lastmod>2016-01-23</lastmod>
+    </url>
+    <url>
+        <loc>http://tillgartner.com/dashboardmgm/05_designthinking.html</loc>
+        <lastmod>2016-01-23</lastmod>
+    </url>
+    <url>
+        <loc>http://tillgartner.com/dashboardmgm/_00_party.html</loc>
+        <lastmod>2016-01-23</lastmod>
+    </url>
+    <url>
+        <loc>http://tillgartner.com/dashboardmgm/_01_guest.html</loc>
+        <lastmod>2016-01-23</lastmod>
+    </url>
+    <url>
+        <loc>http://tillgartner.com/dashboardmgm/_02_guest.html</loc>
+        <lastmod>2016-01-23</lastmod>
+    </url>
+    <url>
+        <loc>http://tillgartner.com/dashboardmgm/_03_guest.html</loc>
+        <lastmod>2016-01-23</lastmod>
+    </url>
+    <url>
+        <loc>http://tillgartner.com/dashboardmgm/_04_guest.html</loc>
+        <lastmod>2016-01-23</lastmod>
+    </url>
+    <url>
+        <loc>http://tillgartner.com/dashboardmgm/_05_guest.html</loc>
+        <lastmod>2016-01-23</lastmod>
+    </url>
+    <url>
+        <loc>http://tillgartner.com/dashboardmgm/_06_guest.html</loc>
+        <lastmod>2016-01-23</lastmod>
+    </url>
+    <url>
+        <loc>http://tillgartner.com/dashboardmgm/ref_bauer.html</loc>
+        <lastmod>2016-01-23</lastmod>
+    </url>
+    <url>
+        <loc>http://tillgartner.com/dashboardmgm/ref_bibliomed.html</loc>
+        <lastmod>2016-01-23</lastmod>
+    </url>
+    <url>
+        <loc>http://tillgartner.com/dashboardmgm/ref_deutscherente.html</loc>
+        <lastmod>2016-01-23</lastmod>
+    </url>
+    <url>
+        <loc>http://tillgartner.com/dashboardmgm/ref_elster.html</loc>
+        <lastmod>2016-01-23</lastmod>
+    </url>
+    <url>
+        <loc>http://tillgartner.com/dashboardmgm/ref_hdi.html</loc>
+        <lastmod>2016-01-23</lastmod>
+    </url>
+    <url>
+        <loc>http://tillgartner.com/dashboardmgm/ref_kickz.html</loc>
+        <lastmod>2016-01-23</lastmod>
+    </url>
+    <url>
+        <loc>http://tillgartner.com/dashboardmgm/ref_koelnassekuranz.html</loc>
+        <lastmod>2016-01-23</lastmod>
+    </url>
+    <url>
+        <loc>http://tillgartner.com/dashboardmgm/ref_lidl.html</loc>
+        <lastmod>2016-01-23</lastmod>
+    </url>
+    <url>
+        <loc>http://tillgartner.com/dashboardmgm/ref_meinpaket.html</loc>
+        <lastmod>2016-01-23</lastmod>
+    </url>
+    <url>
+        <loc>http://tillgartner.com/dashboardmgm/waveforecast.html</loc>
+        <lastmod>2016-01-23</lastmod>
+    </url>
+    <url>
+        <loc>http://tillgartner.com/dashboardmgm/weather.html</loc>
+        <lastmod>2016-01-23</lastmod>
+    </url>
+    <url>
+        <loc>http://tillgartner.com/dashboardmgm/intro_bigdata.html</loc>
+        <lastmod>2016-01-23</lastmod>
+    </url>
+    <url>
+        <loc>http://tillgartner.com/dashboardmgm/intro_developers.html</loc>
+        <lastmod>2016-01-23</lastmod>
+    </url>
+    <url>
+        <loc>http://tillgartner.com/dashboardmgm/intro_ecom.html</loc>
+        <lastmod>2016-01-23</lastmod>
+    </url>
+    <url>
+        <loc>http://tillgartner.com/dashboardmgm/intro_ecom_lidl.html</loc>
+        <lastmod>2016-01-23</lastmod>
+    </url>
+    <url>
+        <loc>http://tillgartner.com/dashboardmgm/intro_egov.html</loc>
+        <lastmod>2016-01-23</lastmod>
+    </url>
+    <url>
+        <loc>http://tillgartner.com/dashboardmgm/intro_responsibility.html</loc>
         <lastmod>2016-01-23</lastmod>
     </url>
 </urlset>

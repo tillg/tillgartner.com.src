@@ -1,7 +1,7 @@
 type=slide
 date=2016-01-23
 status=published
-nextslide=_05_guest
+nextslide=z05_guest
 ~~~~~~
 
 #We welcome our guests

@@ -1,7 +1,7 @@
 type=slide
 date=2016-01-23
 status=published
-nextslide=_00_party
+nextslide=z00_party
 ~~~~~~
 
 <div align="center" width="100%">

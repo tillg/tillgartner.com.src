@@ -6,9 +6,18 @@
     <atom:link href="http://tillgartner.com/feed.xml" rel="self" type="application/rss+xml" />
     <description>JBake Bootstrap Template</description>
     <language>en-gb</language>
-    <pubDate>Sat, 23 Jan 2016 16:56:28 +0700</pubDate>
-    <lastBuildDate>Sat, 23 Jan 2016 16:56:28 +0700</lastBuildDate>
+    <pubDate>Mon, 1 Feb 2016 11:24:16 +0700</pubDate>
+    <lastBuildDate>Mon, 1 Feb 2016 11:24:16 +0700</lastBuildDate>
 
+    <item>
+      <title>The Art of Command Line</title>
+      <link>http://tillgartner.com/blog/2016-01-26_command_line.html</link>
+      <pubDate>Tue, 26 Jan 2016 00:00:00 +0700</pubDate>
+      <guid isPermaLink="false">blog/2016-01-26_command_line.html</guid>
+      	<description>
+	&lt;p&gt;A really helpful resource I found yesterday:&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/jlevy/the-art-of-command-line/blob/master/README.md&quot;&gt;The Art of Command Line&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Not only does it list tips that you often need, but it also gives you hints and advices on how you should work, what you should read, what you should learn (indicating a certain order). &lt;/p&gt;&lt;p&gt;For an occasional command liner like me that&apos;s great!&lt;/p&gt;
+	</description>
+    </item>
     <item>
       <title>Yoga Novotel</title>
       <link>http://tillgartner.com/blog/2016-01-20_yoga_novotel.html</link>
