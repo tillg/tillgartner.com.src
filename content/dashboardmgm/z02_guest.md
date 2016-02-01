@@ -12,5 +12,5 @@ nextslide=z03_guest
 
 <img src ="/img/mgm/guests/dut.jpg" width="100">
 
-<img src ="/img/mgm/guests/duytan.png" width="100">
+<img src ="/img/mgm/guests/duytan.gif" width="100">
 

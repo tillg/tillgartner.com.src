@@ -6,8 +6,9 @@ nextslide=z01_guest
 
 <div align="center" width="100%">
 
-#mgm House warming
-##Monday, February 1st 2016
-##Đà Nẵng
+<h1>mgm House warming</h1>
+</br>
+<h2>Monday, February 1st 2016</br>
+Đà Nẵng</h2>
 
 </div>
