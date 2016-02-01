@@ -3,6 +3,7 @@ date=2015-11-30
 type=post
 status=published
 category=tech
+pic=/img/2015-11/github.png
 ~~~~~~
 
 ***** This page is under construction *****
