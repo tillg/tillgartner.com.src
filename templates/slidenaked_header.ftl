@@ -7,15 +7,15 @@
     <meta name="description" content="">
     <meta name="author" content="Till Gartner">
     <meta name="keywords" content="">
-    <meta http-equiv="expires"  content="0">   <#-- Comment this line for production -->
+    <#--<meta http-equiv="expires"  content="0">    Comment this line for production -->
     <meta name="generator" content="JBake">
     <#if content.nextslide??>
         <#if content.mode??>
             <#if content.mode!="manual">
-    <meta http-equiv="refresh" content="10;URL=${content.nextslide}">
+    <meta http-equiv="refresh" content="15;URL=${content.nextslide}">
             </#if>
         <#else>
-    <meta http-equiv="refresh" content="10;URL=${content.nextslide}">
+    <meta http-equiv="refresh" content="15;URL=${content.nextslide}">
         </#if>
     </#if>
 
