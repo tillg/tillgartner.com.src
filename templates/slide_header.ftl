@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="Till Gartner">
     <meta name="keywords" content="">
-    <meta http-equiv="expires"  content="0">   <#-- Comment this line for production -->
+    <meta http-equiv="expires"  content="0">   <#-- Comment out this line for production -->
     <meta name="generator" content="JBake">
     <#if content.nextslide??>
         <#if content.mode??>
