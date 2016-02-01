@@ -10,7 +10,7 @@ nextslide=01_fields
 
 <img src ="/img/mgm/guests/techlope.jpg" width="100">
 
-<img src ="/img/mgm/guests/vietin.jpg" width="100">
+<img src ="/img/mgm/guests/vietin.jpg" width="150">
 
-<img src ="/img/mgm/guests/vipurel.png" width="100">
+<img src ="/img/mgm/guests/vipurel.png" width="150">
 

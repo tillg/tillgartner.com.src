@@ -8,8 +8,8 @@ nextslide=z02_guest
 
 <img src ="/img/mgm/guests/accord.png" width="100">
 
-<img src ="/img/mgm/guests/brendel.png" width="100">
+<img src ="/img/mgm/guests/brendel.png" width="200">
 
 <img src ="/img/mgm/guests/cbre.jpg" width="100">
 
-<img src ="/img/mgm/guests/code.png" width="100">
+<img src ="/img/mgm/guests/code.png" width="200">
