@@ -5,7 +5,10 @@
 	<meta charset="utf-8">
 	<title>Vespa Tracking</title>
 	<script type="text/javascript" src="d3/d3.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
 	<style type="text/css">
+	
+		
 		.axis path,
 		.axis line {
 			fill: none;
@@ -24,20 +27,20 @@
 			font-size: 10px;
 		}
 		
-.svg
-{
-/*    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 100%), url(bg.png) repeat 0 0, url(vespa.jpg) repeat 0 0;
-    background: -moz-linear-gradient(top, rgba(255,255,255,0.7) 0%, rgba(255,255,255,0.7) 100%), url(vespa.jpg) repeat 0 0; */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.7)), color-stop(100%,rgba(255,255,255,0.7))), url(vespa.jpg) repeat 0;
-/*    background: -webkit-linear-gradient(top, rgba(255,255,255,0.7) 0%,rgba(255,255,255,0.7) 100%), url(vespa.jpg) repeat 0 0; */
-/*    background: -o-linear-gradient(top, rgba(255,255,255,0.7) 0%,rgba(255,255,255,0.7) 100%), url(vespa.jpg) repeat 0 0;
-    background: -ms-linear-gradient(top, rgba(255,255,255,0.7) 0%,rgba(255,255,255,0.7) 100%), url(vespa.jpg) repeat 0 0; 
-    background: linear-gradient(to bottom, rgba(255,255,255,0.7) 0%,rgba(255,255,255,0.7) 100%), url(vespa.jpg) repeat 0 0; */
-}		
+		.svg {
+			/*    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 100%), url(bg.png) repeat 0 0, url(vespa.jpg) repeat 0 0;
+				background: -moz-linear-gradient(top, rgba(255,255,255,0.7) 0%, rgba(255,255,255,0.7) 100%), url(vespa.jpg) repeat 0 0; */
+				background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.7)), color-stop(100%,rgba(255,255,255,0.7))), url(vespa.jpg) repeat 0;
+			/*    background: -webkit-linear-gradient(top, rgba(255,255,255,0.7) 0%,rgba(255,255,255,0.7) 100%), url(vespa.jpg) repeat 0 0; */
+			/*    background: -o-linear-gradient(top, rgba(255,255,255,0.7) 0%,rgba(255,255,255,0.7) 100%), url(vespa.jpg) repeat 0 0;
+				background: -ms-linear-gradient(top, rgba(255,255,255,0.7) 0%,rgba(255,255,255,0.7) 100%), url(vespa.jpg) repeat 0 0; 
+				background: linear-gradient(to bottom, rgba(255,255,255,0.7) 0%,rgba(255,255,255,0.7) 100%), url(vespa.jpg) repeat 0 0; */
+			}
+					
 	</style>
 </head>
 
-<body>
+<body >
 	<script type="text/javascript">
 		//Width and height
 		var w = 700;
@@ -79,10 +82,11 @@
 							.ticks(5);
 
 			//Create SVG element
-			var svg = d3.select("body")
+			var svg = d3.select("#mother")
 						.append("svg")
 						.attr("width", w)
 						.attr("height", h)
+						.attr("align", "center")
 						.attr("class", "svg");
 			
 			// Draw the line
@@ -117,6 +121,10 @@
         return d;
        }
 	</script>
+	<div style="text-align:center;" id="mother">
+		<h1>My Vespa kilometers</h1>
+	</div>
+		
 </body>
 
 </html>
