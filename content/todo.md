@@ -17,6 +17,7 @@ Things I plan to do on the website.
 #Technical and design changes
 - Have Google Analytics display on the page itself
     - See [here](https://ga-dev-tools.appspot.com/embed-api/server-side-authorization/) how to do it.
+- Have the background image of the most recent artickle displayed as background of the `index.html`
 - Find out why loading is so slow thru 3G
 - Modify the `index.html`to have top level links to category pages, i.e.
 	- Recipes
