@@ -1,6 +1,6 @@
 title=Vietnamese Languague
 date=2016-02-16
-type=categorypage
+type=categorypageofpages
 status=published
 category=vietnamese
 pic=/viet/my.jpg

@@ -1,6 +1,6 @@
 title=Vietnamese Dyphtongs
 date=2016-01-10
-type=post
+type=page
 status=published
 category=vietnamese
 ~~~~~~

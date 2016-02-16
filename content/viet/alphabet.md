@@ -1,6 +1,6 @@
 title=Vietnamese Alphabet
 date=2016-01-01
-type=post
+type=page
 status=published
 category=vietnamese
 ~~~~~~
