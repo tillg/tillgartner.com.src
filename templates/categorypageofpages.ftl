@@ -11,7 +11,7 @@
       <div class="row-fluid marketing">
         <div class="span9">
           <ul>
-          	<#list pages as page>
+          	<#list pages?reverse as page>
           		<#if (page.status == "published") && (page.category??) && (page.category == content.category)>
           			<p><a href="/${page.uri}">${page.title}</a></p>
           		</#if>
