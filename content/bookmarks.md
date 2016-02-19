@@ -6,6 +6,7 @@ status=published
 
 #mgm technology partners
 [![Outlook](/img/bookmarks/outlook.ico) Outlook Web Access](https://webmail.mgm-tp.com/owa)
+[![WebEx](/img/bookmarks/webex.png)WebEx Meeting](https://webmeeting.mgm-tp.com/orion/meeting?siteurl=webmeeting)
 ![Confluence](/img/bookmarks/confluence.ico) **mgm Wiki** [Dashboard](https://wiki.mgm-tp.com/confluence/dashboard.action) - [Blog](https://wiki.mgm-tp.com/confluence/pages/viewrecentblogposts.action?key=MGMBLOG) - [Phone list](https://wiki.mgm-tp.com/confluence/display/ORGANISATION/Phone+list) - [Photo list](https://wiki.mgm-tp.com/confluence/display/ORGANISATION/Photo+list)
 ![Jira](img/bookmarks/jira.ico) **mgm Jira** [Dashboard](https://jira.mgm-tp.com/jira/secure/Dashboard.jspa)
 **mgm Vietnam**  [![Vietnam](/img/bookmarks/vietnam.png) VN Wiki](https://wiki.mgm-tp.com/confluence/display/MGMVNM/mgm+Vietnam+Home) -  [![Capsule](/img/bookmarks/capsule.png) Capsule](https://mgm-tp.capsulecrm.com/parties) - [![Recruiterbox](/img/bookmarks/recruiterbox.png) Recruiterbox](https://mgmtp.recruiterbox.com/app/#candidates/overview) - [English level comparison](http://secure.vec.bc.ca/toefl-equivalency-table.cfm) - [![Smartsheet](/img/bookmarks/smartsheet.ico) Smartsheet](https://app.smartsheet.com/b/home) - [Vietin Bank](https://ebanking.vietinbank.vn/efast/home.do)
