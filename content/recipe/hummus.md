@@ -20,4 +20,4 @@ It's rather simple:
 _BLEND_! And yes, you can eat it right away, no need to wait...
 
 The original writing from the chef:
-![Hummus](/img/recipe/hummus-recipe.png)
+![Hummus](/img/recipes/hummus-recipe.png)
