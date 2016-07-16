@@ -15,3 +15,5 @@ This is the website of Till Gartner. I'm a simple, guy with simple hobbies, like
 I'm always happy about feedback. You can reach me at till(dot)gartner(at)gmail(dot)com.
 
 ![Till](/img/till_helm.jpg)
+
+Krzys was here ;)
