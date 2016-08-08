@@ -10,8 +10,7 @@ category=tech
 [Criteria](#criteria)  
 [Generators](#generators)  
 [Evaluation Matrix](#matrix)  
-[Links](#links)  
-[Images](#images)  
+[Editors](#editors)  
 
 OK, everytbody does it, even I do it: Static websites. It's fast, it's safe, it does the computing where it belongs (as long as you don't need fancy customization, why should a server thing about what the page looks like at read time?). This very site is ststic (built with [JBake](http://jbake.org/) and hosted on [Github](https://github.com/)). It was fun setting it up, it works great - but I couldn't explain my mother how to use it or how to publish some content on it. And that's what a CMs should be about: It has to be usable in the first place.
 
