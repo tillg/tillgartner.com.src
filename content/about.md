@@ -16,4 +16,3 @@ I'm always happy about feedback. You can reach me at till(dot)gartner(at)gmail(d
 
 ![Till](/img/till_helm.jpg)
 
-Krzys was here ;)
