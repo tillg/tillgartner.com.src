@@ -46,11 +46,11 @@ Therefore I need anotrher setup. I plan to have a look at some different static 
 
 When scanning the literature (and Github). this is the list of generators rthat I should probably have a look at:
 
-- Jekyll
-- Harp JS
-- Hugo
-- Metalsmith 
-- Nikola
+- Jekyll - Done
+- Harp JS - Done
+- Hugo - Done
+- Metalsmith - Done
+- Nikola - Done
 - Octopress 
 - Hexo 
 - Hyde 
@@ -68,12 +68,15 @@ When scanning the literature (and Github). this is the list of generators rthat 
 ## Evaluation Matrix
 </a>
 
-| Generator                                 | Programming language | Themes                  | Formats                                   |
-| :-----------                              | :-----------         | :--------------         |:----------                                |
-| [Jekyll](https://jekyllrb.com/)           | Ruby :-1:            | Lots :+1:               | Markdown, Textile, Liquid :+1:             |
-| [Harp JS](https://harpjs.com/)            | JS / Node :+1:       | Some (~)                | Markdown, EJS, Jade, LESS, Stylus... :+1:  |
-| [Hugo](https://gohugo.io/)                | GO :-1:              | Some (~)                | MArkdown, asciidoc, reStructure :+1:       |
-| [Metalsmith](http://www.metalsmith.io/)   | Node JS :+1:
+| Generator                                 | Programming language | Themes                  | Formats                                    | Comment                 |
+| :-----------                              | :-----------         | :--------------         |:----------                                 |:-------------------     |
+| [Jekyll](https://jekyllrb.com/)           | Ruby --              | Lots ++                 | Markdown, Textile, Liquid :+1:             |                         |
+| [Harp JS](https://harpjs.com/)            | JS / Node ++         | Some 00                 | Markdown, EJS, Jade, LESS, Stylus... :+1:  |                         |
+| [Hugo](https://gohugo.io/)                | GO --                | Some 00                 | Markdown, asciidoc, reStructure :+1:       |                         |
+| [Metalsmith](http://www.metalsmith.io/)   | Node JS --           |                         |                                            | Looks very flexible. Also see http://dbushell.com/2015/05/11/wordpress-to-metalsmith/   |
+| [Nikola](https://getnikola.com/)          | Python --            | Few --                  | reStructuredText, Markdown,                | Looks just so so... |
+| [Octopress](http://octopress.org/)        | Python --            | Some 00                 | 
+
 
 <a name="editors"/>
 ## Editors
@@ -87,8 +90,12 @@ When you think of a static site generation from a base of Markdown files, it qui
 
 Editor we look at
 
-* Visual Code - might have something suitable
-* Atom
-* Brackets
-* [Caret.io](https://caret.io/)
-* ... probably some more...
+| Editor                                | Markdown / HTML Preview           | Comments                          |
+|:------------------                    | :----------------------           | :-------------------------        |
+| Visual Code                           | ?                                 | Might have something suitable     |
+| Atom                                  |                                   |                                   |
+| Brackets                              |                                   |                                   |
+| [Caret.io](https://caret.io/)         |                                   |                                   |
+| [IA Writer](https://ia.net/writer)    | Claims so...                      |                                   |
+
+... probably some more...
