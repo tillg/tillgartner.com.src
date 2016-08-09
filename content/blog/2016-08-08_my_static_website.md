@@ -35,6 +35,7 @@ Therefore I need anotrher setup. I plan to have a look at some different static 
 - Resize pics for fast delivery
 - Easy to create new themes
 - Based on other HTML, i.e. Bootstrap themes
+* Being able to create an [Accelerated Mobile Page](https://www.ampproject.org/) 
 - Extensible architecture 
     - Can add stuff, i.e. Picture resizing process
     - At least a programming language I know a bit - or that I am curious to learn (Java, Python, JavaScript)
@@ -88,4 +89,5 @@ Editor we look at
 * Visual Code - might have something suitable
 * Atom
 * Brackets
+* [Caret.io](https://caret.io/)
 * ... probably some more...
