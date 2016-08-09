@@ -68,11 +68,12 @@ When scanning the literature (and Github). this is the list of generators rthat 
 ## Evaluation Matrix
 </a>
 
-| Generator                        | Programming language | Themes                  | Formats                                   |
-| :-----------                     | :-----------         | :--------------         |:----------                                |
-| [Jekyll](https://jekyllrb.com/)  | Ruby (-)             | Lots (+)                | Markdown, Textile, Liquid (+)             |
-| [Harp JS](https://harpjs.com/)   | JS / Node (+)        | Some (~)                | Markdown, EJS, Jade, LESS, Stylus... (+)  |
-| [Hugo](https://gohugo.io/)       | GO (-)               | Some (~)                | MArkdown, asciidoc, reStructure (+)       |
+| Generator                                 | Programming language | Themes                  | Formats                                   |
+| :-----------                              | :-----------         | :--------------         |:----------                                |
+| [Jekyll](https://jekyllrb.com/)           | Ruby :-1:            | Lots :+1:               | Markdown, Textile, Liquid :+1:             |
+| [Harp JS](https://harpjs.com/)            | JS / Node :+1:       | Some (~)                | Markdown, EJS, Jade, LESS, Stylus... :+1:  |
+| [Hugo](https://gohugo.io/)                | GO :-1:              | Some (~)                | MArkdown, asciidoc, reStructure :+1:       |
+| [Metalsmith](http://www.metalsmith.io/)   | Node JS :+1:
 
 <a name="editors"/>
 ## Editors
