@@ -90,6 +90,8 @@ When scanning the literature (and Github). this is the list of generators rthat 
 
 As a result I should have a closer look at *[Harp JS](https://harpjs.com/)*, *[Metalsmith](http://www.metalsmith.io/)*, *[Hexo](https://hexo.io/)* and *[Wintersmith](http://wintersmith.io/)*.
 
+After quickly reading thru the websites of the above tools I decided to give it a try with *[Metalsmith](http://www.metalsmith.io/)*.
+
 <a name="editors"/>
 ## Editors
 </a> 
