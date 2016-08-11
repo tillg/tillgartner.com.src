@@ -38,7 +38,7 @@ Therefore I need anotrher setup. I plan to have a look at some different static 
 * Being able to create an [Accelerated Mobile Page](https://www.ampproject.org/) 
 - Extensible architecture 
     - Can add stuff, i.e. Picture resizing process
-    - At least a programming language I know a bit - or that I am curious to learn (Java, Python, JavaScript)
+    - At least a programming language I know a bit - or that I am curious to learn (that basically boils it down to Java and JavaScript)
 
 <a name="generators"/>
 ## Generators
@@ -51,18 +51,18 @@ When scanning the literature (and Github). this is the list of generators rthat 
 - Hugo - Done
 - Metalsmith - Done
 - Nikola - Done
-- Octopress 
-- Hexo 
-- Hyde 
-- Pelican
-- Nanoc 
-- Middleman 
-- Lektor 
-- Gatsby 
-- Expose 
-- Wintersmith 
-- Doc pad
-- kirby 
+- Octopress - Done
+- Hexo - Done
+- Hyde - Done
+- Pelican- Done
+- Nanoc - Done
+- Middleman - Done
+- Lektor - Done
+- Gatsby - Done
+- Expose - Done
+- Wintersmith - Done
+- Doc pad - Done
+- kirby - Done
 
 <a name="matrix"/>
 ## Evaluation Matrix
@@ -70,13 +70,25 @@ When scanning the literature (and Github). this is the list of generators rthat 
 
 | Generator                                 | Programming language | Themes                  | Formats                                    | Comment                 |
 | :-----------                              | :-----------         | :--------------         |:----------                                 |:-------------------     |
-| [Jekyll](https://jekyllrb.com/)           | Ruby --              | Lots ++                 | Markdown, Textile, Liquid :+1:             |                         |
-| [Harp JS](https://harpjs.com/)            | JS / Node ++         | Some 00                 | Markdown, EJS, Jade, LESS, Stylus... :+1:  |                         |
-| [Hugo](https://gohugo.io/)                | GO --                | Some 00                 | Markdown, asciidoc, reStructure :+1:       |                         |
-| [Metalsmith](http://www.metalsmith.io/)   | Node JS --           |                         |                                            | Looks very flexible. Also see http://dbushell.com/2015/05/11/wordpress-to-metalsmith/   |
+| [Jekyll](https://jekyllrb.com/)           | Ruby --              | Lots ++                 | Markdown, Textile, Liquid ++               |                         |
+| *[Harp JS](https://harpjs.com/)*          | NodeJS  ++           | Some 00                 | Markdown, EJS, Jade, LESS, Stylus... ++    |                         |
+| [Hugo](https://gohugo.io/)                | GO --                | Some 00                 | Markdown, asciidoc, reStructure ++         |                         |
+| *[Metalsmith](http://www.metalsmith.io/)* | Node JS --           |                         |                                            | Looks very flexible. Also see http://dbushell.com/2015/05/11/wordpress-to-metalsmith/   |
 | [Nikola](https://getnikola.com/)          | Python --            | Few --                  | reStructuredText, Markdown,                | Looks just so so... |
-| [Octopress](http://octopress.org/)        | Python --            | Some 00                 | 
+| [Octopress](http://octopress.org/)        | Python --            | Some 00                 |                                            | Is just a package around Jekyll.|
+| *[Hexo](https://hexo.io/)*                | Node JS ++           | Some 00                 | Markdown, different flavors, Jekyll Plugins ++ | Looks very flexible, uses standard template engines (EJS, Jade, Swig...), allows to integrate scripts and plugins. ++|
+| [Hyde](http://hyde.github.io/)            | Python --            | Little --               |                                            |                         |
+| [Pelican](http://blog.getpelican.com/)    | Python --            |                         |                                            |                         |
+| [Nanoc](http://nanoc.ws/)                 | Ruby --              |                         |                                            |                         |
+| [Moddleman](https://middlemanapp.com/)    | Python --            |                         |                                            |                         |
+| [Lektor](https://www.getlektor.com/)      | Python --            |                         |                                            |                         |
+| [Gatsby](https://github.com/gatsbyjs/gatsby)| Node JS, React     | No --                   | Markdown 00                                | Looks very flexible, but pretty complex...|
+| [Expose](https://github.com/Jack000/Expose)| Shell scripts --    |                         | Markdown and picture folders               | Specifically for picture sites.|
+| *[Wintersmith](http://wintersmith.io/)*   | Node JS, CoffeeScript ++ | Little --           | Markdown, Jade, ...                        | Looks very flexible, LESS, Sass, Stylus. Might be a bit complex...| 
+| [DocPad](http://docpad.org/)              | Node JS ++           | No --                   | Markdown and others ++                     | Looks flexible but complex |
+| [kirby](https://getkirby.com/)            | PHP --               |                         | Markdown                                   |                             |
 
+As a result I should have a closer look at *[Harp JS](https://harpjs.com/)*, *[Metalsmith](http://www.metalsmith.io/)*, *[Hexo](https://hexo.io/)* and *[Wintersmith](http://wintersmith.io/)*.
 
 <a name="editors"/>
 ## Editors
