@@ -2,7 +2,7 @@ title=Bookmarks
 type=page
 date=2015-12-01
 status=published
-~~~~~~markdown
+~~~~~~
 
 #mgm technology partners
 [![Outlook](/img/bookmarks/outlook.ico) Outlook Web Access](https://webmail.mgm-tp.com/owa)
