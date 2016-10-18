@@ -3,7 +3,6 @@ date=2016-10-18
 type=post
 status=published
 category=recipe
-pic=/img/2015-12/fond.jpg
 ~~~~~~
 
 Roggenmischbrot, auch für Anfänger geeignet
