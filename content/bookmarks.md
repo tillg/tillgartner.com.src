@@ -16,7 +16,6 @@ status=published
 
 ![hybris](/img/bookmarks/hybris.png) **hybris** [Wiki](https://wiki.hybris.com/dashboard.action)
 **software licences** [JetBrains](https://account.jetbrains.com/login) - [Microsoft](https://portal.office.com/admin/default.aspx) 
-**mgm employee sheet** [Sheet](http://localhost:8000/#!/home) - [Admin](http://localhost:8000/admin) - [Git](https://mgmgerrit.mgm-tp.com/#/admin/projects/mgm/mms)
 
 #Private
 **Banking** [![hvb](/img/bookmarks/hvb.ico) HVB Kundenlogin](https://my.hypovereinsbank.de/login?view=/privatkunden/login.jsp) - [![vietin](/img/bookmarks/vietin.png) Vietin iPay](https://ebanking.vietinbank.vn/ipay/login.do?locale=en)
