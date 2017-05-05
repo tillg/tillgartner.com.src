@@ -5,11 +5,10 @@ status=published
 ~~~~~~
 
 #mgm technology partners
-[![Outlook](/img/bookmarks/outlook.ico) Outlook Web Access](https://webmail.mgm-tp.com/owa)
-[![WebEx](/img/bookmarks/webex.png)WebEx Meeting](https://webmeeting.mgm-tp.com/orion/meeting?siteurl=webmeeting)
-![Confluence](/img/bookmarks/confluence.ico)
+[![Outlook](/img/bookmarks/outlook.ico) Outlook Web Access](https://webmail.mgm-tp.com/owa) - [![WebEx](/img/bookmarks/webex.png)WebEx Meeting](https://webmeeting.mgm-tp.com/orion/meeting?siteurl=webmeeting)
 
-**mgm Wiki**
+** ![Confluence](/img/bookmarks/confluence.ico) mgm Wiki**
+
 * [Dashboard](https://wiki.mgm-tp.com/confluence/dashboard.action)
 * [Blog](https://wiki.mgm-tp.com/confluence/pages/viewrecentblogposts.action?key=MGMBLOG)
 * [Phone list](https://wiki.mgm-tp.com/confluence/display/ORGANISATION/Phone+list)
