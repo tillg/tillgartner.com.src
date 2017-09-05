@@ -20,7 +20,7 @@ Eines von Nadines Lieblingsessen für Kinder & Ehemann...
 - 1 Bund	Petersilie
 - 1 TL	Gemüsebrühe
 
-# ZUbereitung
+# Zubereitung
 
 **Arbeitszeit:** ca. 20 Min. / **Schwierigkeitsgrad:** simpel
 
