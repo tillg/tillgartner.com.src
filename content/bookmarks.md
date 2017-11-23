@@ -7,7 +7,7 @@ status=published
 #mgm technology partners
 [![Outlook](/img/bookmarks/outlook.ico) Outlook Web Access](https://webmail.mgm-tp.com/owa) - [![WebEx](/img/bookmarks/webex.png)WebEx Meeting](https://webmeeting.mgm-tp.com/orion/meeting?siteurl=webmeeting)
 
-** ![Confluence](/img/bookmarks/confluence.ico) mgm Wiki**
+**![Confluence](/img/bookmarks/confluence.ico) mgm Wiki**
 
 * [Dashboard](https://wiki.mgm-tp.com/confluence/dashboard.action)
 * [Blog](https://wiki.mgm-tp.com/confluence/pages/viewrecentblogposts.action?key=MGMBLOG)
@@ -16,6 +16,7 @@ status=published
 * ![Jira](img/bookmarks/jira.ico) **mgm Jira** [Dashboard](https://jira.mgm-tp.com/jira/secure/Dashboard.jspa)
 
 **mgm Vietnam**  
+
 * [![EmployeeSheet](/img/bookmarks/mgmes.ico)Employee Sheet](https://sheet.employees.mgm-tp.com/#!/home?showFullName)
 * [Absence Booking](https://absence.employees.mgm-tp.com/leader/listPendingRequest)
 * [![Vietnam](/img/bookmarks/vietnam.png) VN Wiki](https://wiki.mgm-tp.com/confluence/display/MGMVNM/mgm+Vietnam+Home)
@@ -23,6 +24,7 @@ status=published
 * [![Capsule](/img/bookmarks/capsule.png) Capsule](https://mgm-tp.capsulecrm.com/parties)
 * [![Recruiterbox](/img/bookmarks/recruiterbox.png) Recruiterbox](https://mgmtp.recruiterbox.com/app/#candidates/overview)
 * [![vietin](/img/bookmarks/vietin.png) Vietin Bank](https://ebanking.vietinbank.vn/efast/home.do)
+* [A12 Plasma Showcase](http://a12qaserver.mgm-edv.de/widget-showcase/)
 
 
 **mgm Vietnam - Tech**
