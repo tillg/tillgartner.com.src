@@ -1,10 +1,10 @@
 title=Bookmarks
 type=page
 date=2015-12-01
-status=published 
+status=published
 ~~~~~~
 
-# mgm technology partners
+#mgm technology partners
 [![Outlook](/img/bookmarks/outlook.ico) Outlook Web Access](https://webmail.mgm-tp.com/owa) - [![WebEx](/img/bookmarks/webex.png)WebEx Meeting](https://webmeeting.mgm-tp.com/orion/meeting?siteurl=webmeeting)
 
 **![Confluence](/img/bookmarks/confluence.ico) mgm Wiki**
@@ -41,7 +41,6 @@ status=published
 
 #Private
 **Banking** [![hvb](/img/bookmarks/hvb.ico) HVB Kundenlogin](https://my.hypovereinsbank.de/login?view=/privatkunden/login.jsp) - [![vietin](/img/bookmarks/vietin.png) Vietin iPay](https://ebanking.vietinbank.vn/ipay/login.do?locale=en)
-* [Time tracking](https://time.anvaka.com/#!/time-log/1H4hS4DJ-0DrhmF2qiMBs2DTuCA08KklawdBSmK6bNwQ)
 
 ##Blogs
 [Gartnerprivat](http://gartnerprivat.de/) - [Admin](http://gartnerprivat.de/wp-admin/)
@@ -52,3 +51,9 @@ status=published
 **Translate** [![leo](/img/bookmarks/leo.ico) Leo.org](http://www.leo.org/) - [![translate](/img/bookmarks/google_translate.png) Google Translate](https://translate.google.com/)
 [Speedtest.net](http://www.speedtest.net/)
 [HTML Presentations with reveal.js](http://lab.hakim.se/reveal-js/#/)
+
+#Code
+**HTML and CSS** [![html5](/img/bookmarks/html5.png) DevDocs (also available offline)](http://devdocs.io/)
+#Weather
+[Weather Da Nang](http://www.wunderground.com/cgi-bin/findweather/getForecast?query=16.067801,108.220802)
+~~~~~~
