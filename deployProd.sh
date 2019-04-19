@@ -15,7 +15,7 @@ git remote add upstream "https://$GH_TOKEN@github.com/tillg/tillgartner.com"
 git fetch upstream
 git reset upstream/gh-pages
 
-echo "tillgartner.com" > CNAME
+//echo "tillgartner.com" > CNAME
 
 touch .
 
